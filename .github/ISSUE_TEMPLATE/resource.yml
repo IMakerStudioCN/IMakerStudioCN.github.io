@@ -1,0 +1,50 @@
+name: 推荐资源
+description: 推荐一个值得收录的外部链接
+title: "[资源推荐] "
+labels: ["resource"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢推荐。本站只收录外部链接，不保存或分发第三方文件。
+  - type: input
+    id: name
+    attributes:
+      label: 资源名称
+      placeholder: 例如：MDN Web Docs
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: 资源地址
+      placeholder: https://example.com/
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: 建议分类
+      options:
+        - 开发
+        - 设计
+        - 学习
+        - 效率
+        - 其他
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: 推荐理由
+      description: 请简要说明它解决什么问题、适合哪些人。
+      placeholder: 这个资源适合……
+    validations:
+      required: true
+  - type: checkboxes
+    id: checks
+    attributes:
+      label: 提交确认
+      options:
+        - label: 我已确认链接可以正常访问，且不包含违法或侵权内容。
+          required: true

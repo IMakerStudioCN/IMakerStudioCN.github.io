@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="由小团队共同维护的精选资源导航。" />
+    <meta name="theme-color" content="#f4f5f0" />
+    <title>资源簿</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#resources">跳到资源列表</a>
+
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="资源簿首页">
+        <span class="brand-mark" aria-hidden="true">资</span>
+        <span>资源簿</span>
+      </a>
+      <nav class="header-actions" aria-label="主要导航">
+        <a href="#about">关于</a>
+        <a class="submit-link" id="submit-link" href="https://github.com" target="_blank" rel="noreferrer">推荐资源</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="intro" aria-labelledby="page-title">
+        <div class="intro-copy">
+          <p class="kicker">少而精的链接收藏</p>
+          <h1 id="page-title">找到值得打开的<br />资源</h1>
+          <p class="intro-note">由小团队共同筛选和维护。没有信息流，只保留清晰的分类、简短的说明和原始链接。</p>
+        </div>
+        <aside class="intro-index" aria-label="站点概况">
+          <div>
+            <strong id="resource-count">0</strong>
+            <span>项资源</span>
+          </div>
+          <div>
+            <strong id="category-count">0</strong>
+            <span>个分类</span>
+          </div>
+          <p>最后整理<br /><time id="updated-at">加载中</time></p>
+        </aside>
+      </section>
+
+      <section class="catalog" id="resources" aria-labelledby="catalog-title">
+        <div class="catalog-head">
+          <div>
+            <p class="kicker">资源索引</p>
+            <h2 id="catalog-title">浏览全部</h2>
+          </div>
+          <label class="search-box">
+            <span>搜索</span>
+            <input id="search-input" type="search" placeholder="名称、简介或标签" autocomplete="off" />
+            <kbd>/</kbd>
+          </label>
+        </div>
+
+        <div class="filter-row" id="category-filters" aria-label="按分类筛选"></div>
+
+        <div id="status" class="status" role="status" aria-live="polite">正在读取资源…</div>
+        <div id="resource-grid" class="resource-grid" hidden></div>
+
+        <div id="empty-state" class="empty-state" hidden>
+          <strong>没有找到匹配的资源</strong>
+          <p>换一个关键词，或清除当前筛选。</p>
+          <button id="clear-filters" type="button">查看全部资源</button>
+        </div>
+      </section>
+
+      <section class="about" id="about" aria-labelledby="about-title">
+        <div>
+          <p class="kicker">维护原则</p>
+          <h2 id="about-title">链接之外，<br />只留下判断。</h2>
+        </div>
+        <div class="principles">
+          <p><strong>可用</strong><span>优先收录无需复杂注册、能够解决明确问题的资源。</span></p>
+          <p><strong>克制</strong><span>同类资源不重复堆砌，每条说明尽量回答“它适合谁”。</span></p>
+          <p><strong>透明</strong><span>链接跳转至原站，不代理下载，也不保存第三方内容。</span></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <span>资源簿</span>
+      <p>一个安静、开放的小型资源导航。</p>
+      <a href="#page-title">返回顶部</a>
+    </footer>
+  </body>
+</html>
