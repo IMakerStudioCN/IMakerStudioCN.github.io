@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="IMakerStudioCN 资源簿的设计说明与站点维护手册。" />
+    <meta name="description" content="IMakerStudioCN 资源簿的配置、内容维护、投稿审核与交接手册。" />
     <meta name="theme-color" content="#f4f5f0" />
     <title>站务手册 | 资源簿</title>
     <link rel="stylesheet" href="./styles.css" />
@@ -11,118 +11,91 @@
   <body>
     <a class="skip-link" href="#manual">跳到手册正文</a>
     <header class="site-header">
-      <a class="brand" href="./" aria-label="资源簿首页">
-        <span class="brand-mark" aria-hidden="true">资</span>
-        <span>资源簿</span>
-      </a>
-      <nav class="header-actions" aria-label="主要导航">
-        <a href="./">返回资源库</a>
-        <a class="submit-link" href="https://ycne7r106xve.feishu.cn/share/base/form/shrcnJNtDMFG593Gp7bSRuAFKxe" target="_blank" rel="noreferrer">测试投稿</a>
-      </nav>
+      <a class="brand" href="./" aria-label="资源簿首页"><span class="brand-mark" aria-hidden="true">资</span><span>资源簿</span></a>
+      <nav class="header-actions" aria-label="主要导航"><a href="./">返回资源库</a><a class="submit-link" href="https://ycne7r106xve.feishu.cn/share/base/form/shrcnJNtDMFG593Gp7bSRuAFKxe" target="_blank" rel="noreferrer">测试投稿</a></nav>
     </header>
 
     <main class="manual-main" id="manual">
-      <section class="manual-hero">
-        <p class="kicker">设计说明与维护方法</p>
-        <h1>站务手册</h1>
-        <p>记录资源簿的关键决策、文件配置、内容更新、投稿审核和部署排错方法，供后续维护者直接查阅。</p>
-      </section>
-
+      <section class="manual-hero"><p class="kicker">配置、维护与交接</p><h1>站务手册</h1><p>按文件和页面位置说明如何修改网站。新维护者具备组织仓库写入权限和飞书表格访问权限后，即可完成日常维护。</p></section>
       <div class="manual-layout">
-        <nav class="manual-nav" aria-label="手册目录">
-          <strong>目录</strong>
-          <a href="#overview">项目概况</a><a href="#decisions">设计决策</a><a href="#files">文件结构</a>
-          <a href="#resources-guide">维护资源</a><a href="#brand">修改站点</a><a href="#submission">投稿与审核</a>
-          <a href="#deployment">部署方法</a><a href="#troubleshooting">故障排查</a><a href="#limits">边界与限制</a>
-        </nav>
-
+        <nav class="manual-nav" aria-label="手册目录"><strong>目录</strong><a href="#handover">交接清单</a><a href="#files">文件与权限</a><a href="#titles">标题与文案</a><a href="#resources-guide">资源与封面</a><a href="#appearance">外观配置</a><a href="#submission">投稿与审核</a><a href="#deployment">发布与回退</a><a href="#troubleshooting">故障排查</a><a href="#limits">安全边界</a></nav>
         <div class="manual-content">
-          <section class="manual-section" id="overview">
-            <h2>项目概况</h2>
-            <p>资源簿是一个不足 100 人使用的小型链接导航。网站只保存资源名称、说明、分类、标签和外部链接，不代理下载，也不保管第三方资源。</p>
-            <ul><li>组织：<code>IMakerStudioCN</code></li><li>仓库：<code>IMakerStudioCN/IMakerStudioCN.github.io</code></li><li>网站：<code>https://imakerstudiocn.github.io/</code></li><li>分支：<code>main</code></li><li>托管：GitHub Pages</li><li>投稿：飞书公开表单</li></ul>
-          </section>
-
-          <section class="manual-section" id="decisions">
-            <h2>设计决策</h2>
-            <div class="decision-list">
-              <article><strong>不使用 Linkwarden</strong><p>用户少且只分享外部链接。完整书签服务需要服务器、数据库和运维，超出实际需求。</p></article>
-              <article><strong>采用纯静态站</strong><p>HTML、CSS、JavaScript 和 JSON 即可完成展示、分类与搜索，没有运行中的后端。</p></article>
-              <article><strong>使用组织根站</strong><p>仓库命名为组织名加 <code>.github.io</code>，因此网站直接使用组织根域名。</p></article>
-              <article><strong>投稿数据放在飞书</strong><p>访客不必登录 GitHub。公开表单收集内容，原始数据表只向维护者开放。</p></article>
-              <article><strong>搜索在浏览器完成</strong><p>资源数量较少，前端直接读取 JSON 并筛选，不需要搜索服务或数据库。</p></article>
-              <article><strong>保持低依赖</strong><p>不引用海外字体、图标库或前端框架，降低国内网络环境下的加载风险。</p></article>
-            </div>
-            <h3>视觉方向</h3>
-            <p>界面采用信息优先的编辑式布局，使用浅色背景、深绿色强调色、系统中文字体和低强度交互。主要依靠排版、留白和细分隔线建立层级。</p>
-            <h3>已经解决的问题</h3>
-            <ul><li>长中文标题曾挤出桌面视口，已通过调整断行、字号和网格最小宽度修复。</li><li>组织根站与项目子路径均使用相对地址，迁移仓库名称时不需要重写资源路径。</li><li>GitHub 自定义工作流与内置 Pages 工作流曾重复部署，现已删除自定义工作流，只使用内置部署。</li><li>飞书内部数据表地址不能用于访客投稿，网站现使用 <code>/share/base/form/</code> 开头的公开填写链接。</li><li>GitHub HTTPS 推送曾受网络影响，当前仓库已通过 SSH 建立远程连接。</li></ul>
+          <section class="manual-section" id="handover">
+            <h2>交接清单</h2><p>交接前逐项确认，避免新维护者只能看到网站却无法管理数据。</p>
+            <ol><li>把新维护者加入 GitHub 组织 <code>IMakerStudioCN</code>，确认其对仓库 <code>IMakerStudioCN.github.io</code> 有写入权限。</li><li>共享飞书多维表格，至少授予查看投稿和修改审核字段的权限。</li><li>分别打开网站、仓库、Actions、站务手册和投稿表单，确认均可访问。</li><li>让新维护者试改一条测试资源，验证 JSON、提交、Pages 发布和网页刷新全流程。</li><li>不要在仓库或手册中保存密码、令牌、私人联系方式等敏感信息。</li></ol>
+            <ul><li>网站：<code>https://imakerstudiocn.github.io/</code></li><li>仓库：<code>https://github.com/IMakerStudioCN/IMakerStudioCN.github.io</code></li><li>发布分支：<code>main</code></li><li>托管方式：GitHub Pages 内置部署</li></ul>
           </section>
 
           <section class="manual-section" id="files">
-            <h2>文件结构</h2>
-            <ul><li><code>index.html</code>：首页结构、站名、介绍和导航。</li><li><code>resources.json</code>：资源数据、最后更新时间和投稿地址。</li><li><code>app.js</code>：读取资源、分类筛选、关键词搜索和空状态。</li><li><code>styles.css</code>：颜色、排版、响应式布局和手册样式。</li><li><code>maintenance.html</code>：当前站务手册。</li><li><code>404.html</code>：无效地址提示页。</li><li><code>.nojekyll</code>：让 GitHub Pages 直接发布静态文件。</li><li><code>.github/ISSUE_TEMPLATE/</code>：备用的 GitHub 推荐表单。</li></ul>
+            <h2>文件与权限</h2>
+            <ul><li><code>index.html</code>：首页标题、导航、介绍、搜索区标题、维护原则和页脚。</li><li><code>resources.json</code>：更新时间、投稿地址、默认封面和全部资源。</li><li><code>app.js</code>：资源卡片、分类按钮、搜索、计数和数据读取。</li><li><code>styles.css</code>：颜色、字号、间距、封面透明度和手机布局。</li><li><code>assets/resource-cover.webp</code>：卡片共用的默认封面。</li><li><code>maintenance.html</code>：网页手册，维护流程变化后应同步更新。</li><li><code>README.md</code>：仓库首页交接手册，应与网页手册同步。</li><li><code>404.html</code>：无效地址页的标题、提示语和返回按钮。</li><li><code>.nojekyll</code>：让 Pages 直接发布静态文件，保留为空文件。</li></ul>
+            <div class="callout"><p>日常维护通常只编辑 <code>resources.json</code>。修改页面文字、外观或功能时才编辑其他文件。</p></div>
+          </section>
+
+          <section class="manual-section" id="titles">
+            <h2>标题与文案配置</h2><h3>首页 <code>index.html</code></h3>
+            <ul><li>浏览器标签标题：查找 <code>&lt;title&gt;资源簿&lt;/title&gt;</code>。</li><li>搜索引擎摘要：修改 <code>&lt;meta name="description"&gt;</code> 的 <code>content</code>。</li><li>左上角站名：修改 <code>class="brand"</code> 内的“资”和“资源簿”；“资”是方形标记。</li><li>导航标题：修改 <code>class="header-actions"</code> 中各链接文字；链接地址在对应 <code>href</code>。</li><li>首页小标题：查找“少而精的链接收藏”；主标题：查找“找到值得打开的资源”。</li><li>首页简介：修改 <code>class="intro-note"</code> 的段落。</li><li>统计标签：修改“项资源”“个分类”“最后整理”；数字与日期由脚本填写。</li><li>资源区标题：修改“资源索引”“浏览全部”；搜索提示在输入框 <code>placeholder</code>。</li><li>空状态：修改 <code>class="empty-state"</code> 内的提示和按钮文字。</li><li>页脚：修改 <code>&lt;footer&gt;</code> 内站名、描述和链接。</li></ul>
+            <h3>其他页面</h3><p>修改站名后，用仓库搜索功能搜索旧站名，并同步修改 <code>maintenance.html</code>、<code>404.html</code> 和 <code>README.md</code>。手册页和 404 页的浏览器标题均在各自文件的 <code>&lt;title&gt;</code>。</p>
           </section>
 
           <section class="manual-section" id="resources-guide">
-            <h2>维护资源</h2>
-            <ol><li>在 GitHub 仓库打开 <code>resources.json</code>。</li><li>点击铅笔图标编辑文件。</li><li>新增、修改或删除资源对象。</li><li>同步修改顶部的 <code>updatedAt</code>。</li><li>提交到 <code>main</code>，等待 Pages 自动更新。</li></ol>
+            <h2>资源与封面</h2>
+            <ol><li>在仓库打开 <code>resources.json</code>，点击铅笔图标。</li><li>复制一条完整资源对象，在上一条结尾补英文逗号。</li><li>填写字段并更新顶部 <code>updatedAt</code>。</li><li>提交到 <code>main</code>，等待 Actions 发布。</li></ol>
             <pre><code>{
   "name": "资源名称",
   "description": "说明它解决什么问题、适合哪些人。",
   "url": "https://example.com/",
   "category": "学习",
-  "tags": ["教程", "免费"]
+  "tags": ["教程", "免费"],
+  "cover": "./assets/example-cover.jpg"
 }</code></pre>
-            <div class="callout"><p>相邻资源对象之间需要英文逗号，最后一条资源后面不要加逗号。新增分类无需修改代码，分类按钮会自动生成。</p></div>
+            <ul><li><code>name</code>：卡片大标题，建议不超过 24 个中文字符。</li><li><code>description</code>：卡片说明，建议 30 至 70 个中文字符。</li><li><code>url</code>：点击后的外部地址，必须保留 <code>https://</code>。</li><li><code>category</code>：分类按钮名称；新分类会自动生成按钮，名称应保持一致。</li><li><code>tags</code>：用于展示和搜索；卡片显示前两个，搜索读取全部。</li><li><code>cover</code>：可选。填写后覆盖默认封面；省略时使用顶部 <code>defaultCover</code>。</li></ul>
+            <h3>更换封面</h3><p>全站默认封面在 <code>resources.json</code> 的 <code>defaultCover</code>。把新图片上传到 <code>assets</code>，再修改地址。建议使用横向 JPG、PNG 或 WebP，宽度 1200 至 2000 像素，文件小于 500 KB，不使用有版权风险、商标或难以阅读文字的图片。</p>
+            <p>单条资源可增加 <code>cover</code>。透明度在 <code>styles.css</code> 的 <code>.resource-cover</code> 中修改，默认值为 <code>opacity: .16</code>；悬停值在 <code>.resource-card:hover .resource-cover</code>。</p>
+            <div class="callout"><p>JSON 只能使用英文双引号和英文标点。最后一条资源后不要加逗号。图片路径区分大小写，文件名建议只用小写英文、数字和连字符。</p></div>
           </section>
 
-          <section class="manual-section" id="brand">
-            <h2>修改站点</h2>
-            <h3>站名与介绍</h3><p>编辑 <code>index.html</code> 中的 <code>&lt;title&gt;</code>、左上角品牌文字、首页标题、简介和页脚。修改站名时应同时检查 <code>maintenance.html</code> 与 <code>404.html</code>。</p>
-            <h3>颜色</h3><p>编辑 <code>styles.css</code> 顶部的变量：</p>
-            <pre><code>--paper: #f4f5f0;
---surface: #ffffff;
---ink: #17201b;
---muted: #667069;
---line: #d7dcd5;
---accent: #126b4b;
---accent-soft: #dcebe3;</code></pre>
-            <p>保持单一强调色，并检查按钮文字、正文和背景的可读性。</p>
+          <section class="manual-section" id="appearance">
+            <h2>外观配置</h2><h3>颜色变量</h3>
+            <pre><code>--paper: #f4f5f0;       /* 页面背景 */
+--surface: #ffffff;     /* 悬停表面 */
+--ink: #17201b;         /* 主文字和深色按钮 */
+--muted: #667069;       /* 次要文字 */
+--line: #d7dcd5;        /* 分隔线 */
+--accent: #126b4b;      /* 强调色 */
+--accent-soft: #dcebe3; /* 聚焦状态浅色 */
+--radius: 14px;         /* 圆角基准 */</code></pre>
+            <p>变量位于 <code>styles.css</code> 顶部。修改后检查首页、按钮、搜索框、卡片和代码块的对比度。</p>
+            <h3>字号与间距</h3><ul><li>首页主标题：<code>.intro h1</code></li><li>资源区标题：<code>.catalog-head h2</code></li><li>卡片标题：<code>.resource-card h3</code></li><li>卡片高度和内边距：<code>.resource-card</code> 的 <code>min-height</code> 与 <code>padding</code></li><li>最大页面宽度：<code>.site-header, main, footer</code> 的 <code>width</code></li><li>手机布局：文件底部 <code>@media (max-width: 760px)</code></li></ul>
+            <p>每次改字号、标题或卡片后，同时检查约 375 像素宽的手机页面是否横向溢出。</p>
           </section>
 
           <section class="manual-section" id="submission">
-            <h2>投稿与审核</h2>
-            <p>首页右上角“推荐资源”读取 <code>resources.json</code> 中的 <code>submitUrl</code>。当前地址为飞书公开填写表单。</p>
-            <h3>修改飞书表单</h3><p>调整问题、选项、顺序和必填状态不会影响网站。只要公开填写链接不变，网站无需更新。删除并重建表单、关闭公开分享或生成新链接时，需要更新 <code>submitUrl</code>。</p>
-            <h3>查看投稿</h3><p>维护者登录飞书并打开原多维表格，在非表单视图中查看记录。每次投稿会新增一行。建议增加以下管理员字段：</p>
-            <ul><li>审核状态：待审核、已收录、不收录。</li><li>审核备注：记录修改或拒绝原因。</li><li>处理日期：记录完成时间。</li></ul>
-            <p>可在飞书自动化中设置“新增记录时发送飞书消息”，避免漏看新投稿。</p>
-            <div class="callout"><p>不要把飞书内部数据表地址公开给访客。公开填写链接可以分享，原始数据表应限制为维护者可见。</p></div>
+            <h2>投稿与审核</h2><p>首页“推荐资源”地址来自 <code>resources.json</code> 的 <code>submitUrl</code>。更换飞书表单时只修改此值。</p>
+            <h3>修改飞书表单</h3><p>调整问题、顺序和必填状态不会影响网站。若重建表单、关闭公开分享或生成新链接，必须把新的公开填写地址写入 <code>submitUrl</code>。地址应包含 <code>/share/base/form/</code>，不要使用内部多维表格地址。</p>
+            <h3>审核流程</h3><ol><li>在飞书普通数据视图查看新记录。</li><li>检查链接可用性、合法性和重复情况。</li><li>润色名称及说明，统一分类和标签。</li><li>把通过记录写入 <code>resources.json</code> 并更新日期。</li><li>把审核状态改为“已收录”或“不收录”，填写备注和处理日期。</li></ol>
+            <div class="callout"><p>建议保留“审核状态、审核备注、处理日期、处理人”四个管理字段，并设置新增记录通知。原始数据表只向维护者开放。</p></div>
           </section>
 
           <section class="manual-section" id="deployment">
-            <h2>部署方法</h2>
-            <ol><li>在 GitHub 网页中编辑文件并提交到 <code>main</code>。</li><li>打开仓库的 Actions 页面查看 <code>pages build and deployment</code>。</li><li>绿色对勾表示发布成功，黄色圆点表示运行中，红色叉号表示失败。</li><li>发布通常需要 1-3 分钟。完成后强制刷新网站。</li></ol>
-            <p>本项目只保留 GitHub Pages 内置工作流。不要再次添加自定义 Pages 部署工作流，否则可能争抢同一个部署环境。</p>
+            <h2>发布与回退</h2><ol><li>通过 GitHub 网页或本地 Git 提交文件到 <code>main</code>。</li><li>在 Actions 查看 <code>pages build and deployment</code>。</li><li>绿色对勾后等待约 1 至 3 分钟，再强制刷新。</li><li>测试首页、修改过的资源、投稿按钮和站务手册。</li></ol>
+            <p>项目只使用 GitHub Pages 内置工作流，不要添加第二套 Pages 部署流程。需要回退时，对错误提交使用 GitHub 的 Revert 功能生成反向提交；不要删除仓库或强制重置 <code>main</code>。</p>
           </section>
 
           <section class="manual-section" id="troubleshooting">
-            <h2>故障排查</h2>
-            <h3>网站仍显示旧内容</h3><p>先查看 Actions 是否成功。成功后使用 Windows 的 <code>Ctrl + F5</code> 或 macOS 的 <code>Command + Shift + R</code> 强制刷新。</p>
-            <h3>资源列表无法显示</h3><p>检查 <code>resources.json</code> 的英文逗号、双引号和方括号。JSON 格式错误会导致整个列表读取失败。</p>
-            <h3>投稿按钮打不开</h3><p>用未登录飞书的浏览器测试公开表单。确认分享范围是“互联网上获得链接的人”，并检查 <code>submitUrl</code> 是否仍为有效地址。</p>
-            <h3>Pages 部署失败</h3><p>检查是否重新加入了其他 Pages 工作流。保持仓库 Settings 中的 Pages 来源为默认分支，并只保留内置部署。</p>
+            <h2>故障排查</h2><h3>网站仍显示旧内容</h3><p>先确认 Actions 成功，再用 Windows 的 <code>Ctrl + F5</code> 或 macOS 的 <code>Command + Shift + R</code> 强制刷新。</p>
+            <h3>资源列表不显示</h3><p>优先检查 <code>resources.json</code> 的逗号、双引号和括号。可把完整内容粘贴到 JSON 校验工具。</p>
+            <h3>封面不显示</h3><p>检查图片是否已提交、路径大小写是否一致。单条失败检查 <code>cover</code>；全部失败检查 <code>defaultCover</code>。</p>
+            <h3>投稿按钮打不开</h3><p>用未登录飞书的浏览器测试，确认公开分享仍开启且 <code>submitUrl</code> 是公开表单地址。</p>
+            <h3>Pages 部署失败</h3><p>查看失败步骤。若构建成功但部署失败，可等待后重试；同时检查是否有重复工作流或 Pages 来源被修改。</p>
           </section>
 
           <section class="manual-section" id="limits">
-            <h2>边界与限制</h2>
-            <ul><li>GitHub Pages 是公开静态站，不适合保存密码、内部链接或个人敏感信息。</li><li>网站没有账号、评论和实时数据库。投稿依赖飞书表单。</li><li><code>github.io</code> 在中国大陆的访问速度与稳定性不能保证。</li><li>本站只应分享合法的外部链接，不代理文件，不绕过付费或访问限制。</li><li>内容规模明显增长后，应先优化分类和数据维护流程，再考虑引入后端。</li></ul>
+            <h2>安全边界</h2><ul><li>GitHub Pages 和仓库内容均公开，不保存密码、令牌、内部链接或个人敏感信息。</li><li>网站没有账号、评论、数据库和权限系统，投稿依赖飞书。</li><li>只分享合法外部链接，不代理文件，不绕过付费、版权或访问限制。</li><li>新增图片前确认有使用权并压缩，避免仓库体积持续增长。</li><li><code>github.io</code> 在中国大陆的访问速度和稳定性无法保证。</li></ul>
           </section>
         </div>
       </div>
     </main>
-
     <footer><span>资源簿</span><p>站务手册与网站同步维护。</p><a href="./">返回资源库</a></footer>
   </body>
 </html>

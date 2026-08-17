@@ -1,6 +1,7 @@
 {
   "updatedAt": "2026.08.18",
   "submitUrl": "https://ycne7r106xve.feishu.cn/share/base/form/shrcnJNtDMFG593Gp7bSRuAFKxe",
+  "defaultCover": "./assets/resource-cover.webp",
   "resources": [
     {
       "name": "MDN Web Docs",

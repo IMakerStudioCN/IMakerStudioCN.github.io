@@ -2,6 +2,7 @@ const state = {
   resources: [],
   category: "全部",
   query: "",
+  defaultCover: "",
 };
 
 const elements = {
@@ -54,6 +55,13 @@ function resourceCard(resource, index) {
   link.rel = "noreferrer";
   link.setAttribute("aria-label", `${resource.name}，在新窗口打开`);
 
+  const cover = document.createElement("img");
+  cover.className = "resource-cover";
+  cover.src = resource.cover || state.defaultCover;
+  cover.alt = "";
+  cover.loading = "lazy";
+  cover.decoding = "async";
+
   const number = document.createElement("span");
   number.className = "resource-number";
   number.textContent = String(index + 1).padStart(2, "0");
@@ -73,7 +81,7 @@ function resourceCard(resource, index) {
   arrow.className = "resource-arrow";
   arrow.setAttribute("aria-hidden", "true");
   arrow.textContent = "↗";
-  link.append(number, content, arrow);
+  link.append(cover, number, content, arrow);
   return link;
 }
 
@@ -91,6 +99,7 @@ async function loadResources() {
     if (!response.ok) throw new Error(`HTTP ${response.status}`);
     const data = await response.json();
     state.resources = data.resources;
+    state.defaultCover = data.defaultCover || "";
     elements.resourceCount.textContent = String(data.resources.length).padStart(2, "0");
     elements.categoryCount.textContent = String(new Set(data.resources.map((item) => item.category)).size).padStart(2, "0");
     elements.updatedAt.textContent = data.updatedAt;

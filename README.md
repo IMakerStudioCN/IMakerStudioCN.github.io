@@ -1,67 +1,58 @@
 # IMakerStudioCN 资源簿
 
-一个无需服务器、由 GitHub Pages 托管的小型静态资源导航。
+一个由 GitHub Pages 托管、无需服务器的小型链接资源导航。
 
-- 组织：`IMakerStudioCN`
+- 网站：<https://imakerstudiocn.github.io/>
+- 在线手册：<https://imakerstudiocn.github.io/maintenance.html>
 - 仓库：`IMakerStudioCN/IMakerStudioCN.github.io`
-- 网站：`https://imakerstudiocn.github.io/`
-- 分支：`main`
-- 投稿：飞书公开表单
+- 发布分支：`main`
+- 投稿方式：飞书公开表单
 
-## 项目定位
+## 管理交接清单
 
-本站面向不足 100 人的小范围使用，只保存资源名称、说明、分类、标签和外部链接，不代理下载，也不保管第三方资源。
+1. 将新维护者加入 GitHub 组织，并确认其对本仓库有写入权限。
+2. 共享飞书多维表格，允许新维护者查看投稿并更新审核字段。
+3. 确认其能打开网站、仓库、Actions、在线手册和投稿表单。
+4. 试改一条测试资源，完成提交、发布和线上检查。
+5. 不在仓库中保存密码、令牌、私人联系方式或内部链接。
 
-## 设计决策
+## 文件配置索引
 
-### 为什么不使用 Linkwarden
+- `index.html`：首页标题、导航、介绍、资源区标题、维护原则和页脚。
+- `resources.json`：更新时间、投稿地址、默认封面和资源数据。
+- `app.js`：卡片生成、分类、搜索、计数和数据读取。
+- `styles.css`：颜色、字号、间距、封面透明度和手机布局。
+- `assets/resource-cover.webp`：资源卡片默认封面。
+- `maintenance.html`：网页维护手册。
+- `README.md`：仓库交接手册，应与网页手册同步。
+- `404.html`：无效地址页。
+- `.nojekyll`：让 Pages 直接发布静态文件，保留即可。
 
-用户少且只分享外部链接。完整书签服务需要服务器、数据库和持续运维，超出实际需求。
+## 标题与文案配置
 
-### 为什么采用纯静态站
+### 首页 `index.html`
 
-HTML、CSS、JavaScript 和 JSON 已经能够完成资源展示、分类与搜索。网站没有运行中的后端，不需要租服务器。
+- 浏览器标题：`<title>资源簿</title>`。
+- 搜索引擎摘要：`<meta name="description">` 的 `content`。
+- 左上角站名：`class="brand"` 内的“资”和“资源簿”。
+- 导航名称和地址：`class="header-actions"` 内链接文字与 `href`。
+- 首页小标题：“少而精的链接收藏”。
+- 首页主标题：“找到值得打开的资源”。
+- 首页简介：`class="intro-note"`。
+- 统计标签：“项资源”“个分类”“最后整理”；数字和日期自动读取。
+- 资源区标题：“资源索引”“浏览全部”。
+- 搜索提示：输入框的 `placeholder`。
+- 空结果提示：`class="empty-state"` 内文字。
+- 页脚：`<footer>` 内站名、说明和链接。
 
-### 为什么使用组织根站
+修改站名后，用仓库搜索查找旧站名，并同步修改 `maintenance.html`、`404.html` 和本文件。其他页面的浏览器标题位于各自文件的 `<title>`。
 
-仓库命名为 `IMakerStudioCN.github.io`，因此网站直接使用 `https://imakerstudiocn.github.io/`。
+## 资源数据维护
 
-### 为什么投稿放在飞书
-
-访客不必登录 GitHub。飞书公开表单负责收集内容，原始数据表只向维护者开放。
-
-### 视觉方向
-
-界面采用信息优先的编辑式布局，使用浅色背景、深绿色强调色、系统中文字体和低强度交互。没有海外字体或前端框架依赖。
-
-## 已解决的问题
-
-- 长中文标题曾挤出桌面视口，已通过调整断行、字号和网格最小宽度修复。
-- 页面使用相对地址，兼容组织根站和项目子路径。
-- 自定义 Pages 工作流曾与内置工作流重复部署，现只使用 GitHub 内置部署。
-- 飞书内部数据表地址不能用于访客投稿，现使用 `/share/base/form/` 开头的公开填写链接。
-- GitHub HTTPS 推送曾受网络影响，当前仓库已通过 SSH 建立远程连接。
-
-## 文件结构
-
-- `index.html`：首页结构、站名、介绍和导航。
-- `resources.json`：资源数据、最后更新时间和投稿地址。
-- `app.js`：读取资源、分类筛选、关键词搜索和空状态。
-- `styles.css`：颜色、排版、响应式布局和手册样式。
-- `maintenance.html`：网站中的站务手册。
-- `404.html`：无效地址提示页。
-- `.nojekyll`：让 GitHub Pages 直接发布静态文件。
-- `.github/ISSUE_TEMPLATE/`：备用的 GitHub 推荐表单。
-
-## 维护资源
-
-1. 在 GitHub 仓库打开 `resources.json`。
-2. 点击铅笔图标编辑。
-3. 新增、修改或删除资源对象。
-4. 同步修改顶部的 `updatedAt`。
-5. 提交到 `main`，等待 Pages 自动更新。
-
-资源格式：
+1. 打开 `resources.json` 并点击铅笔图标。
+2. 复制一条完整资源对象，在上一条结尾补英文逗号。
+3. 修改字段并更新顶部 `updatedAt`。
+4. 提交到 `main`，等待 Pages 发布。
 
 ```json
 {
@@ -69,85 +60,94 @@ HTML、CSS、JavaScript 和 JSON 已经能够完成资源展示、分类与搜�
   "description": "说明它解决什么问题、适合哪些人。",
   "url": "https://example.com/",
   "category": "学习",
-  "tags": ["教程", "免费"]
+  "tags": ["教程", "免费"],
+  "cover": "./assets/example-cover.jpg"
 }
 ```
 
-相邻资源对象之间需要英文逗号，最后一条后面不要加逗号。新增分类无需修改代码，分类按钮会自动生成。
+- `name`：卡片标题，建议不超过 24 个中文字符。
+- `description`：卡片说明，建议 30 至 70 个中文字符。
+- `url`：目标地址，保留 `https://`。
+- `category`：分类按钮名称；新名称会自动生成新按钮。
+- `tags`：用于展示和搜索；卡片显示前两个，搜索读取全部。
+- `cover`：可选的单条封面；省略则使用 `defaultCover`。
 
-## 修改站点
+JSON 只能使用英文双引号和英文标点。最后一条资源后不要加逗号。
 
-### 站名与介绍
+## 封面图片配置
 
-编辑 `index.html` 中的 `<title>`、左上角品牌文字、首页标题、简介和页脚。修改站名时也应检查 `maintenance.html` 与 `404.html`。
+默认封面在 `resources.json` 顶部：
 
-### 颜色
-
-编辑 `styles.css` 顶部变量：
-
-```css
---paper: #f4f5f0;
---surface: #ffffff;
---ink: #17201b;
---muted: #667069;
---line: #d7dcd5;
---accent: #126b4b;
---accent-soft: #dcebe3;
+```json
+"defaultCover": "./assets/resource-cover.webp"
 ```
 
-保持单一强调色，并检查文字与背景的可读性。
+1. 将有使用权的横向 JPG、PNG 或 WebP 上传到 `assets`。
+2. 建议宽度 1200 至 2000 像素、文件小于 500 KB。
+3. 修改 `defaultCover`；路径区分大小写。
+4. 单条资源需要独立封面时，在该对象中增加 `cover`。
+
+`styles.css` 中的封面设置：
+
+- 默认透明度：`.resource-cover` 的 `opacity: .16`。
+- 悬停透明度：`.resource-card:hover .resource-cover` 的 `opacity: .23`。
+- 图片裁切：`.resource-cover` 的 `object-fit` 与 `object-position`。
+- 文字遮罩：`.resource-card::after` 的渐变。
+
+## 外观配置
+
+`styles.css` 顶部变量控制全站颜色：
+
+```css
+--paper: #f4f5f0;       /* 页面背景 */
+--surface: #ffffff;     /* 悬停表面 */
+--ink: #17201b;         /* 主文字和按钮 */
+--muted: #667069;       /* 次要文字 */
+--line: #d7dcd5;        /* 分隔线 */
+--accent: #126b4b;      /* 强调色 */
+--accent-soft: #dcebe3; /* 聚焦浅色 */
+--radius: 14px;         /* 圆角 */
+```
+
+常用位置：`.intro h1` 控制首页主标题，`.catalog-head h2` 控制资源区标题，`.resource-card h3` 控制卡片标题，`.resource-card` 控制卡片高度与间距，`.site-header, main, footer` 控制页面最大宽度，`@media (max-width: 760px)` 控制手机布局。
+
+修改后同时检查桌面和约 375 像素宽的手机页面，确认没有横向溢出。
 
 ## 投稿与审核
 
-首页“推荐资源”读取 `resources.json` 中的 `submitUrl`，当前使用飞书公开填写表单。
+“推荐资源”读取 `resources.json` 的 `submitUrl`。更换飞书表单时，写入新的公开填写地址。地址应包含 `/share/base/form/`，不要使用内部多维表格地址。
 
-### 修改表单
+审核流程：
 
-调整问题、选项、顺序和必填状态不会影响网站。只要公开填写链接不变，网站无需更新。删除并重建表单、关闭公开分享或生成新链接时，需要更新 `submitUrl`。
+1. 在飞书普通数据视图查看新记录。
+2. 检查链接可用性、合法性和重复情况。
+3. 统一名称、说明、分类与标签。
+4. 把通过记录写入 `resources.json` 并更新日期。
+5. 将飞书记录标为“已收录”或“不收录”。
 
-### 查看投稿
+建议保留“审核状态、审核备注、处理日期、处理人”四个管理字段，并设置新增记录通知。原始数据表只向维护者开放。
 
-维护者登录飞书并打开原多维表格，在非表单视图中查看记录。每次投稿会新增一行。建议增加：
+## 发布与回退
 
-- 审核状态：待审核、已收录、不收录。
-- 审核备注：记录修改或拒绝原因。
-- 处理日期：记录完成时间。
+1. 提交文件到 `main`。
+2. 在 Actions 查看 `pages build and deployment`。
+3. 绿色对勾后等待约 1 至 3 分钟并强制刷新。
+4. 检查首页、修改过的资源、投稿按钮和在线手册。
 
-可以设置“新增记录时发送飞书消息”的自动化提醒。不要公开飞书内部数据表地址。
-
-## 部署方法
-
-1. 在 GitHub 网页中编辑文件并提交到 `main`。
-2. 打开仓库 Actions 页面查看 `pages build and deployment`。
-3. 绿色对勾表示成功，黄色圆点表示运行中，红色叉号表示失败。
-4. 发布通常需要 1-3 分钟，完成后强制刷新网站。
-
-本项目只使用 GitHub Pages 内置部署。不要添加另一个自定义 Pages 部署工作流。
+项目只使用 GitHub Pages 内置工作流。需要回退时，对错误提交使用 Revert 生成反向提交；不要强制重置 `main`。
 
 ## 故障排查
 
-### 网站仍显示旧内容
+- 网站仍是旧内容：确认 Actions 成功后强制刷新。
+- 资源列表不显示：检查 `resources.json` 的逗号、双引号和括号。
+- 封面不显示：确认图片已提交、路径大小写一致；单条检查 `cover`，全部检查 `defaultCover`。
+- 投稿打不开：用未登录飞书的浏览器测试，并检查公开分享及 `submitUrl`。
+- Pages 失败：查看失败步骤，检查 Pages 来源和重复工作流；部署阶段短暂失败可稍后重试。
 
-先检查 Actions。成功后使用 Windows 的 `Ctrl + F5` 或 macOS 的 `Command + Shift + R` 强制刷新。
+## 安全边界
 
-### 资源列表无法显示
-
-检查 `resources.json` 的英文逗号、双引号和方括号。JSON 格式错误会导致整个列表读取失败。
-
-### 投稿按钮打不开
-
-使用未登录飞书的浏览器测试表单，确认分享范围是“互联网上获得链接的人”，并核实 `submitUrl`。
-
-### Pages 部署失败
-
-检查是否重新加入其他 Pages 工作流。保持仓库 Pages 来源为默认分支，并只使用内置部署。
-
-## 边界与限制
-
-- GitHub Pages 是公开静态站，不适合保存密码、内部链接或个人敏感信息。
-- 网站没有账号、评论和实时数据库，投稿依赖飞书表单。
-- `github.io` 在中国大陆的访问速度与稳定性不能保证。
-- 本站只分享合法的外部链接，不代理文件，不绕过付费或访问限制。
-- 内容规模明显增长后，应先优化分类和数据维护流程，再考虑引入后端。
-
-网页版本：[站务手册](https://imakerstudiocn.github.io/maintenance.html)。
+- GitHub Pages 和仓库均公开，不保存秘密或敏感信息。
+- 网站没有账号、评论、数据库和权限系统。
+- 只分享合法外部链接，不代理文件，不绕过付费或版权限制。
+- 新增图片前确认有使用权并压缩文件。
+- `github.io` 在中国大陆的访问速度和稳定性无法保证。
