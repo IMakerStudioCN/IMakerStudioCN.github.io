@@ -1,36 +1,153 @@
 # IMakerStudioCN 资源簿
 
-一个无需服务器、可直接部署到 GitHub Pages 的静态资源导航。
+一个无需服务器、由 GitHub Pages 托管的小型静态资源导航。
 
-## 修改内容
+- 组织：`IMakerStudioCN`
+- 仓库：`IMakerStudioCN/IMakerStudioCN.github.io`
+- 网站：`https://imakerstudiocn.github.io/`
+- 分支：`main`
+- 投稿：飞书公开表单
 
-- 站点名称和介绍：编辑 `index.html`
-- 资源数据：编辑 `resources.json`
-- 投稿地址：修改 `resources.json` 中的 `submitUrl`，当前使用飞书公开表单
-- 颜色与排版：编辑 `styles.css`
+## 项目定位
 
-`submitUrl` 建议配置为组织仓库的 GitHub Issue 表单地址。资源变更提交到默认分支后，GitHub Pages 会自动更新。
+本站面向不足 100 人的小范围使用，只保存资源名称、说明、分类、标签和外部链接，不代理下载，也不保管第三方资源。
 
-## GitHub Pages
+## 设计决策
 
-本项目面向 `IMakerStudioCN` 组织根站，仓库应命名为：
+### 为什么不使用 Linkwarden
 
-```text
-IMakerStudioCN.github.io
+用户少且只分享外部链接。完整书签服务需要服务器、数据库和持续运维，超出实际需求。
+
+### 为什么采用纯静态站
+
+HTML、CSS、JavaScript 和 JSON 已经能够完成资源展示、分类与搜索。网站没有运行中的后端，不需要租服务器。
+
+### 为什么使用组织根站
+
+仓库命名为 `IMakerStudioCN.github.io`，因此网站直接使用 `https://imakerstudiocn.github.io/`。
+
+### 为什么投稿放在飞书
+
+访客不必登录 GitHub。飞书公开表单负责收集内容，原始数据表只向维护者开放。
+
+### 视觉方向
+
+界面采用信息优先的编辑式布局，使用浅色背景、深绿色强调色、系统中文字体和低强度交互。没有海外字体或前端框架依赖。
+
+## 已解决的问题
+
+- 长中文标题曾挤出桌面视口，已通过调整断行、字号和网格最小宽度修复。
+- 页面使用相对地址，兼容组织根站和项目子路径。
+- 自定义 Pages 工作流曾与内置工作流重复部署，现只使用 GitHub 内置部署。
+- 飞书内部数据表地址不能用于访客投稿，现使用 `/share/base/form/` 开头的公开填写链接。
+- GitHub HTTPS 推送曾受网络影响，当前仓库已通过 SSH 建立远程连接。
+
+## 文件结构
+
+- `index.html`：首页结构、站名、介绍和导航。
+- `resources.json`：资源数据、最后更新时间和投稿地址。
+- `app.js`：读取资源、分类筛选、关键词搜索和空状态。
+- `styles.css`：颜色、排版、响应式布局和手册样式。
+- `maintenance.html`：网站中的站务手册。
+- `404.html`：无效地址提示页。
+- `.nojekyll`：让 GitHub Pages 直接发布静态文件。
+- `.github/ISSUE_TEMPLATE/`：备用的 GitHub 推荐表单。
+
+## 维护资源
+
+1. 在 GitHub 仓库打开 `resources.json`。
+2. 点击铅笔图标编辑。
+3. 新增、修改或删除资源对象。
+4. 同步修改顶部的 `updatedAt`。
+5. 提交到 `main`，等待 Pages 自动更新。
+
+资源格式：
+
+```json
+{
+  "name": "资源名称",
+  "description": "说明它解决什么问题、适合哪些人。",
+  "url": "https://example.com/",
+  "category": "学习",
+  "tags": ["教程", "免费"]
+}
 ```
 
-对应地址：
+相邻资源对象之间需要英文逗号，最后一条后面不要加逗号。新增分类无需修改代码，分类按钮会自动生成。
 
-```text
-https://imakerstudiocn.github.io/
+## 修改站点
+
+### 站名与介绍
+
+编辑 `index.html` 中的 `<title>`、左上角品牌文字、首页标题、简介和页脚。修改站名时也应检查 `maintenance.html` 与 `404.html`。
+
+### 颜色
+
+编辑 `styles.css` 顶部变量：
+
+```css
+--paper: #f4f5f0;
+--surface: #ffffff;
+--ink: #17201b;
+--muted: #667069;
+--line: #d7dcd5;
+--accent: #126b4b;
+--accent-soft: #dcebe3;
 ```
 
-如以后改用其他仓库名称，例如 `resources`，对应地址为：
+保持单一强调色，并检查文字与背景的可读性。
 
-```text
-https://imakerstudiocn.github.io/resources/
-```
+## 投稿与审核
 
-本项目使用相对路径，两种部署方式均可正常工作。
+首页“推荐资源”读取 `resources.json` 中的 `submitUrl`，当前使用飞书公开填写表单。
 
-仓库创建后，将本项目推送到 `main` 分支。GitHub Pages 的内置工作流会自动发布站点。
+### 修改表单
+
+调整问题、选项、顺序和必填状态不会影响网站。只要公开填写链接不变，网站无需更新。删除并重建表单、关闭公开分享或生成新链接时，需要更新 `submitUrl`。
+
+### 查看投稿
+
+维护者登录飞书并打开原多维表格，在非表单视图中查看记录。每次投稿会新增一行。建议增加：
+
+- 审核状态：待审核、已收录、不收录。
+- 审核备注：记录修改或拒绝原因。
+- 处理日期：记录完成时间。
+
+可以设置“新增记录时发送飞书消息”的自动化提醒。不要公开飞书内部数据表地址。
+
+## 部署方法
+
+1. 在 GitHub 网页中编辑文件并提交到 `main`。
+2. 打开仓库 Actions 页面查看 `pages build and deployment`。
+3. 绿色对勾表示成功，黄色圆点表示运行中，红色叉号表示失败。
+4. 发布通常需要 1-3 分钟，完成后强制刷新网站。
+
+本项目只使用 GitHub Pages 内置部署。不要添加另一个自定义 Pages 部署工作流。
+
+## 故障排查
+
+### 网站仍显示旧内容
+
+先检查 Actions。成功后使用 Windows 的 `Ctrl + F5` 或 macOS 的 `Command + Shift + R` 强制刷新。
+
+### 资源列表无法显示
+
+检查 `resources.json` 的英文逗号、双引号和方括号。JSON 格式错误会导致整个列表读取失败。
+
+### 投稿按钮打不开
+
+使用未登录飞书的浏览器测试表单，确认分享范围是“互联网上获得链接的人”，并核实 `submitUrl`。
+
+### Pages 部署失败
+
+检查是否重新加入其他 Pages 工作流。保持仓库 Pages 来源为默认分支，并只使用内置部署。
+
+## 边界与限制
+
+- GitHub Pages 是公开静态站，不适合保存密码、内部链接或个人敏感信息。
+- 网站没有账号、评论和实时数据库，投稿依赖飞书表单。
+- `github.io` 在中国大陆的访问速度与稳定性不能保证。
+- 本站只分享合法的外部链接，不代理文件，不绕过付费或访问限制。
+- 内容规模明显增长后，应先优化分类和数据维护流程，再考虑引入后端。
+
+网页版本：[站务手册](https://imakerstudiocn.github.io/maintenance.html)。
