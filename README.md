@@ -33,4 +33,4 @@ https://imakerstudiocn.github.io/resources/
 
 本项目使用相对路径，两种部署方式均可正常工作。
 
-仓库创建后，将本项目推送到 `main` 分支。`Deploy GitHub Pages` 工作流会自动发布站点。
+仓库创建后，将本项目推送到 `main` 分支。GitHub Pages 的内置工作流会自动发布站点。
