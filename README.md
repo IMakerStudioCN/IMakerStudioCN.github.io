@@ -6,7 +6,7 @@
 
 - 站点名称和介绍：编辑 `index.html`
 - 资源数据：编辑 `resources.json`
-- 投稿地址：修改 `resources.json` 中的 `submitUrl`
+- 投稿地址：修改 `resources.json` 中的 `submitUrl`，当前使用飞书公开表单
 - 颜色与排版：编辑 `styles.css`
 
 `submitUrl` 建议配置为组织仓库的 GitHub Issue 表单地址。资源变更提交到默认分支后，GitHub Pages 会自动更新。
