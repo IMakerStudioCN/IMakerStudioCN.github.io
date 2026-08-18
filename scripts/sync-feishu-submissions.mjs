@@ -124,6 +124,11 @@ const fieldLabels = {
   tags: "标签",
 };
 
+function recordLabel(record, resourceName = "") {
+  const name = resourceName || textValue(record.fields?.[config.fields.name]) || "未命名投稿";
+  return `${name}（飞书记录 ID：${record.record_id}）`;
+}
+
 function githubOutput(name, value) {
   if (!process.env.GITHUB_OUTPUT) return;
   return writeFile(process.env.GITHUB_OUTPUT, `${name}=${value}\n`, { flag: "a" });
@@ -169,7 +174,7 @@ async function sync(token) {
     const latest = sortedRecords[0];
     const fields = latest.fields || {};
     console.log(`没有“${config.approvedValue}且同步状态为空”的记录。`);
-    console.log(`最新投稿：${latest.record_id}`);
+    console.log(`最新投稿：${recordLabel(latest)}`);
     console.log(`投稿时间：${formatCreatedTime(latest)}`);
     console.log(`审核状态：${textValue(fields[config.fields.review]) || "（空）"}`);
     console.log(`同步状态：${textValue(fields[config.fields.sync]) || "（空）"}`);
@@ -193,16 +198,16 @@ async function sync(token) {
       .map(([key]) => key);
     if (!resource.tags.length) missing.push("tags");
     if (missing.length) {
-      skipped.push(`${record.record_id}: 缺少 ${missing.map((key) => fieldLabels[key] || key).join("、")}`);
+      skipped.push(`${recordLabel(record, resource.name)}：缺少 ${missing.map((key) => fieldLabels[key] || key).join("、")}`);
       continue;
     }
     if (!/^https?:\/\//i.test(resource.url)) {
-      skipped.push(`${record.record_id}: 链接格式错误`);
+      skipped.push(`${recordLabel(record, resource.name)}：链接格式错误`);
       continue;
     }
     const normalizedUrl = resource.url.trim().toLowerCase();
     if (existingUrls.has(normalizedUrl)) {
-      skipped.push(`${record.record_id}: 链接已存在`);
+      skipped.push(`${recordLabel(record, resource.name)}：链接已存在`);
       continue;
     }
     existingUrls.add(normalizedUrl);
@@ -213,7 +218,7 @@ async function sync(token) {
 
   if (accepted.length) {
     const selectedRecord = eligibleRecords.find((record) => record.record_id === accepted[0].recordId);
-    console.log(`本次检查记录：${selectedRecord.record_id}`);
+    console.log(`本次同步投稿：${recordLabel(selectedRecord, accepted[0].name)}`);
     console.log(`投稿时间：${formatCreatedTime(selectedRecord)}`);
   }
 
@@ -254,6 +259,7 @@ async function markSubmitted(token) {
         }),
       },
     );
+    console.log(`已回写投稿：${record.name || "未命名投稿"}（飞书记录 ID：${record.recordId}）`);
   }
   console.log(`已回写 ${records.length} 条飞书记录的同步状态。`);
 }

@@ -7,10 +7,13 @@ import test from "node:test";
 test("latest mode skips an incomplete record and syncs the next valid record", async () => {
   const directory = await mkdtemp(join(tmpdir(), "feishu-sync-"));
   const originalDirectory = process.cwd();
+  const originalConsoleLog = console.log;
   const requestedUrls = [];
+  const logs = [];
 
   try {
     process.chdir(directory);
+    console.log = (...values) => logs.push(values.join(" "));
     await writeFile("resources.json", `${JSON.stringify({ updatedAt: "", resources: [] })}\n`);
 
     Object.assign(process.env, {
@@ -70,7 +73,10 @@ test("latest mode skips an incomplete record and syncs the next valid record", a
     assert.equal(source.resources[0].url, "https://example.com/valid");
     assert.match(await readFile(process.env.GITHUB_OUTPUT, "utf8"), /has_changes=true/);
     assert.ok(requestedUrls.some((url) => url.includes("with_automatic_fields=true")));
+    assert.ok(logs.some((line) => line.includes("本次同步投稿：有效资源（飞书记录 ID：older-valid）")));
+    assert.ok(logs.some((line) => line.includes("缺少简介（飞书记录 ID：newest-incomplete）：缺少 资源简介")));
   } finally {
+    console.log = originalConsoleLog;
     process.chdir(originalDirectory);
     await rm(directory, { recursive: true, force: true });
   }
