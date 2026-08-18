@@ -146,6 +146,7 @@ footer p { margin: 0; color: var(--muted); }
 .submission-hero h1 { margin: .35rem 0 1rem; font-size: clamp(3.8rem, 10vw, 8rem); line-height: .92; letter-spacing: -.07em; }
 .submission-hero > p:last-child { max-width: 42rem; color: var(--muted); font-size: 1.08rem; }
 .channel-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.channel-grid-single { grid-template-columns: 1fr; }
 .channel-card { position: relative; display: flex; min-height: 420px; flex-direction: column; padding: 2rem; }
 .channel-card:first-child { border-right: 1px solid var(--line); }
 .channel-card-admin { background: color-mix(in srgb, var(--accent-soft) 55%, transparent); }

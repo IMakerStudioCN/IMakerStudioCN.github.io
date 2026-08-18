@@ -33,6 +33,7 @@ jobs:
       FEISHU_FIELD_SYNC: ${{ vars.FEISHU_FIELD_SYNC }}
       FEISHU_APPROVED_VALUE: ${{ vars.FEISHU_APPROVED_VALUE }}
       FEISHU_SUBMITTED_VALUE: ${{ vars.FEISHU_SUBMITTED_VALUE }}
+      FEISHU_SYNC_MODE: ${{ vars.FEISHU_SYNC_MODE || 'latest' }}
       GH_TOKEN: ${{ github.token }}
 
     steps:
@@ -49,7 +50,7 @@ jobs:
           exit "$missing"
 
       - name: Check out repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           fetch-depth: 0
 

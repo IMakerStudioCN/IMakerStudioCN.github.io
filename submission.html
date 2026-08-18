@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="资源簿的访客投稿与管理者在线维护入口。" />
+    <meta name="description" content="通过飞书公开表单向资源簿推荐新资源。" />
     <meta name="theme-color" content="#f4f5f0" />
-    <title>投稿与维护 | 资源簿</title>
+    <title>资源投稿 | 资源簿</title>
     <link rel="stylesheet" href="./styles.css" />
     <script src="./submission.js" defer></script>
   </head>
@@ -13,33 +13,24 @@
     <a class="skip-link" href="#submission">跳到投稿入口</a>
     <header class="site-header">
       <a class="brand" href="./" aria-label="资源簿首页"><span class="brand-mark" aria-hidden="true">资</span><span>资源簿</span></a>
-      <nav class="header-actions" aria-label="主要导航"><a href="./">返回资源库</a><a href="./maintenance.html">站务手册</a></nav>
+      <nav class="header-actions" aria-label="主要导航"><a href="./">返回资源库</a><a href="./admin.html">管理者维护</a><a href="./maintenance.html">站务手册</a></nav>
     </header>
 
     <main class="submission-main" id="submission">
       <section class="submission-hero">
-        <p class="kicker">两个通道，一套审核流程</p>
-        <h1>投稿与维护</h1>
-        <p>访客通过飞书推荐资源，无需登录 GitHub；管理者通过在线编辑器直接维护仓库内容。</p>
+        <p class="kicker">无需 GitHub 账号</p>
+        <h1>资源投稿</h1>
+        <p>通过飞书公开表单推荐值得收录的链接。投稿先进入审核列表，不会立即出现在网站。</p>
       </section>
 
-      <section class="channel-grid" aria-label="投稿通道">
+      <section class="channel-grid channel-grid-single" aria-label="访客投稿通道">
         <article class="channel-card">
-          <span class="channel-number">01</span>
+          <span class="channel-number">投稿</span>
           <p class="kicker">面向所有访客</p>
           <h2>飞书投稿</h2>
           <p>填写名称、链接、分类、类型和说明。投稿先进入待审核列表，不会立即出现在网站。</p>
           <ul><li>不需要 GitHub 账号</li><li>公开表单可直接填写</li><li>审核通过后自动生成草稿 PR</li></ul>
           <a class="channel-action" id="visitor-submit-link" href="https://ycne7r106xve.feishu.cn/share/base/form/shrcnQFGFcQ58VJzYAg3pSeuNce/" target="_blank" rel="noreferrer">打开飞书投稿表单 <span aria-hidden="true">↗</span></a>
-        </article>
-
-        <article class="channel-card channel-card-admin">
-          <span class="channel-number">02</span>
-          <p class="kicker">仅限管理者</p>
-          <h2>在线维护</h2>
-          <p>使用 GitHub 登录 Pages CMS，在表单界面新增、修改或删除资源，保存后直接写入仓库。</p>
-          <ul><li>需要仓库写入权限</li><li>适合日常内容维护</li><li>保存后由 Pages 自动部署</li></ul>
-          <a class="channel-action" href="https://app.pagescms.org/" target="_blank" rel="noreferrer">进入管理者编辑器 <span aria-hidden="true">↗</span></a>
         </article>
       </section>
 
