@@ -8,6 +8,7 @@
       "description": "权威且系统的 Web 技术文档，适合查询 HTML、CSS 与 JavaScript。",
       "url": "https://developer.mozilla.org/zh-CN/",
       "category": "开发",
+      "type": "网站",
       "tags": ["文档", "前端"]
     },
     {
@@ -15,6 +16,7 @@
       "description": "渐进式 JavaScript 框架，中文文档完整，适合构建交互式网页。",
       "url": "https://cn.vuejs.org/",
       "category": "开发",
+      "type": "网站",
       "tags": ["框架", "前端"]
     },
     {
@@ -22,6 +24,7 @@
       "description": "轻量快速的前端构建工具，适合现代 Web 项目与原型开发。",
       "url": "https://cn.vite.dev/",
       "category": "开发",
+      "type": "网站",
       "tags": ["工具", "构建"]
     },
     {
@@ -29,6 +32,7 @@
       "description": "图标搜索、管理与协作平台，可在线预览并组织项目图标。",
       "url": "https://www.iconfont.cn/",
       "category": "设计",
+      "type": "网站",
       "tags": ["图标", "素材"]
     },
     {
@@ -36,6 +40,7 @@
       "description": "支持多人协作的在线界面设计工具，提供中文模板与社区资源。",
       "url": "https://js.design/",
       "category": "设计",
+      "type": "在线工具",
       "tags": ["UI", "协作"]
     },
     {
@@ -43,6 +48,7 @@
       "description": "按传统色名浏览颜色与出处，适合寻找具有中文语境的配色。",
       "url": "https://zhongguose.com/",
       "category": "设计",
+      "type": "网站",
       "tags": ["配色", "灵感"]
     },
     {
@@ -50,6 +56,7 @@
       "description": "覆盖基础教育、职业教育和高等教育的公共学习资源入口。",
       "url": "https://www.smartedu.cn/",
       "category": "学习",
+      "type": "课程平台",
       "tags": ["课程", "公共资源"]
     },
     {
@@ -57,6 +64,7 @@
       "description": "汇集高校在线课程，适合系统学习通识与专业知识。",
       "url": "https://www.icourse163.org/",
       "category": "学习",
+      "type": "课程平台",
       "tags": ["课程", "高校"]
     },
     {
@@ -64,6 +72,7 @@
       "description": "结构化知识库与文档工具，适合整理笔记、教程和团队资料。",
       "url": "https://www.yuque.com/",
       "category": "效率",
+      "type": "在线工具",
       "tags": ["知识库", "写作"]
     },
     {
@@ -71,6 +80,7 @@
       "description": "把表格、表单、看板与自动化放在一起的轻量信息管理工具。",
       "url": "https://www.feishu.cn/product/base",
       "category": "效率",
+      "type": "在线工具",
       "tags": ["表格", "协作"]
     }
   ]

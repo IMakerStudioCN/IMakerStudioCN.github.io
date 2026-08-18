@@ -57,7 +57,16 @@
           </label>
         </div>
 
-        <div class="filter-row" id="category-filters" aria-label="按分类筛选"></div>
+        <div class="filter-groups" aria-label="资源筛选">
+          <div class="filter-group">
+            <span class="filter-label">内容分类</span>
+            <div class="filter-row" id="category-filters" aria-label="按内容分类筛选"></div>
+          </div>
+          <div class="filter-group">
+            <span class="filter-label">资源类型</span>
+            <div class="filter-row" id="type-filters" aria-label="按资源类型筛选"></div>
+          </div>
+        </div>
 
         <div id="status" class="status" role="status" aria-live="polite">正在读取资源…</div>
         <div id="resource-grid" class="resource-grid" hidden></div>

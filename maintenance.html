@@ -18,7 +18,7 @@
     <main class="manual-main" id="manual">
       <section class="manual-hero"><p class="kicker">配置、维护与交接</p><h1>站务手册</h1><p>按文件和页面位置说明如何修改网站。新维护者具备组织仓库写入权限和飞书表格访问权限后，即可完成日常维护。</p></section>
       <div class="manual-layout">
-        <nav class="manual-nav" aria-label="手册目录"><strong>目录</strong><a href="#handover">交接清单</a><a href="#files">文件与权限</a><a href="#titles">标题与文案</a><a href="#resources-guide">资源与封面</a><a href="#appearance">外观配置</a><a href="#submission">投稿与审核</a><a href="#deployment">发布与回退</a><a href="#troubleshooting">故障排查</a><a href="#limits">安全边界</a></nav>
+        <nav class="manual-nav" aria-label="手册目录"><strong>目录</strong><a href="#handover">交接清单</a><a href="#files">文件与权限</a><a href="#titles">标题与文案</a><a href="#pages">扩展页面</a><a href="#resources-guide">资源、类型与标签</a><a href="#appearance">外观配置</a><a href="#submission">投稿与审核</a><a href="#deployment">发布与回退</a><a href="#troubleshooting">故障排查</a><a href="#limits">安全边界</a></nav>
         <div class="manual-content">
           <section class="manual-section" id="handover">
             <h2>交接清单</h2><p>交接前逐项确认，避免新维护者只能看到网站却无法管理数据。</p>
@@ -38,18 +38,28 @@
             <h3>其他页面</h3><p>修改站名后，用仓库搜索功能搜索旧站名，并同步修改 <code>maintenance.html</code>、<code>404.html</code> 和 <code>README.md</code>。手册页和 404 页的浏览器标题均在各自文件的 <code>&lt;title&gt;</code>。</p>
           </section>
 
+          <section class="manual-section" id="pages">
+            <h2>扩展页面</h2><p>新增说明页、专题页或公告页时，优先复制 <code>maintenance.html</code> 的基础结构，以保留页头、页脚、无障碍跳转和响应式样式。</p>
+            <ol><li>复制现有 HTML 文件，改成小写英文文件名，例如 <code>guide.html</code>；不要使用空格或中文文件名。</li><li>修改 <code>&lt;title&gt;</code>、<code>meta description</code>、正文标题和内容。</li><li>保留 <code>./styles.css</code> 相对路径；页面需要交互时再引用独立脚本。</li><li>在 <code>index.html</code> 的 <code>header-actions</code> 或页脚加入 <code>./guide.html</code> 入口。</li><li>若所有页面都需要入口，同步修改 <code>maintenance.html</code> 和 <code>404.html</code>。</li><li>发布后访问完整网址，例如 <code>https://imakerstudiocn.github.io/guide.html</code>，检查桌面和手机布局。</li></ol>
+            <div class="callout"><p>分类、类型和标签写在 <code>resources.json</code>。只有内容需要独立正文和独立网址时才创建 HTML 页面。</p></div>
+          </section>
+
           <section class="manual-section" id="resources-guide">
-            <h2>资源与封面</h2>
+            <h2>资源、类型与标签</h2>
             <ol><li>在仓库打开 <code>resources.json</code>，点击铅笔图标。</li><li>复制一条完整资源对象，在上一条结尾补英文逗号。</li><li>填写字段并更新顶部 <code>updatedAt</code>。</li><li>提交到 <code>main</code>，等待 Actions 发布。</li></ol>
             <pre><code>{
   "name": "资源名称",
   "description": "说明它解决什么问题、适合哪些人。",
   "url": "https://example.com/",
   "category": "学习",
+  "type": "网站",
   "tags": ["教程", "免费"],
   "cover": "./assets/example-cover.jpg"
 }</code></pre>
-            <ul><li><code>name</code>：卡片大标题，建议不超过 24 个中文字符。</li><li><code>description</code>：卡片说明，建议 30 至 70 个中文字符。</li><li><code>url</code>：点击后的外部地址，必须保留 <code>https://</code>。</li><li><code>category</code>：分类按钮名称；新分类会自动生成按钮，名称应保持一致。</li><li><code>tags</code>：用于展示和搜索；卡片显示前两个，搜索读取全部。</li><li><code>cover</code>：可选。填写后覆盖默认封面；省略时使用顶部 <code>defaultCover</code>。</li></ul>
+            <ul><li><code>name</code>：卡片大标题，建议不超过 24 个中文字符。</li><li><code>description</code>：卡片说明，建议 30 至 70 个中文字符。</li><li><code>url</code>：点击后的外部地址，必须保留 <code>https://</code>。</li><li><code>category</code>：内容主题，如“开发、设计、学习、效率”；第一排按钮自动读取所有分类。</li><li><code>type</code>：资源载体，如“网站、网盘链接、在线工具、文档、视频、课程平台”；第二排按钮自动读取所有类型。</li><li><code>tags</code>：更细的关键词；卡片显示前两个，搜索读取全部。</li><li><code>cover</code>：可选。填写后覆盖默认封面；省略时使用顶部 <code>defaultCover</code>。</li></ul>
+            <h3>扩展分类和资源类型</h3><p>直接在资源对象的 <code>category</code> 或 <code>type</code> 中写入新名称，页面会自动生成按钮，不需要修改 <code>index.html</code> 或 <code>app.js</code>。同一含义必须使用完全相同的文字。重命名时搜索并一次性修改所有相关资源。</p>
+            <h3>扩展标签</h3><p>在 <code>tags</code> 数组中增加英文双引号包裹的标签，并用英文逗号分隔，例如 <code>["教程", "免费", "中文"]</code>。建议每条保留 2 至 5 个短标签，不重复分类或类型。标签会参与搜索但不会生成筛选按钮；需要按钮时应使用 <code>category</code> 或 <code>type</code>。</p>
+            <h3>网盘链接建议</h3><p>网盘资源的 <code>type</code> 统一写成“网盘链接”。说明中写清内容、格式和更新时间；提取码可以写在说明中，但不要收录需要私人账号、个人权限或来源不明的文件。链接失效后及时删除或替换。</p>
             <h3>更换封面</h3><p>全站默认封面在 <code>resources.json</code> 的 <code>defaultCover</code>。把新图片上传到 <code>assets</code>，再修改地址。建议使用横向 JPG、PNG 或 WebP，宽度 1200 至 2000 像素，文件小于 500 KB，不使用有版权风险、商标或难以阅读文字的图片。</p>
             <p>单条资源可增加 <code>cover</code>。透明度在 <code>styles.css</code> 的 <code>.resource-cover</code> 中修改，默认值为 <code>opacity: .16</code>；悬停值在 <code>.resource-card:hover .resource-cover</code>。</p>
             <div class="callout"><p>JSON 只能使用英文双引号和英文标点。最后一条资源后不要加逗号。图片路径区分大小写，文件名建议只用小写英文、数字和连字符。</p></div>

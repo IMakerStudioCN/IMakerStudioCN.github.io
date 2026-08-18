@@ -1,6 +1,7 @@
 const state = {
   resources: [],
   category: "全部",
+  type: "全部",
   query: "",
   defaultCover: "",
 };
@@ -10,6 +11,7 @@ const elements = {
   status: document.querySelector("#status"),
   empty: document.querySelector("#empty-state"),
   filters: document.querySelector("#category-filters"),
+  typeFilters: document.querySelector("#type-filters"),
   search: document.querySelector("#search-input"),
   resourceCount: document.querySelector("#resource-count"),
   categoryCount: document.querySelector("#category-count"),
@@ -26,8 +28,9 @@ function filteredResources() {
   const query = normalize(state.query);
   return state.resources.filter((resource) => {
     const inCategory = state.category === "全部" || resource.category === state.category;
-    const searchable = [resource.name, resource.description, resource.category, ...resource.tags].join(" ");
-    return inCategory && (!query || normalize(searchable).includes(query));
+    const inType = state.type === "全部" || resource.type === state.type;
+    const searchable = [resource.name, resource.description, resource.category, resource.type, ...resource.tags].join(" ");
+    return inCategory && inType && (!query || normalize(searchable).includes(query));
   });
 }
 
@@ -40,6 +43,20 @@ function renderFilters() {
     button.setAttribute("aria-pressed", String(category === state.category));
     button.addEventListener("click", () => {
       state.category = category;
+      renderFilters();
+      renderResources();
+    });
+    return button;
+  }));
+
+  const types = ["全部", ...new Set(state.resources.map((item) => item.type))];
+  elements.typeFilters.replaceChildren(...types.map((type) => {
+    const button = document.createElement("button");
+    button.type = "button";
+    button.textContent = type;
+    button.setAttribute("aria-pressed", String(type === state.type));
+    button.addEventListener("click", () => {
+      state.type = type;
       renderFilters();
       renderResources();
     });
@@ -70,7 +87,7 @@ function resourceCard(resource, index) {
   content.className = "resource-content";
   const meta = document.createElement("div");
   meta.className = "resource-meta";
-  meta.textContent = [resource.category, ...resource.tags.slice(0, 2)].join("  ·  ");
+  meta.textContent = [resource.category, resource.type, ...resource.tags.slice(0, 2)].join("  ·  ");
   const title = document.createElement("h3");
   title.textContent = resource.name;
   const description = document.createElement("p");
@@ -121,6 +138,7 @@ elements.search.addEventListener("input", (event) => {
 elements.clear.addEventListener("click", () => {
   state.query = "";
   state.category = "全部";
+  state.type = "全部";
   elements.search.value = "";
   renderFilters();
   renderResources();

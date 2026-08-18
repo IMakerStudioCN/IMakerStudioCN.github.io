@@ -100,7 +100,10 @@ h2 { margin: 0; font-size: clamp(2rem, 4vw, 3.4rem); line-height: 1.05; letter-s
 .search-box input { min-width: 0; border: 0; outline: 0; background: transparent; color: var(--ink); }
 .search-box kbd { padding: .05rem .42rem; border: 1px solid var(--line); border-radius: 5px; background: var(--paper); font-size: .75rem; }
 
-.filter-row { display: flex; gap: .5rem; overflow-x: auto; padding: 2.5rem 0 1.5rem; scrollbar-width: thin; }
+.filter-groups { display: grid; gap: .8rem; padding: 2.5rem 0 1.5rem; }
+.filter-group { display: grid; grid-template-columns: 5rem minmax(0, 1fr); gap: 1rem; align-items: start; }
+.filter-label { padding-top: .5rem; color: var(--muted); font-size: .78rem; font-weight: 700; letter-spacing: .08em; }
+.filter-row { display: flex; gap: .5rem; overflow-x: auto; padding-bottom: .15rem; scrollbar-width: thin; }
 .filter-row button, .empty-state button { border: 1px solid var(--line); border-radius: 9px; background: transparent; color: var(--ink); cursor: pointer; white-space: nowrap; }
 .filter-row button { padding: .5rem .85rem; }
 .filter-row button:hover, .filter-row button[aria-pressed="true"] { border-color: var(--ink); background: var(--ink); color: white; }
@@ -175,6 +178,8 @@ footer a { color: var(--accent); }
   .intro-index { border-left: 0; border-top: 1px solid var(--line); padding: 1rem 0 0; }
   .catalog { padding: 5rem 0; }
   .catalog-head { grid-template-columns: 1fr; align-items: start; }
+  .filter-group { grid-template-columns: 1fr; gap: .35rem; }
+  .filter-label { padding-top: 0; }
   .resource-grid { grid-template-columns: 1fr; }
   .resource-card:nth-child(odd) { border-right: 0; }
   .about { grid-template-columns: 1fr; gap: 3rem; padding: 5rem 0; }
