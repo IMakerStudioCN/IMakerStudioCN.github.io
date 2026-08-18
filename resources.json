@@ -117,10 +117,11 @@
       "name": "qframework",
       "description": "开箱既用的游戏架构，强烈建议初学架构使用学习",
       "url": "https://qframework.cn/qf",
-      "category": "游戏架构",
+      "category": "开发",
       "type": "内容网站",
       "tags": [
-        "编程"
+        "编程",
+        "游戏架构"
       ]
     }
   ]
