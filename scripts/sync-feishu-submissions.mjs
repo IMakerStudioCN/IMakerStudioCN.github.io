@@ -133,7 +133,10 @@ async function listRecords(token) {
   const records = [];
   let pageToken = "";
   do {
-    const query = new URLSearchParams({ page_size: "500" });
+    const query = new URLSearchParams({
+      page_size: "500",
+      with_automatic_fields: "true",
+    });
     if (config.viewId) query.set("view_id", config.viewId);
     if (pageToken) query.set("page_token", pageToken);
     const data = await feishuRequest(
@@ -161,13 +164,8 @@ async function sync(token) {
       && !textValue(fields[config.fields.sync])
     );
   });
-  const recordsToProcess = syncMode === "latest" ? eligibleRecords.slice(0, 1) : eligibleRecords;
-
   console.log(`同步模式：${syncMode === "latest" ? "仅处理最新一条" : "处理全部"}`);
-  if (recordsToProcess.length) {
-    console.log(`本次检查记录：${recordsToProcess[0].record_id}`);
-    console.log(`投稿时间：${formatCreatedTime(recordsToProcess[0])}`);
-  } else if (sortedRecords.length) {
+  if (!eligibleRecords.length && sortedRecords.length) {
     const latest = sortedRecords[0];
     const fields = latest.fields || {};
     console.log(`没有“${config.approvedValue}且同步状态为空”的记录。`);
@@ -177,7 +175,7 @@ async function sync(token) {
     console.log(`同步状态：${textValue(fields[config.fields.sync]) || "（空）"}`);
   }
 
-  for (const record of recordsToProcess) {
+  for (const record of eligibleRecords) {
     const fields = record.fields || {};
     const resource = {
       name: textValue(fields[config.fields.name]),
@@ -210,6 +208,13 @@ async function sync(token) {
     existingUrls.add(normalizedUrl);
     source.resources.push(resource);
     accepted.push({ recordId: record.record_id, name: resource.name, url: resource.url });
+    if (syncMode === "latest") break;
+  }
+
+  if (accepted.length) {
+    const selectedRecord = eligibleRecords.find((record) => record.record_id === accepted[0].recordId);
+    console.log(`本次检查记录：${selectedRecord.record_id}`);
+    console.log(`投稿时间：${formatCreatedTime(selectedRecord)}`);
   }
 
   if (skipped.length) console.log(`跳过记录：\n${skipped.join("\n")}`);
