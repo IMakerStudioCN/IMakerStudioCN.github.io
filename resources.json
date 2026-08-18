@@ -1,7 +1,7 @@
 {
   "updatedAt": "2026.08.18",
   "submitUrl": "https://ycne7r106xve.feishu.cn/share/base/form/shrcnQFGFcQ58VJzYAg3pSeuNce/",
-  "defaultCover": "./assets/resource-cover.webp",
+  "defaultCover": "/assets/resource-cover.webp",
   "resources": [
     {
       "name": "MDN Web Docs",
@@ -9,7 +9,10 @@
       "url": "https://developer.mozilla.org/zh-CN/",
       "category": "开发",
       "type": "网站",
-      "tags": ["文档", "前端"]
+      "tags": [
+        "文档",
+        "前端"
+      ]
     },
     {
       "name": "Vue.js",
@@ -17,7 +20,10 @@
       "url": "https://cn.vuejs.org/",
       "category": "开发",
       "type": "网站",
-      "tags": ["框架", "前端"]
+      "tags": [
+        "框架",
+        "前端"
+      ]
     },
     {
       "name": "Vite",
@@ -25,7 +31,10 @@
       "url": "https://cn.vite.dev/",
       "category": "开发",
       "type": "网站",
-      "tags": ["工具", "构建"]
+      "tags": [
+        "工具",
+        "构建"
+      ]
     },
     {
       "name": "Iconfont",
@@ -33,7 +42,10 @@
       "url": "https://www.iconfont.cn/",
       "category": "设计",
       "type": "网站",
-      "tags": ["图标", "素材"]
+      "tags": [
+        "图标",
+        "素材"
+      ]
     },
     {
       "name": "即时设计",
@@ -41,7 +53,10 @@
       "url": "https://js.design/",
       "category": "设计",
       "type": "在线工具",
-      "tags": ["UI", "协作"]
+      "tags": [
+        "UI",
+        "协作"
+      ]
     },
     {
       "name": "中国色",
@@ -49,7 +64,10 @@
       "url": "https://zhongguose.com/",
       "category": "设计",
       "type": "网站",
-      "tags": ["配色", "灵感"]
+      "tags": [
+        "配色",
+        "灵感"
+      ]
     },
     {
       "name": "国家智慧教育公共服务平台",
@@ -57,7 +75,10 @@
       "url": "https://www.smartedu.cn/",
       "category": "学习",
       "type": "课程平台",
-      "tags": ["课程", "公共资源"]
+      "tags": [
+        "课程",
+        "公共资源"
+      ]
     },
     {
       "name": "中国大学 MOOC",
@@ -65,7 +86,10 @@
       "url": "https://www.icourse163.org/",
       "category": "学习",
       "type": "课程平台",
-      "tags": ["课程", "高校"]
+      "tags": [
+        "课程",
+        "高校"
+      ]
     },
     {
       "name": "语雀",
@@ -73,7 +97,10 @@
       "url": "https://www.yuque.com/",
       "category": "效率",
       "type": "在线工具",
-      "tags": ["知识库", "写作"]
+      "tags": [
+        "知识库",
+        "写作"
+      ]
     },
     {
       "name": "飞书多维表格",
@@ -81,7 +108,20 @@
       "url": "https://www.feishu.cn/product/base",
       "category": "效率",
       "type": "在线工具",
-      "tags": ["表格", "协作"]
+      "tags": [
+        "表格",
+        "协作"
+      ]
+    },
+    {
+      "name": "qframework",
+      "description": "开箱既用的游戏架构，强烈建议初学架构使用学习",
+      "url": "https://qframework.cn/qf",
+      "category": "游戏架构",
+      "type": "内容网站",
+      "tags": [
+        "编程"
+      ]
     }
   ]
 }
