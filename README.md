@@ -6,7 +6,9 @@
 - 在线手册：<https://imakerstudiocn.github.io/maintenance.html>
 - 仓库：`IMakerStudioCN/IMakerStudioCN.github.io`
 - 发布分支：`main`
-- 投稿方式：飞书公开表单
+- 访客投稿：飞书公开表单
+- 管理者编辑：Pages CMS
+- 审核同步：GitHub Actions 创建草稿 Pull Request
 
 ## 管理交接清单
 
@@ -19,8 +21,12 @@
 ## 文件配置索引
 
 - `index.html`：首页标题、导航、介绍、资源区标题、维护原则和页脚。
+- `submission.html`、`submission.js`：访客投稿与管理者在线编辑入口。
 - `resources.json`：更新时间、投稿地址、默认封面和资源数据。
 - `app.js`：卡片生成、分类、搜索、计数和数据读取。
+- `.pages.yml`：Pages CMS 字段配置。
+- `scripts/sync-feishu-submissions.mjs`：飞书记录转换脚本。
+- `.github/workflows/sync-feishu-submissions.yml`：定时创建草稿 PR。
 - `styles.css`：颜色、字号、间距、封面透明度和手机布局。
 - `assets/resource-cover.webp`：资源卡片默认封面。
 - `maintenance.html`：网页维护手册。
@@ -150,17 +156,61 @@ JSON 只能使用英文双引号和英文标点。最后一条资源后不要加
 
 ## 投稿与审核
 
-“推荐资源”读取 `resources.json` 的 `submitUrl`。更换飞书表单时，写入新的公开填写地址。地址应包含 `/share/base/form/`，不要使用内部多维表格地址。
+### 两个投稿通道
 
-审核流程：
+- 访客打开 `submission.html`，使用飞书公开表单，无需 GitHub 登录。
+- 管理者使用 Pages CMS 在线编辑 `resources.json`，保存后直接提交到仓库。
 
-1. 在飞书普通数据视图查看新记录。
-2. 检查链接可用性、合法性和重复情况。
-3. 统一名称、说明、分类与标签。
-4. 把通过记录写入 `resources.json` 并更新日期。
-5. 将飞书记录标为“已收录”或“不收录”。
+### 飞书数据表字段
 
-建议保留“审核状态、审核备注、处理日期、处理人”四个管理字段，并设置新增记录通知。原始数据表只向维护者开放。
+公开表单字段：`资源名称`、`资源链接`、`资源简介`、`内容分类`、`资源类型`、`标签`，可选 `封面地址`。
+
+管理字段：
+
+- `审核状态`：单选，选项为待审核、已通过、不收录。
+- `同步状态`：单行文本，初始为空，由 Actions 回写 PR 地址；不要设为单选字段。
+
+### 自动创建审核 PR
+
+1. 管理者检查投稿并将 `审核状态` 改为“已通过”。
+2. `Sync approved Feishu submissions` 每两小时执行，也支持手动运行。
+3. 脚本只处理“已通过”且“同步状态为空”的记录。
+4. Actions 更新 `resources.json`，推送临时分支并创建草稿 PR。
+5. Actions 回写飞书同步状态。
+6. 管理者合并 PR 后，GitHub Pages 自动发布。
+
+若关闭 PR 而不合并，应清空对应记录的同步状态后重新处理。
+
+### 飞书开放平台配置
+
+创建企业自建应用，申请多维表格读取和编辑权限，发布应用并将其添加为目标多维表格协作者。
+
+在 GitHub 仓库 Settings → Secrets and variables → Actions 中添加：
+
+Secrets：
+
+- `FEISHU_APP_ID`
+- `FEISHU_APP_SECRET`
+
+Variables：
+
+- `FEISHU_APP_TOKEN`：`TDDCbNKFUa1d7QsKX7vcrJinnhe`
+- `FEISHU_TABLE_ID`：`tblyK8zKwJX3F91g`
+- `FEISHU_VIEW_ID`：`vew3HOr4oa`
+
+默认字段名与上文一致时无需配置映射。字段不同可增加：`FEISHU_FIELD_NAME`、`FEISHU_FIELD_URL`、`FEISHU_FIELD_DESCRIPTION`、`FEISHU_FIELD_CATEGORY`、`FEISHU_FIELD_TYPE`、`FEISHU_FIELD_TAGS`、`FEISHU_FIELD_COVER`、`FEISHU_FIELD_REVIEW`、`FEISHU_FIELD_SYNC`。
+
+进入 Settings → Actions → General → Workflow permissions，启用 **Allow GitHub Actions to create and approve pull requests**。否则工作流可以推送临时分支，但无法创建审核 PR。
+
+### 管理者在线编辑
+
+1. 打开 <https://app.pagescms.org/> 并使用 GitHub 登录。
+2. 安装 Pages CMS GitHub App，只授权当前仓库。
+3. 选择 `IMakerStudioCN/IMakerStudioCN.github.io`。
+4. 在“资源管理”中编辑，保存前更新最后整理日期。
+5. 保存后检查 Actions 与线上网站。
+
+`FEISHU_APP_SECRET` 只能保存在 GitHub Secret 中，不能提交到仓库。
 
 ## 发布与回退
 
@@ -177,6 +227,8 @@ JSON 只能使用英文双引号和英文标点。最后一条资源后不要加
 - 资源列表不显示：检查 `resources.json` 的逗号、双引号和括号。
 - 封面不显示：确认图片已提交、路径大小写一致；单条检查 `cover`，全部检查 `defaultCover`。
 - 投稿打不开：用未登录飞书的浏览器测试，并检查公开分享及 `submitUrl`。
+- 飞书同步失败：检查必需的 Secrets、Variables、应用权限、文档协作者权限和字段名。
+- 投稿未生成 PR：确认审核状态为“已通过”、同步状态为空且链接没有重复。
 - Pages 失败：查看失败步骤，检查 Pages 来源和重复工作流；部署阶段短暂失败可稍后重试。
 
 ## 安全边界

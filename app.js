@@ -17,7 +17,6 @@ const elements = {
   categoryCount: document.querySelector("#category-count"),
   updatedAt: document.querySelector("#updated-at"),
   clear: document.querySelector("#clear-filters"),
-  submit: document.querySelector("#submit-link"),
 };
 
 function normalize(value) {
@@ -120,7 +119,6 @@ async function loadResources() {
     elements.resourceCount.textContent = String(data.resources.length).padStart(2, "0");
     elements.categoryCount.textContent = String(new Set(data.resources.map((item) => item.category)).size).padStart(2, "0");
     elements.updatedAt.textContent = data.updatedAt;
-    if (data.submitUrl) elements.submit.href = data.submitUrl;
     renderFilters();
     renderResources();
   } catch (error) {

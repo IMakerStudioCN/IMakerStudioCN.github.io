@@ -1,0 +1,70 @@
+media:
+  input: assets
+  output: /assets
+
+content:
+  - name: resources
+    label: 资源管理
+    type: file
+    path: resources.json
+    format: json
+    fields:
+      - name: updatedAt
+        label: 最后整理日期
+        type: string
+        required: true
+        description: 使用 YYYY.MM.DD，例如 2026.08.18。
+        pattern:
+          regex: "^\\d{4}\\.\\d{2}\\.\\d{2}$"
+          message: 日期格式必须为 YYYY.MM.DD。
+      - name: submitUrl
+        label: 飞书公开投稿地址
+        type: string
+        required: true
+        pattern: "^https://.+/share/base/form/.+$"
+      - name: defaultCover
+        label: 默认卡片封面
+        type: image
+        required: true
+      - name: resources
+        label: 资源列表
+        type: object
+        list:
+          min: 1
+          collapsible:
+            collapsed: true
+            summary: "{name} · {category} · {type}"
+        fields:
+          - name: name
+            label: 资源名称
+            type: string
+            required: true
+          - name: description
+            label: 资源说明
+            type: text
+            required: true
+          - name: url
+            label: 资源链接
+            type: string
+            required: true
+            pattern:
+              regex: "^https?://.+$"
+              message: 链接必须以 http:// 或 https:// 开头。
+          - name: category
+            label: 内容分类
+            type: string
+            required: true
+          - name: type
+            label: 资源类型
+            type: string
+            required: true
+          - name: tags
+            label: 标签
+            type: string
+            list:
+              min: 1
+              max: 8
+          - name: cover
+            label: 独立封面
+            type: image
+            required: false

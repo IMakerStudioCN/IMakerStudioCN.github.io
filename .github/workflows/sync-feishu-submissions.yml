@@ -1,0 +1,117 @@
+name: Sync approved Feishu submissions
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "17 */2 * * *"
+
+permissions:
+  contents: write
+  pull-requests: write
+
+concurrency:
+  group: sync-feishu-submissions
+  cancel-in-progress: false
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    env:
+      FEISHU_APP_ID: ${{ secrets.FEISHU_APP_ID }}
+      FEISHU_APP_SECRET: ${{ secrets.FEISHU_APP_SECRET }}
+      FEISHU_APP_TOKEN: ${{ vars.FEISHU_APP_TOKEN }}
+      FEISHU_TABLE_ID: ${{ vars.FEISHU_TABLE_ID }}
+      FEISHU_VIEW_ID: ${{ vars.FEISHU_VIEW_ID }}
+      FEISHU_FIELD_NAME: ${{ vars.FEISHU_FIELD_NAME }}
+      FEISHU_FIELD_URL: ${{ vars.FEISHU_FIELD_URL }}
+      FEISHU_FIELD_DESCRIPTION: ${{ vars.FEISHU_FIELD_DESCRIPTION }}
+      FEISHU_FIELD_CATEGORY: ${{ vars.FEISHU_FIELD_CATEGORY }}
+      FEISHU_FIELD_TYPE: ${{ vars.FEISHU_FIELD_TYPE }}
+      FEISHU_FIELD_TAGS: ${{ vars.FEISHU_FIELD_TAGS }}
+      FEISHU_FIELD_COVER: ${{ vars.FEISHU_FIELD_COVER }}
+      FEISHU_FIELD_REVIEW: ${{ vars.FEISHU_FIELD_REVIEW }}
+      FEISHU_FIELD_SYNC: ${{ vars.FEISHU_FIELD_SYNC }}
+      FEISHU_APPROVED_VALUE: ${{ vars.FEISHU_APPROVED_VALUE }}
+      FEISHU_SUBMITTED_VALUE: ${{ vars.FEISHU_SUBMITTED_VALUE }}
+      FEISHU_RECORD_FILE: ${{ runner.temp }}/feishu-sync-records.json
+      GH_TOKEN: ${{ github.token }}
+
+    steps:
+      - name: Check required configuration
+        shell: bash
+        run: |
+          missing=0
+          for name in FEISHU_APP_ID FEISHU_APP_SECRET FEISHU_APP_TOKEN FEISHU_TABLE_ID; do
+            if [ -z "${!name}" ]; then
+              echo "::error::Missing $name"
+              missing=1
+            fi
+          done
+          exit "$missing"
+
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Read approved submissions
+        id: sync
+        run: node scripts/sync-feishu-submissions.mjs sync
+
+      - name: Create review branch
+        if: steps.sync.outputs.has_changes == 'true'
+        id: branch
+        shell: bash
+        run: |
+          branch="automation/feishu-${GITHUB_RUN_ID}-${GITHUB_RUN_ATTEMPT}"
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git switch -c "$branch"
+          git add resources.json
+          git commit -m "Add approved Feishu submissions"
+          git push --set-upstream origin "$branch"
+          echo "name=$branch" >> "$GITHUB_OUTPUT"
+
+      - name: Open draft pull request
+        if: steps.sync.outputs.has_changes == 'true'
+        id: pull_request
+        shell: bash
+        run: |
+          body=$(cat <<'EOF'
+          ## 飞书审核通过的资源
+
+          此 PR 由 GitHub Actions 根据飞书多维表格中“审核状态=已通过”且“同步状态为空”的记录自动生成。
+
+          合并前请检查：
+
+          - 链接可以正常访问
+          - 名称、说明、分类、类型和标签准确
+          - 不包含侵权、违法或敏感内容
+          - `resources.json` 格式正确
+
+          合并后 GitHub Pages 会自动更新网站。
+          EOF
+          )
+          url=$(gh pr create \
+            --base main \
+            --head "${{ steps.branch.outputs.name }}" \
+            --title "审核飞书投稿：${{ steps.sync.outputs.names }}" \
+            --body "$body" \
+            --draft)
+          echo "url=$url" >> "$GITHUB_OUTPUT"
+
+      - name: Mark Feishu records as submitted
+        if: steps.sync.outputs.has_changes == 'true'
+        env:
+          PULL_REQUEST_URL: ${{ steps.pull_request.outputs.url }}
+        run: node scripts/sync-feishu-submissions.mjs mark
+
+      - name: Summary
+        if: always()
+        shell: bash
+        run: |
+          echo "## 飞书投稿同步" >> "$GITHUB_STEP_SUMMARY"
+          echo "新增记录：${{ steps.sync.outputs.count || '0' }}" >> "$GITHUB_STEP_SUMMARY"
+          if [ -n "${{ steps.pull_request.outputs.url }}" ]; then
+            echo "草稿 PR：${{ steps.pull_request.outputs.url }}" >> "$GITHUB_STEP_SUMMARY"
+          fi

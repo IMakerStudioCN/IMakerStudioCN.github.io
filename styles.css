@@ -140,6 +140,29 @@ h2 { margin: 0; font-size: clamp(2rem, 4vw, 3.4rem); line-height: 1.05; letter-s
 footer { display: grid; grid-template-columns: auto 1fr auto; gap: 2rem; align-items: center; padding: 2rem 0; border-top: 1px solid var(--line); font-size: .86rem; }
 footer > span { font-weight: 750; }
 footer p { margin: 0; color: var(--muted); }
+
+.submission-main { padding-bottom: 7rem; }
+.submission-hero { max-width: 820px; padding: 7rem 0 5rem; }
+.submission-hero h1 { margin: .35rem 0 1rem; font-size: clamp(3.8rem, 10vw, 8rem); line-height: .92; letter-spacing: -.07em; }
+.submission-hero > p:last-child { max-width: 42rem; color: var(--muted); font-size: 1.08rem; }
+.channel-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.channel-card { position: relative; display: flex; min-height: 420px; flex-direction: column; padding: 2rem; }
+.channel-card:first-child { border-right: 1px solid var(--line); }
+.channel-card-admin { background: color-mix(in srgb, var(--accent-soft) 55%, transparent); }
+.channel-number { align-self: flex-end; color: var(--muted); font: 600 .75rem/1 ui-monospace, "SFMono-Regular", Consolas, monospace; }
+.channel-card h2 { margin: .25rem 0 1rem; font-size: clamp(2rem, 4vw, 3.5rem); line-height: 1; letter-spacing: -.05em; }
+.channel-card > p:not(.kicker) { max-width: 30rem; color: var(--muted); }
+.channel-card ul { margin: 1.5rem 0 2rem; padding-left: 1.2rem; color: var(--muted); }
+.channel-card li { margin: .45rem 0; }
+.channel-action { display: flex; justify-content: space-between; align-items: center; margin-top: auto; padding: 1rem 0; border-top: 1px solid var(--ink); font-weight: 700; transition: color 180ms ease; }
+.channel-action span { font-size: 1.25rem; transition: transform 180ms ease; }
+.channel-action:hover { color: var(--accent); }
+.channel-action:hover span { transform: translate(3px, -3px); }
+.review-flow { display: grid; grid-template-columns: .85fr 1.15fr; gap: 5rem; padding: 6rem 0 0; }
+.review-flow h2 { max-width: 12ch; margin: .35rem 0 0; font-size: clamp(2.2rem, 5vw, 4.5rem); line-height: 1; letter-spacing: -.055em; }
+.review-flow ol { margin: 0; padding: 0; list-style: none; }
+.review-flow li { display: grid; grid-template-columns: 6rem 1fr; gap: 1rem; padding: 1.15rem 0; border-bottom: 1px solid var(--line); }
+.review-flow span { color: var(--muted); }
 footer a { color: var(--accent); }
 
 .manual-main { padding-bottom: 7rem; }
@@ -191,6 +214,13 @@ footer a { color: var(--accent); }
   .manual-nav { position: static; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0 1rem; }
   .manual-nav strong { grid-column: 1 / -1; }
   .decision-list { grid-template-columns: 1fr; }
+  .submission-main { padding-bottom: 5rem; }
+  .submission-hero { padding: 4rem 0 3rem; }
+  .channel-grid, .review-flow { grid-template-columns: 1fr; }
+  .channel-card { min-height: 390px; padding: 1.5rem 0; }
+  .channel-card:first-child { border-right: 0; border-bottom: 1px solid var(--line); }
+  .channel-card-admin { margin-inline: -14px; padding-inline: 14px; }
+  .review-flow { gap: 2.5rem; padding-top: 4.5rem; }
 }
 
 @media (prefers-reduced-motion: reduce) {
