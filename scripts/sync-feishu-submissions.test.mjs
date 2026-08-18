@@ -37,8 +37,8 @@ test("latest mode skips an incomplete record and syncs the next valid record", a
           items: [
             {
               record_id: "newest-incomplete",
-              created_time: "1787068800000",
               fields: {
+                投稿时间: "1787068800000",
                 资源名称: "缺少简介",
                 资源链接: "https://example.com/incomplete",
                 内容分类: "工具",
@@ -49,8 +49,8 @@ test("latest mode skips an incomplete record and syncs the next valid record", a
             },
             {
               record_id: "older-valid",
-              created_time: "1786982400000",
               fields: {
+                投稿时间: "1786982400000",
                 资源名称: "有效资源",
                 资源简介: "完整简介",
                 资源链接: "https://example.com/valid",
@@ -74,6 +74,7 @@ test("latest mode skips an incomplete record and syncs the next valid record", a
     assert.match(await readFile(process.env.GITHUB_OUTPUT, "utf8"), /has_changes=true/);
     assert.ok(requestedUrls.some((url) => url.includes("with_automatic_fields=true")));
     assert.ok(logs.some((line) => line.includes("本次同步投稿：有效资源（飞书记录 ID：older-valid）")));
+    assert.ok(logs.some((line) => line.includes("投稿时间：2026/08/18 00:00:00")));
     assert.ok(logs.some((line) => line.includes("缺少简介（飞书记录 ID：newest-incomplete）：缺少 资源简介")));
   } finally {
     console.log = originalConsoleLog;

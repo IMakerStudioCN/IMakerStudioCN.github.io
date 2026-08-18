@@ -33,6 +33,7 @@ const config = {
     cover: process.env.FEISHU_FIELD_COVER?.trim() || "封面地址",
     review: process.env.FEISHU_FIELD_REVIEW?.trim() || "审核状态",
     sync: process.env.FEISHU_FIELD_SYNC?.trim() || "同步状态",
+    createdTime: process.env.FEISHU_FIELD_CREATED_TIME?.trim() || "投稿时间",
   },
 };
 
@@ -96,8 +97,14 @@ function tagValues(value) {
 }
 
 function createdTime(record) {
-  const timestamp = Number(record.created_time || 0);
-  return Number.isFinite(timestamp) ? timestamp : 0;
+  const fieldValue = textValue(record.fields?.[config.fields.createdTime]);
+  const rawValue = record.created_time || fieldValue;
+  const numericTimestamp = Number(rawValue);
+  if (Number.isFinite(numericTimestamp) && numericTimestamp > 0) {
+    return numericTimestamp < 1e12 ? numericTimestamp * 1000 : numericTimestamp;
+  }
+  const parsedTimestamp = Date.parse(rawValue);
+  return Number.isFinite(parsedTimestamp) ? parsedTimestamp : 0;
 }
 
 function formatCreatedTime(record) {
