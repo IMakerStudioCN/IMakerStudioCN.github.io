@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="资源簿管理者的在线维护、投稿审核与发布入口。" />
+    <meta name="theme-color" content="#f4f5f0" />
+    <title>管理者维护 | 资源簿</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#admin">跳到维护入口</a>
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="资源簿首页"><span class="brand-mark" aria-hidden="true">资</span><span>资源簿</span></a>
+      <nav class="header-actions" aria-label="主要导航"><a href="./">返回资源库</a><a href="./submission.html">访客投稿</a><a href="./maintenance.html">站务手册</a></nav>
+    </header>
+
+    <main class="submission-main" id="admin">
+      <section class="submission-hero">
+        <p class="kicker">仅限授权维护者</p>
+        <h1>管理者维护</h1>
+        <p>在 Pages CMS 编辑资源数据，在飞书审核访客投稿，并通过 GitHub Actions 和 Pull Request 完成发布。</p>
+      </section>
+
+      <section class="channel-grid" aria-label="管理入口">
+        <article class="channel-card channel-card-admin">
+          <span class="channel-number">01</span>
+          <p class="kicker">日常内容维护</p>
+          <h2>在线编辑资源</h2>
+          <p>使用 GitHub 登录 Pages CMS，在表单界面新增、修改或删除资源，保存后写入仓库。</p>
+          <ul><li>需要仓库写入权限</li><li>适合维护资源卡片</li><li>保存后由 Pages 自动部署</li></ul>
+          <a class="channel-action" href="https://app.pagescms.org/" target="_blank" rel="noreferrer">进入 Pages CMS <span aria-hidden="true">↗</span></a>
+        </article>
+
+        <article class="channel-card">
+          <span class="channel-number">02</span>
+          <p class="kicker">投稿审核与发布</p>
+          <h2>查看维护流程</h2>
+          <p>在飞书把合格记录设为“已通过”，运行同步工作流，再检查并合并自动创建的草稿 PR。</p>
+          <ul><li>默认只处理最新合格投稿</li><li>缺失字段会在日志中说明</li><li>合并 PR 后网站自动更新</li></ul>
+          <a class="channel-action" href="./maintenance.html#submission">打开审核说明 <span aria-hidden="true">→</span></a>
+        </article>
+      </section>
+
+      <section class="review-flow" aria-labelledby="admin-flow-title">
+        <div><p class="kicker">管理发布流程</p><h2 id="admin-flow-title">审核、提交、验证。</h2></div>
+        <ol><li><strong>审核</strong><span>核对链接、说明、分类、类型和标签。</span></li><li><strong>同步</strong><span>运行 Actions，生成待审核的代码变更。</span></li><li><strong>复核</strong><span>检查草稿 PR 中的资源数据。</span></li><li><strong>发布</strong><span>合并 PR，等待 GitHub Pages 更新。</span></li></ol>
+      </section>
+    </main>
+
+    <footer><span>资源簿</span><p>维护操作应保留审核与提交记录。</p><a href="./maintenance.html">站务手册</a></footer>
+  </body>
+</html>

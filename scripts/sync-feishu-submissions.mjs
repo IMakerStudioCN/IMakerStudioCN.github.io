@@ -3,6 +3,11 @@ import process from "node:process";
 
 const mode = process.argv[2] || "sync";
 const recordFile = process.env.FEISHU_RECORD_FILE || ".feishu-sync-records.json";
+const syncMode = process.env.FEISHU_SYNC_MODE?.trim().toLowerCase() || "latest";
+
+if (!new Set(["latest", "all"]).has(syncMode)) {
+  throw new Error(`FEISHU_SYNC_MODE 只能是 latest 或 all，当前值：${syncMode}`);
+}
 
 function required(name) {
   const value = process.env[name]?.trim();
@@ -90,6 +95,35 @@ function tagValues(value) {
   return textValue(value).split(/[,，、]/).map((item) => item.trim()).filter(Boolean);
 }
 
+function createdTime(record) {
+  const timestamp = Number(record.created_time || 0);
+  return Number.isFinite(timestamp) ? timestamp : 0;
+}
+
+function formatCreatedTime(record) {
+  const timestamp = createdTime(record);
+  if (!timestamp) return "未知";
+  return new Intl.DateTimeFormat("zh-CN", {
+    timeZone: "Asia/Shanghai",
+    year: "numeric",
+    month: "2-digit",
+    day: "2-digit",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hour12: false,
+  }).format(new Date(timestamp));
+}
+
+const fieldLabels = {
+  name: "资源名称",
+  description: "资源简介",
+  url: "资源链接",
+  category: "内容分类",
+  type: "资源类型",
+  tags: "标签",
+};
+
 function githubOutput(name, value) {
   if (!process.env.GITHUB_OUTPUT) return;
   return writeFile(process.env.GITHUB_OUTPUT, `${name}=${value}\n`, { flag: "a" });
@@ -119,12 +153,32 @@ async function sync(token) {
   const accepted = [];
   const skipped = [];
 
-  for (const record of records) {
+  const sortedRecords = [...records].sort((a, b) => createdTime(b) - createdTime(a));
+  const eligibleRecords = sortedRecords.filter((record) => {
     const fields = record.fields || {};
-    const review = textValue(fields[config.fields.review]);
-    const syncState = textValue(fields[config.fields.sync]);
-    if (review !== config.approvedValue || syncState) continue;
+    return (
+      textValue(fields[config.fields.review]) === config.approvedValue
+      && !textValue(fields[config.fields.sync])
+    );
+  });
+  const recordsToProcess = syncMode === "latest" ? eligibleRecords.slice(0, 1) : eligibleRecords;
 
+  console.log(`同步模式：${syncMode === "latest" ? "仅处理最新一条" : "处理全部"}`);
+  if (recordsToProcess.length) {
+    console.log(`本次检查记录：${recordsToProcess[0].record_id}`);
+    console.log(`投稿时间：${formatCreatedTime(recordsToProcess[0])}`);
+  } else if (sortedRecords.length) {
+    const latest = sortedRecords[0];
+    const fields = latest.fields || {};
+    console.log(`没有“${config.approvedValue}且同步状态为空”的记录。`);
+    console.log(`最新投稿：${latest.record_id}`);
+    console.log(`投稿时间：${formatCreatedTime(latest)}`);
+    console.log(`审核状态：${textValue(fields[config.fields.review]) || "（空）"}`);
+    console.log(`同步状态：${textValue(fields[config.fields.sync]) || "（空）"}`);
+  }
+
+  for (const record of recordsToProcess) {
+    const fields = record.fields || {};
     const resource = {
       name: textValue(fields[config.fields.name]),
       description: textValue(fields[config.fields.description]),
@@ -141,7 +195,7 @@ async function sync(token) {
       .map(([key]) => key);
     if (!resource.tags.length) missing.push("tags");
     if (missing.length) {
-      skipped.push(`${record.record_id}: 缺少 ${missing.join(", ")}`);
+      skipped.push(`${record.record_id}: 缺少 ${missing.map((key) => fieldLabels[key] || key).join("、")}`);
       continue;
     }
     if (!/^https?:\/\//i.test(resource.url)) {

@@ -3,6 +3,8 @@
 一个由 GitHub Pages 托管、无需服务器的小型链接资源导航。
 
 - 网站：<https://imakerstudiocn.github.io/>
+- 访客投稿页：<https://imakerstudiocn.github.io/submission.html>
+- 管理者维护页：<https://imakerstudiocn.github.io/admin.html>
 - 在线手册：<https://imakerstudiocn.github.io/maintenance.html>
 - 仓库：`IMakerStudioCN/IMakerStudioCN.github.io`
 - 发布分支：`main`
@@ -21,7 +23,8 @@
 ## 文件配置索引
 
 - `index.html`：首页标题、导航、介绍、资源区标题、维护原则和页脚。
-- `submission.html`、`submission.js`：访客投稿与管理者在线编辑入口。
+- `submission.html`、`submission.js`：访客飞书投稿入口及投稿地址读取脚本。
+- `admin.html`：管理者在线编辑、投稿审核和发布入口。
 - `resources.json`：更新时间、投稿地址、默认封面和资源数据。
 - `app.js`：卡片生成、分类、搜索、计数和数据读取。
 - `.pages.yml`：Pages CMS 字段配置。
@@ -156,10 +159,10 @@ JSON 只能使用英文双引号和英文标点。最后一条资源后不要加
 
 ## 投稿与审核
 
-### 两个投稿通道
+### 两个独立入口
 
 - 访客打开 `submission.html`，使用飞书公开表单，无需 GitHub 登录。
-- 管理者使用 Pages CMS 在线编辑 `resources.json`，保存后直接提交到仓库。
+- 管理者打开 `admin.html`，进入 Pages CMS 或查看投稿审核与发布说明。
 
 ### 飞书数据表字段
 
@@ -174,7 +177,7 @@ JSON 只能使用英文双引号和英文标点。最后一条资源后不要加
 
 1. 管理者检查投稿并将 `审核状态` 改为“已通过”。
 2. `Sync approved Feishu submissions` 每两小时执行，也支持手动运行。
-3. 脚本只处理“已通过”且“同步状态为空”的记录。
+3. 默认只处理最新一条“已通过”且“同步状态为空”的记录；日志会显示记录 ID、投稿时间和中文缺失字段名。
 4. Actions 更新 `resources.json`，推送临时分支并创建草稿 PR。
 5. Actions 回写飞书同步状态。
 6. 管理者合并 PR 后，GitHub Pages 自动发布。
@@ -198,17 +201,18 @@ Variables：
 - `FEISHU_TABLE_ID`：`tblyK8zKwJX3F91g`
 - `FEISHU_VIEW_ID`：`vew3HOr4oa`
 
-默认字段名与上文一致时无需配置映射。字段不同可增加：`FEISHU_FIELD_NAME`、`FEISHU_FIELD_URL`、`FEISHU_FIELD_DESCRIPTION`、`FEISHU_FIELD_CATEGORY`、`FEISHU_FIELD_TYPE`、`FEISHU_FIELD_TAGS`、`FEISHU_FIELD_COVER`、`FEISHU_FIELD_REVIEW`、`FEISHU_FIELD_SYNC`。
+默认字段名与上文一致时无需配置映射。字段不同可增加：`FEISHU_FIELD_NAME`、`FEISHU_FIELD_URL`、`FEISHU_FIELD_DESCRIPTION`、`FEISHU_FIELD_CATEGORY`、`FEISHU_FIELD_TYPE`、`FEISHU_FIELD_TAGS`、`FEISHU_FIELD_COVER`、`FEISHU_FIELD_REVIEW`、`FEISHU_FIELD_SYNC`。同步默认使用 `FEISHU_SYNC_MODE=latest`，只处理最新一条“审核状态=已通过且同步状态为空”的投稿；需要批量处理历史记录时改为 `all`。
 
 进入 Settings → Actions → General → Workflow permissions，启用 **Allow GitHub Actions to create and approve pull requests**。否则工作流可以推送临时分支，但无法创建审核 PR。
 
 ### 管理者在线编辑
 
-1. 打开 <https://app.pagescms.org/> 并使用 GitHub 登录。
-2. 安装 Pages CMS GitHub App，只授权当前仓库。
-3. 选择 `IMakerStudioCN/IMakerStudioCN.github.io`。
-4. 在“资源管理”中编辑，保存前更新最后整理日期。
-5. 保存后检查 Actions 与线上网站。
+1. 打开 <https://imakerstudiocn.github.io/admin.html>，选择“进入 Pages CMS”。
+2. 使用 GitHub 登录 Pages CMS。
+3. 安装 Pages CMS GitHub App，只授权当前仓库。
+4. 选择 `IMakerStudioCN/IMakerStudioCN.github.io`。
+5. 在“资源管理”中编辑，保存前更新最后整理日期。
+6. 保存后检查 Actions 与线上网站。
 
 `FEISHU_APP_SECRET` 只能保存在 GitHub Secret 中，不能提交到仓库。
 
