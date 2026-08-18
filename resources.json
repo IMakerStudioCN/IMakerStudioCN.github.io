@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026.08.18",
+  "updatedAt": "2026.08.19",
   "submitUrl": "https://ycne7r106xve.feishu.cn/share/base/form/shrcnQFGFcQ58VJzYAg3pSeuNce/",
   "defaultCover": "/assets/resource-cover.webp",
   "resources": [
@@ -122,6 +122,16 @@
       "tags": [
         "编程",
         "游戏架构"
+      ]
+    },
+    {
+      "name": "测试3",
+      "description": "测试3",
+      "url": "https://imakerstudiocn.github.io/submission.html",
+      "category": "绘画",
+      "type": "网站",
+      "tags": [
+        "开源"
       ]
     }
   ]
