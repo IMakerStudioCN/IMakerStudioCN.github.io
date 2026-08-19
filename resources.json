@@ -111,6 +111,28 @@
       "tags": [
         "素材"
       ]
+    },
+    {
+      "name": "测试5",
+      "description": "CS",
+      "url": "https://imakerstudiocn.github.io/submission.html",
+      "category": "绘画",
+      "type": "网站",
+      "tags": [
+        "开源"
+      ]
+    },
+    {
+      "name": "25届程序Yqqff的个人blog",
+      "description": "建议打赏（）",
+      "url": "https://yqqff.github.io/",
+      "category": "程序",
+      "type": "网站",
+      "tags": [
+        "开源",
+        "开发",
+        "学习"
+      ]
     }
   ]
 }
