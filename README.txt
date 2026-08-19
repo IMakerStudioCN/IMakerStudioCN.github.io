@@ -12,7 +12,7 @@ IMakerStudioCN 资源簿
 发布分支：main
 访客投稿：飞书公开表单，无需 GitHub 登录
 管理者编辑：Pages CMS 在线编辑器
-审核同步：GitHub Actions 创建草稿 Pull Request
+审核同步：GitHub Actions 创建并自动合并 Pull Request
 
 
 一、管理交接清单
@@ -49,7 +49,7 @@ scripts/sync-feishu-submissions.mjs
 读取审核通过的飞书记录并转换为 resources.json 数据。
 
 .github/workflows/sync-feishu-submissions.yml
-定时运行同步脚本、创建草稿 Pull Request 并回写飞书同步状态。
+定时运行同步脚本、创建并自动合并 Pull Request，并回写飞书同步状态。
 
 styles.css
 负责颜色、字号、间距、卡片封面透明度和手机布局。
@@ -266,16 +266,15 @@ styles.css 顶部的颜色变量：
 3. 检查内容是否合法、是否重复。
 4. 统一资源名称、说明、分类、类型和标签。
 5. 将审核状态改为“已通过”。
-6. GitHub Actions 每两小时读取记录，默认只检查创建时间最新的一条“已通过且同步状态为空”的投稿。
-7. 如果记录缺少必填字段，日志显示记录编号、投稿时间和中文字段名，不会继续处理更早记录。
-8. Actions 更新 resources.json 并创建草稿 Pull Request。
-9. Actions 将 PR 地址回写到同步状态。
-10. 管理者审核并合并 PR。
-11. GitHub Pages 自动更新网站。
+6. GitHub Actions 每两小时读取全部“已通过且同步状态为空”的投稿。
+7. 缺少必填字段的记录会被跳过，日志显示记录编号、投稿时间和中文字段名。
+8. Actions 更新 resources.json 并创建普通 Pull Request。
+9. Actions 将 PR 地址回写到同步状态，然后用专用令牌自动合并 PR 并删除临时分支。
+10. GitHub Pages 自动更新网站。
 
-如果 PR 被关闭而没有合并，应清空对应飞书记录的同步状态后重新处理。
+自动合并失败时，PR 和地址会保留。检查令牌权限、分支保护或合并冲突并手动恢复；只有关闭 PR 且需要重新生成时才清空飞书同步状态。
 
-GitHub Secrets：FEISHU_APP_ID、FEISHU_APP_SECRET。
+GitHub Secrets：FEISHU_APP_ID、FEISHU_APP_SECRET、FEISHU_MERGE_TOKEN。FEISHU_MERGE_TOKEN 应是仅授权当前仓库的细粒度 PAT，具有 Contents 和 Pull requests 读写权限。
 
 GitHub Variables：
 FEISHU_APP_TOKEN=TDDCbNKFUa1d7QsKX7vcrJinnhe

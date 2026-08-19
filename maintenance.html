@@ -28,7 +28,7 @@
 
           <section class="manual-section" id="files">
             <h2>文件与权限</h2>
-            <ul><li><code>index.html</code>：首页标题、导航、介绍、资源区标题、维护原则和页脚。</li><li><code>submission.html</code>：访客飞书投稿入口。</li><li><code>submission.js</code>：从 <code>resources.json</code> 读取当前飞书表单地址。</li><li><code>admin.html</code>：管理者在线编辑、投稿审核与发布入口。</li><li><code>resources.json</code>：更新时间、投稿地址、默认封面和全部资源。</li><li><code>app.js</code>：资源卡片、分类按钮、搜索、计数和数据读取。</li><li><code>.pages.yml</code>：Pages CMS 管理者编辑器的字段配置。</li><li><code>scripts/sync-feishu-submissions.mjs</code>：读取飞书审核记录并写入资源数据。</li><li><code>.github/workflows/sync-feishu-submissions.yml</code>：定时创建草稿 PR 并回写飞书同步状态。</li><li><code>styles.css</code>：颜色、字号、间距、封面透明度和手机布局。</li><li><code>assets/resource-cover.webp</code>：卡片共用的默认封面。</li><li><code>maintenance.html</code>：网页手册，维护流程变化后应同步更新。</li><li><code>README.md</code>：仓库首页交接手册，应与网页手册同步。</li><li><code>README.txt</code>：纯文本交接手册，应同步更新。</li><li><code>404.html</code>：无效地址页的标题、提示语和返回按钮。</li><li><code>.nojekyll</code>：让 Pages 直接发布静态文件，保留为空文件。</li></ul>
+            <ul><li><code>index.html</code>：首页标题、导航、介绍、资源区标题、维护原则和页脚。</li><li><code>submission.html</code>：访客飞书投稿入口。</li><li><code>submission.js</code>：从 <code>resources.json</code> 读取当前飞书表单地址。</li><li><code>admin.html</code>：管理者在线编辑、投稿审核与发布入口。</li><li><code>resources.json</code>：更新时间、投稿地址、默认封面和全部资源。</li><li><code>app.js</code>：资源卡片、分类按钮、搜索、计数和数据读取。</li><li><code>.pages.yml</code>：Pages CMS 管理者编辑器的字段配置。</li><li><code>scripts/sync-feishu-submissions.mjs</code>：读取飞书审核记录并写入资源数据。</li><li><code>.github/workflows/sync-feishu-submissions.yml</code>：定时创建并自动合并 PR，并回写飞书同步状态。</li><li><code>styles.css</code>：颜色、字号、间距、封面透明度和手机布局。</li><li><code>assets/resource-cover.webp</code>：卡片共用的默认封面。</li><li><code>maintenance.html</code>：网页手册，维护流程变化后应同步更新。</li><li><code>README.md</code>：仓库首页交接手册，应与网页手册同步。</li><li><code>README.txt</code>：纯文本交接手册，应同步更新。</li><li><code>404.html</code>：无效地址页的标题、提示语和返回按钮。</li><li><code>.nojekyll</code>：让 Pages 直接发布静态文件，保留为空文件。</li></ul>
             <div class="callout"><p><code>submission.html</code> 现仅用于访客投稿；管理者入口已独立为 <code>admin.html</code>。日常维护通常只编辑 <code>resources.json</code>，修改页面文字、外观或功能时才编辑其他文件。</p></div>
           </section>
 
@@ -85,8 +85,8 @@
             <h3>访客飞书投稿</h3><p>飞书表单地址来自 <code>resources.json</code> 的 <code>submitUrl</code>。调整现有表单问题、顺序和必填状态不会影响网站；重建表单或生成新链接时必须更新该值。公开地址应包含 <code>/share/base/form/</code>。</p>
             <h3>飞书字段</h3><p>数据表需要下列字段。资源字段可以显示在公开表单中；审核状态和同步状态只供管理者使用：</p>
             <ul><li><code>资源名称</code>：单行文本，必填。</li><li><code>资源链接</code>：超链接或文本，必填。</li><li><code>资源简介</code>：多行文本，必填。</li><li><code>内容分类</code>：单选或文本，必填。</li><li><code>资源类型</code>：单选或文本，必填。</li><li><code>标签</code>：多选或逗号分隔文本，必填。</li><li><code>封面地址</code>：可选，不建议让匿名投稿者上传仓库文件。</li><li><code>审核状态</code>：管理用单选字段，选项为“待审核、已通过、不收录”。</li><li><code>同步状态</code>：管理用单行文本字段，初始为空，由 Actions 回写 PR 地址；不要设为单选字段。</li></ul>
-            <h3>审核并生成 PR</h3><ol><li>管理者在飞书检查链接、版权、重复内容和文字质量。</li><li>统一分类、类型和标签，将 <code>审核状态</code> 改为“已通过”。</li><li>Actions 每两小时自动检查，也可在 Actions 页面手动运行 <code>Sync approved Feishu submissions</code>。</li><li>默认模式只选择创建时间最新的一条“已通过且同步状态为空”记录；缺少字段时日志显示记录 ID、投稿时间和中文字段名，不会转去处理更早记录。</li><li>校验通过后脚本写入临时分支并创建草稿 PR。</li><li>Actions 把同步状态回写为“已提交审核：PR 地址”。</li><li>管理者审核 PR；合并后 Pages 自动发布，关闭而不合并时应清空飞书同步状态后重新处理。</li></ol>
-            <h3>飞书开放平台配置</h3><ol><li>创建企业自建应用，申请多维表格读取和编辑权限并发布版本。</li><li>把应用添加为目标多维表格协作者。</li><li>在 GitHub 仓库 Settings → Secrets and variables → Actions 中添加 Secrets：<code>FEISHU_APP_ID</code>、<code>FEISHU_APP_SECRET</code>。</li><li>添加 Variables：<code>FEISHU_APP_TOKEN</code>、<code>FEISHU_TABLE_ID</code>、<code>FEISHU_VIEW_ID</code>。</li></ol>
+            <h3>审核并自动发布</h3><ol><li>管理者在飞书检查链接、版权、重复内容和文字质量。</li><li>统一分类、类型和标签，将 <code>审核状态</code> 改为“已通过”；此操作即表示最终发布授权。</li><li>Actions 每两小时自动检查，也可在 Actions 页面手动运行 <code>Sync approved Feishu submissions</code>。</li><li>默认处理全部“已通过且同步状态为空”记录；缺少字段的记录会被跳过，日志显示记录 ID、投稿时间和中文字段名。</li><li>校验通过后脚本写入临时分支并创建普通 PR。</li><li>Actions 把同步状态回写为“已提交审核：PR 地址”，再自动合并 PR 和删除临时分支，Pages 随后自动发布。</li><li>自动合并失败时 PR 会保留；检查令牌权限、分支保护或合并冲突并手动恢复。只有关闭 PR 且需要重新生成时才清空飞书同步状态。</li></ol>
+            <h3>飞书开放平台配置</h3><ol><li>创建企业自建应用，申请多维表格读取和编辑权限并发布版本。</li><li>把应用添加为目标多维表格协作者。</li><li>在 GitHub 仓库 Settings → Secrets and variables → Actions 中添加 Secrets：<code>FEISHU_APP_ID</code>、<code>FEISHU_APP_SECRET</code>、<code>FEISHU_MERGE_TOKEN</code>。合并令牌使用仅授权当前仓库的细粒度 PAT，授予 Contents 和 Pull requests 读写权限。</li><li>添加 Variables：<code>FEISHU_APP_TOKEN</code>、<code>FEISHU_TABLE_ID</code>、<code>FEISHU_VIEW_ID</code>。</li></ol>
             <pre><code>FEISHU_APP_TOKEN=TDDCbNKFUa1d7QsKX7vcrJinnhe
 FEISHU_TABLE_ID=tblyK8zKwJX3F91g
 FEISHU_VIEW_ID=vew3HOr4oa</code></pre>
@@ -105,7 +105,7 @@ FEISHU_VIEW_ID=vew3HOr4oa</code></pre>
             <h3>资源列表不显示</h3><p>优先检查 <code>resources.json</code> 的逗号、双引号和括号。可把完整内容粘贴到 JSON 校验工具。</p>
             <h3>封面不显示</h3><p>检查图片是否已提交、路径大小写是否一致。单条失败检查 <code>cover</code>；全部失败检查 <code>defaultCover</code>。</p>
             <h3>投稿按钮打不开</h3><p>用未登录飞书的浏览器测试，确认公开分享仍开启且 <code>submitUrl</code> 是公开表单地址。</p>
-            <h3>飞书同步工作流失败</h3><p>先检查四个必需配置是否存在，再确认自建应用已发布、具有多维表格读写权限且已成为表格协作者。字段错误时核对 GitHub Variables 中的字段映射。</p>
+            <h3>飞书同步工作流失败</h3><p>先检查五个必需配置是否存在，再确认自建应用已发布、具有多维表格读写权限且已成为表格协作者。字段错误时核对 GitHub Variables 中的字段映射。PR 未自动合并时，检查 <code>FEISHU_MERGE_TOKEN</code> 是否过期、是否具有必需权限，以及 <code>main</code> 分支保护和合并冲突。</p>
             <h3>飞书记录没有生成 PR</h3><p>确认审核状态严格等于“已通过”、同步状态为空、链接未在 <code>resources.json</code> 中出现，并查看 Actions 日志中的“跳过记录”。</p>
             <h3>Pages 部署失败</h3><p>查看失败步骤。若构建成功但部署失败，可等待后重试；同时检查是否有重复工作流或 Pages 来源被修改。</p>
           </section>

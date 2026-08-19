@@ -90,3 +90,12 @@ test("batch synchronization is the default", async () => {
   assert.match(script, /FEISHU_SYNC_MODE\?\.trim\(\)\.toLowerCase\(\) \|\| "all"/);
   assert.match(workflow, /FEISHU_SYNC_MODE: \$\{\{ vars\.FEISHU_SYNC_MODE \|\| 'all' \}\}/);
 });
+
+test("workflow automatically merges Feishu pull requests with the dedicated token", async () => {
+  const workflow = await readFile(new URL("../.github/workflows/sync-feishu-submissions.yml", import.meta.url), "utf8");
+
+  assert.doesNotMatch(workflow, /--draft/);
+  assert.equal(workflow.match(/secrets\.FEISHU_MERGE_TOKEN/g)?.length, 2);
+  assert.match(workflow, /gh pr merge "\$\{\{ steps\.pull_request\.outputs\.url \}\}" --merge --delete-branch/);
+  assert.ok(workflow.indexOf("Mark Feishu records as submitted") < workflow.indexOf("Merge pull request"));
+});

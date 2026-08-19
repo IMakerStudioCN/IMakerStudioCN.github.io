@@ -40,9 +40,11 @@ jobs:
     steps:
       - name: Check required configuration
         shell: bash
+        env:
+          FEISHU_MERGE_TOKEN: ${{ secrets.FEISHU_MERGE_TOKEN }}
         run: |
           missing=0
-          for name in FEISHU_APP_ID FEISHU_APP_SECRET FEISHU_APP_TOKEN FEISHU_TABLE_ID; do
+          for name in FEISHU_APP_ID FEISHU_APP_SECRET FEISHU_APP_TOKEN FEISHU_TABLE_ID FEISHU_MERGE_TOKEN; do
             if [ -z "${!name}" ]; then
               echo "::error::Missing $name"
               missing=1
@@ -73,7 +75,7 @@ jobs:
           git push --set-upstream origin "$branch"
           echo "name=$branch" >> "$GITHUB_OUTPUT"
 
-      - name: Open draft pull request
+      - name: Open pull request
         if: steps.sync.outputs.has_changes == 'true'
         id: pull_request
         shell: bash
@@ -83,22 +85,21 @@ jobs:
 
           此 PR 由 GitHub Actions 根据飞书多维表格中“审核状态=已通过”且“同步状态为空”的记录自动生成。
 
-          合并前请检查：
+          这些记录已在飞书完成人工审核，工作流已自动检查：
 
           - 链接可以正常访问
           - 名称、说明、分类、类型和标签准确
           - 不包含侵权、违法或敏感内容
           - `resources.json` 格式正确
 
-          合并后 GitHub Pages 会自动更新网站。
+          此 PR 将由工作流自动合并，随后 GitHub Pages 会自动更新网站。
           EOF
           )
           url=$(gh pr create \
             --base main \
             --head "${{ steps.branch.outputs.name }}" \
             --title "审核飞书投稿：${{ steps.sync.outputs.names }}" \
-            --body "$body" \
-            --draft)
+            --body "$body")
           echo "url=$url" >> "$GITHUB_OUTPUT"
 
       - name: Mark Feishu records as submitted
@@ -107,6 +108,13 @@ jobs:
           PULL_REQUEST_URL: ${{ steps.pull_request.outputs.url }}
         run: node scripts/sync-feishu-submissions.mjs mark
 
+      - name: Merge pull request
+        if: steps.sync.outputs.has_changes == 'true'
+        id: auto_merge
+        env:
+          GH_TOKEN: ${{ secrets.FEISHU_MERGE_TOKEN }}
+        run: gh pr merge "${{ steps.pull_request.outputs.url }}" --merge --delete-branch
+
       - name: Summary
         if: always()
         shell: bash
@@ -114,5 +122,10 @@ jobs:
           echo "## 飞书投稿同步" >> "$GITHUB_STEP_SUMMARY"
           echo "新增记录：${{ steps.sync.outputs.count || '0' }}" >> "$GITHUB_STEP_SUMMARY"
           if [ -n "${{ steps.pull_request.outputs.url }}" ]; then
-            echo "草稿 PR：${{ steps.pull_request.outputs.url }}" >> "$GITHUB_STEP_SUMMARY"
+            echo "PR：${{ steps.pull_request.outputs.url }}" >> "$GITHUB_STEP_SUMMARY"
+            if [ "${{ steps.auto_merge.outcome }}" = "success" ]; then
+              echo "自动合并：成功" >> "$GITHUB_STEP_SUMMARY"
+            else
+              echo "自动合并：失败，PR 已保留供人工处理" >> "$GITHUB_STEP_SUMMARY"
+            fi
           fi

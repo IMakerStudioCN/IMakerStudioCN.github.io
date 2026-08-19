@@ -10,7 +10,7 @@
 - 发布分支：`main`
 - 访客投稿：飞书公开表单
 - 管理者编辑：Pages CMS
-- 审核同步：GitHub Actions 创建草稿 Pull Request
+- 审核同步：GitHub Actions 创建并自动合并 Pull Request
 
 ## 管理交接清单
 
@@ -29,7 +29,7 @@
 - `app.js`：卡片生成、分类、搜索、计数和数据读取。
 - `.pages.yml`：Pages CMS 字段配置。
 - `scripts/sync-feishu-submissions.mjs`：飞书记录转换脚本。
-- `.github/workflows/sync-feishu-submissions.yml`：定时创建草稿 PR。
+- `.github/workflows/sync-feishu-submissions.yml`：定时创建并自动合并 PR。
 - `styles.css`：颜色、字号、间距、封面透明度和手机布局。
 - `assets/resource-cover.webp`：资源卡片默认封面。
 - `maintenance.html`：网页维护手册。
@@ -173,16 +173,16 @@ JSON 只能使用英文双引号和英文标点。最后一条资源后不要加
 - `审核状态`：单选，选项为待审核、已通过、不收录。
 - `同步状态`：单行文本，初始为空，由 Actions 回写 PR 地址；不要设为单选字段。
 
-### 自动创建审核 PR
+### 自动审核同步
 
 1. 管理者检查投稿并将 `审核状态` 改为“已通过”。
 2. `Sync approved Feishu submissions` 每两小时执行，也支持手动运行。
 3. 默认处理全部“已通过”且“同步状态为空”的记录；日志会显示候选数量、资源名称、记录 ID、投稿时间和中文缺失字段名。
-4. Actions 更新 `resources.json`，推送临时分支并创建草稿 PR。
-5. Actions 回写飞书同步状态。
-6. 管理者合并 PR 后，GitHub Pages 自动发布。
+4. Actions 更新 `resources.json`，推送临时分支并创建普通 PR。
+5. Actions 回写飞书同步状态，然后用专用令牌自动合并 PR 并删除临时分支。
+6. 合并到 `main` 后，GitHub Pages 自动发布。
 
-若关闭 PR 而不合并，应清空对应记录的同步状态后重新处理。
+自动合并失败时，PR 和已回写的地址会保留，应根据 Action 日志检查令牌权限、分支保护或合并冲突并手动恢复。只有关闭 PR 且需要重新生成时，才清空对应飞书记录的同步状态。
 
 ### 飞书开放平台配置
 
@@ -194,6 +194,7 @@ Secrets：
 
 - `FEISHU_APP_ID`
 - `FEISHU_APP_SECRET`
+- `FEISHU_MERGE_TOKEN`：仅授权当前仓库的细粒度 PAT，需要 Contents 和 Pull requests 读写权限
 
 Variables：
 
@@ -214,7 +215,7 @@ Variables：
 5. 在“资源管理”中编辑，保存前更新最后整理日期。
 6. 保存后检查 Actions 与线上网站。
 
-`FEISHU_APP_SECRET` 只能保存在 GitHub Secret 中，不能提交到仓库。
+`FEISHU_APP_SECRET` 和 `FEISHU_MERGE_TOKEN` 只能保存在 GitHub Secret 中，不能提交到仓库。
 
 ## 发布与回退
 
@@ -233,6 +234,7 @@ Variables：
 - 投稿打不开：用未登录飞书的浏览器测试，并检查公开分享及 `submitUrl`。
 - 飞书同步失败：检查必需的 Secrets、Variables、应用权限、文档协作者权限和字段名。
 - 投稿未生成 PR：确认审核状态为“已通过”、同步状态为空且链接没有重复。
+- PR 未自动合并：检查 `FEISHU_MERGE_TOKEN` 是否过期且具有必需权限，再检查 `main` 的分支保护和 PR 合并冲突。
 - Pages 失败：查看失败步骤，检查 Pages 来源和重复工作流；部署阶段短暂失败可稍后重试。
 
 ## 安全边界
