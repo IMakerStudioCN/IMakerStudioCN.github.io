@@ -177,7 +177,7 @@ JSON 只能使用英文双引号和英文标点。最后一条资源后不要加
 
 1. 管理者检查投稿并将 `审核状态` 改为“已通过”。
 2. `Sync approved Feishu submissions` 每两小时执行，也支持手动运行。
-3. 默认只处理最新一条“已通过”且“同步状态为空”的记录；日志会显示记录 ID、投稿时间和中文缺失字段名。
+3. 默认处理全部“已通过”且“同步状态为空”的记录；日志会显示候选数量、资源名称、记录 ID、投稿时间和中文缺失字段名。
 4. Actions 更新 `resources.json`，推送临时分支并创建草稿 PR。
 5. Actions 回写飞书同步状态。
 6. 管理者合并 PR 后，GitHub Pages 自动发布。
@@ -201,7 +201,7 @@ Variables：
 - `FEISHU_TABLE_ID`：`tblyK8zKwJX3F91g`
 - `FEISHU_VIEW_ID`：`vew3HOr4oa`
 
-默认字段名与上文一致时无需配置映射。字段不同可增加：`FEISHU_FIELD_NAME`、`FEISHU_FIELD_URL`、`FEISHU_FIELD_DESCRIPTION`、`FEISHU_FIELD_CATEGORY`、`FEISHU_FIELD_TYPE`、`FEISHU_FIELD_TAGS`、`FEISHU_FIELD_COVER`、`FEISHU_FIELD_REVIEW`、`FEISHU_FIELD_SYNC`。同步默认使用 `FEISHU_SYNC_MODE=latest`，只处理最新一条“审核状态=已通过且同步状态为空”的投稿；需要批量处理历史记录时改为 `all`。
+默认字段名与上文一致时无需配置映射。字段不同可增加：`FEISHU_FIELD_NAME`、`FEISHU_FIELD_URL`、`FEISHU_FIELD_DESCRIPTION`、`FEISHU_FIELD_CATEGORY`、`FEISHU_FIELD_TYPE`、`FEISHU_FIELD_TAGS`、`FEISHU_FIELD_COVER`、`FEISHU_FIELD_REVIEW`、`FEISHU_FIELD_SYNC`、`FEISHU_FIELD_CREATED_TIME`。同步默认使用 `FEISHU_SYNC_MODE=all`，处理全部“审核状态=已通过且同步状态为空”的投稿；仅需每次处理最新一条时改为 `latest`。
 
 进入 Settings → Actions → General → Workflow permissions，启用 **Allow GitHub Actions to create and approve pull requests**。否则工作流可以推送临时分支，但无法创建审核 PR。
 

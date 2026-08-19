@@ -31,9 +31,10 @@ jobs:
       FEISHU_FIELD_COVER: ${{ vars.FEISHU_FIELD_COVER }}
       FEISHU_FIELD_REVIEW: ${{ vars.FEISHU_FIELD_REVIEW }}
       FEISHU_FIELD_SYNC: ${{ vars.FEISHU_FIELD_SYNC }}
+      FEISHU_FIELD_CREATED_TIME: ${{ vars.FEISHU_FIELD_CREATED_TIME }}
       FEISHU_APPROVED_VALUE: ${{ vars.FEISHU_APPROVED_VALUE }}
       FEISHU_SUBMITTED_VALUE: ${{ vars.FEISHU_SUBMITTED_VALUE }}
-      FEISHU_SYNC_MODE: ${{ vars.FEISHU_SYNC_MODE || 'latest' }}
+      FEISHU_SYNC_MODE: ${{ vars.FEISHU_SYNC_MODE || 'all' }}
       GH_TOKEN: ${{ github.token }}
 
     steps:

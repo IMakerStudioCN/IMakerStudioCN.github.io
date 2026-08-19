@@ -3,7 +3,7 @@ import process from "node:process";
 
 const mode = process.argv[2] || "sync";
 const recordFile = process.env.FEISHU_RECORD_FILE || ".feishu-sync-records.json";
-const syncMode = process.env.FEISHU_SYNC_MODE?.trim().toLowerCase() || "latest";
+const syncMode = process.env.FEISHU_SYNC_MODE?.trim().toLowerCase() || "all";
 
 if (!new Set(["latest", "all"]).has(syncMode)) {
   throw new Error(`FEISHU_SYNC_MODE 只能是 latest 或 all，当前值：${syncMode}`);
@@ -33,6 +33,7 @@ const config = {
     cover: process.env.FEISHU_FIELD_COVER?.trim() || "封面地址",
     review: process.env.FEISHU_FIELD_REVIEW?.trim() || "审核状态",
     sync: process.env.FEISHU_FIELD_SYNC?.trim() || "同步状态",
+    createdTime: process.env.FEISHU_FIELD_CREATED_TIME?.trim() || "投稿时间",
   },
 };
 
@@ -96,8 +97,14 @@ function tagValues(value) {
 }
 
 function createdTime(record) {
-  const timestamp = Number(record.created_time || 0);
-  return Number.isFinite(timestamp) ? timestamp : 0;
+  const fieldValue = textValue(record.fields?.[config.fields.createdTime]);
+  const rawValue = record.created_time || fieldValue;
+  const numericTimestamp = Number(rawValue);
+  if (Number.isFinite(numericTimestamp) && numericTimestamp > 0) {
+    return numericTimestamp < 1e12 ? numericTimestamp * 1000 : numericTimestamp;
+  }
+  const parsedTimestamp = Date.parse(rawValue);
+  return Number.isFinite(parsedTimestamp) ? parsedTimestamp : 0;
 }
 
 function formatCreatedTime(record) {
@@ -160,6 +167,7 @@ async function sync(token) {
   const existingUrls = new Set(source.resources.map((resource) => resource.url.trim().toLowerCase()));
   const accepted = [];
   const skipped = [];
+  let processedCount = 0;
 
   const sortedRecords = [...records].sort((a, b) => createdTime(b) - createdTime(a));
   const eligibleRecords = sortedRecords.filter((record) => {
@@ -170,6 +178,7 @@ async function sync(token) {
     );
   });
   console.log(`同步模式：${syncMode === "latest" ? "仅处理最新一条" : "处理全部"}`);
+  console.log(`待检查投稿：${eligibleRecords.length} 条`);
   if (!eligibleRecords.length && sortedRecords.length) {
     const latest = sortedRecords[0];
     const fields = latest.fields || {};
@@ -181,6 +190,7 @@ async function sync(token) {
   }
 
   for (const record of eligibleRecords) {
+    processedCount += 1;
     const fields = record.fields || {};
     const resource = {
       name: textValue(fields[config.fields.name]),
@@ -214,6 +224,10 @@ async function sync(token) {
     source.resources.push(resource);
     accepted.push({ recordId: record.record_id, name: resource.name, url: resource.url });
     if (syncMode === "latest") break;
+  }
+
+  if (syncMode === "latest" && processedCount < eligibleRecords.length) {
+    console.log(`延后处理投稿：${eligibleRecords.length - processedCount} 条`);
   }
 
   if (accepted.length) {

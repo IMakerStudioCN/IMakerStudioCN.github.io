@@ -281,7 +281,7 @@ GitHub Variables：
 FEISHU_APP_TOKEN=TDDCbNKFUa1d7QsKX7vcrJinnhe
 FEISHU_TABLE_ID=tblyK8zKwJX3F91g
 FEISHU_VIEW_ID=vew3HOr4oa
-FEISHU_SYNC_MODE=latest
+FEISHU_SYNC_MODE=all
 
 飞书自建应用需要多维表格读取和编辑权限，并且必须成为目标多维表格的协作者。
 
