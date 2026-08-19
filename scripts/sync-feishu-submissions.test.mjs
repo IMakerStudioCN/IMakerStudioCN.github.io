@@ -82,3 +82,11 @@ test("latest mode skips an incomplete record and syncs the next valid record", a
     await rm(directory, { recursive: true, force: true });
   }
 });
+
+test("batch synchronization is the default", async () => {
+  const script = await readFile(new URL("./sync-feishu-submissions.mjs", import.meta.url), "utf8");
+  const workflow = await readFile(new URL("../.github/workflows/sync-feishu-submissions.yml", import.meta.url), "utf8");
+
+  assert.match(script, /FEISHU_SYNC_MODE\?\.trim\(\)\.toLowerCase\(\) \|\| "all"/);
+  assert.match(workflow, /FEISHU_SYNC_MODE: \$\{\{ vars\.FEISHU_SYNC_MODE \|\| 'all' \}\}/);
+});
