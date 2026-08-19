@@ -15,14 +15,57 @@ IMakerStudioCN 资源簿
 审核同步：GitHub Actions 创建并自动合并 Pull Request
 
 
-一、管理交接清单
+一、管理交接
 
-1. 将新维护者加入 GitHub 组织 IMakerStudioCN。
-2. 确认新维护者对 IMakerStudioCN.github.io 仓库有写入权限。
-3. 将飞书多维表格共享给新维护者，允许其查看投稿并更新审核字段。
-4. 确认新维护者能打开网站、仓库、Actions、在线手册和投稿表单。
-5. 让新维护者试改一条测试资源，完整执行提交、发布和线上检查流程。
-6. 不要在仓库中保存密码、访问令牌、私人联系方式或内部链接。
+交接分为完全交接和最小可运行交接。完全交接假设旧管理者的 GitHub 账号、组织权限、飞书账号、表格、应用和令牌全部不可用，目标是从项目文件重建可运行系统。最小可运行交接假设现有仓库、账号、表格和应用继续存在，目标是用最少变更让新管理者接手。
+
+完全交接方案
+
+项目文件
+
+1. 从公开仓库克隆/下载完整项目；为防止原仓库也丢失，另存包含 Git 历史的离线镜像或至少一份完整 ZIP。
+2. 保留 resources.json、.github/workflows、scripts、.pages.yml、.nojekyll 和所有网站文件。
+3. resources.json 可恢复已发布资源；原飞书不可访问时，未同步投稿只能从事先导出的表格备份恢复。
+4. 重建后更新 resources.json 的 submitUrl，全局替换旧组织名、仓库名和网址。
+
+飞书
+
+1. 用新账号或租户创建多维表格和公开表单。
+2. 按本文档的飞书字段说明重建全部资源字段、审核状态和文本类型的同步状态；如有表格备份则导入。
+3. 创建企业自建应用，授予多维表格读写权限，发布并添加为表格协作者。
+4. 记录新 App ID、App Secret、App Token、Table ID 和可选 View ID，只存入 GitHub Secrets/Variables 或密码管理器。
+5. 用未登录浏览器验证公开表单，将新地址写入 submitUrl。
+
+GitHub
+
+1. 用新 GitHub 账号和可选组织创建公开仓库；需使用用户站点时，仓库名为 <新所有者>.github.io。
+2. 将完整项目推送到 main，启用从 main 分支根目录发布的 GitHub Pages。
+3. 创建 Secrets：FEISHU_APP_ID、FEISHU_APP_SECRET、FEISHU_MERGE_TOKEN。合并 PAT 只授权新仓库的 Contents 和 Pull requests 读写权限。
+4. 创建 Variables：FEISHU_APP_TOKEN、FEISHU_TABLE_ID、FEISHU_VIEW_ID、FEISHU_SYNC_MODE=all，字段名不同时再添加字段映射。
+5. 开启 Actions 写权限和 Allow GitHub Actions to create and approve pull requests，为 Pages CMS GitHub App 授权新仓库。
+6. 用测试投稿验收“公开表单→飞书审核通过→Action 创建并合并 PR→Pages 更新”全链路。
+
+最小可运行交接方案
+
+项目文件
+
+1. 新管理者克隆当前仓库，阅读 README.md、maintenance.html 和 resources.json，不更改现有站点、表单或仓库地址。
+2. 试改一条测试资源，验证 JSON、提交、Pages 发布和网页刷新。
+3. 确认仓库中没有密码、令牌、私人联系方式或飞书内部链接。
+
+飞书
+
+1. 旧管理者共享现有多维表格，授予新管理者查看投稿和修改审核/同步状态的权限。
+2. 确认现有自建应用已发布、仍是表格协作者，公开表单在未登录状态下可打开并提交。
+3. 新管理者完成一条测试投稿的查看、审核和同步状态检查。
+
+GitHub
+
+1. 将新管理者加入 IMakerStudioCN 组织，至少授予 IMakerStudioCN.github.io 仓库写入权限，确认可查看 Actions 和 Pages。
+2. 保留现有 Secrets 和 Variables，确认名称齐全且最近一次 Sync approved Feishu submissions 运行成功；不在文档中复制 Secret 值。
+3. 新管理者使用 GitHub 登录 Pages CMS，确认可编辑当前仓库。
+4. 可行时由新管理者创建自己的细粒度 PAT 替换 FEISHU_MERGE_TOKEN，减少对旧管理者账号的长期依赖。
+5. 验收网站、仓库、Actions、Pages、在线手册、Pages CMS 和投稿表单均可访问。
 
 
 二、主要文件
@@ -261,6 +304,8 @@ styles.css 顶部的颜色变量：
 
 审核与自动同步流程：
 
+运行状态：自动合并链路已于 2026-08-20 完成线上测试，已验证普通 PR 创建、飞书状态回写、PR 自动合并、临时分支删除和 Pages 更新。
+
 1. 在飞书多维表格的普通数据视图查看投稿。
 2. 检查链接是否可以打开。
 3. 检查内容是否合法、是否重复。
@@ -273,6 +318,8 @@ styles.css 顶部的颜色变量：
 10. GitHub Pages 自动更新网站。
 
 自动合并失败时，PR 和地址会保留。检查令牌权限、分支保护或合并冲突并手动恢复；只有关闭 PR 且需要重新生成时才清空飞书同步状态。
+
+自动合并成功但网站未更新时，检查 pages build and deployment 是否由合并提交触发，并确认合并步骤使用 FEISHU_MERGE_TOKEN 而非内置 GITHUB_TOKEN。
 
 GitHub Secrets：FEISHU_APP_ID、FEISHU_APP_SECRET、FEISHU_MERGE_TOKEN。FEISHU_MERGE_TOKEN 应是仅授权当前仓库的细粒度 PAT，具有 Contents 和 Pull requests 读写权限。
 
