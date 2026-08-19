@@ -70,17 +70,6 @@
       ]
     },
     {
-      "name": "国家智慧教育公共服务平台",
-      "description": "覆盖基础教育、职业教育和高等教育的公共学习资源入口。",
-      "url": "https://www.smartedu.cn/",
-      "category": "学习",
-      "type": "课程平台",
-      "tags": [
-        "课程",
-        "公共资源"
-      ]
-    },
-    {
       "name": "中国大学 MOOC",
       "description": "汇集高校在线课程，适合系统学习通识与专业知识。",
       "url": "https://www.icourse163.org/",
@@ -89,17 +78,6 @@
       "tags": [
         "课程",
         "高校"
-      ]
-    },
-    {
-      "name": "语雀",
-      "description": "结构化知识库与文档工具，适合整理笔记、教程和团队资料。",
-      "url": "https://www.yuque.com/",
-      "category": "效率",
-      "type": "在线工具",
-      "tags": [
-        "知识库",
-        "写作"
       ]
     },
     {
@@ -122,37 +100,6 @@
       "tags": [
         "编程",
         "游戏架构"
-      ]
-    },
-    {
-      "name": "测试3",
-      "description": "测试3",
-      "url": "https://imakerstudiocn.github.io/submission.html",
-      "category": "绘画",
-      "type": "网站",
-      "tags": [
-        "开源"
-      ]
-    },
-    {
-      "name": "测试6",
-      "description": "测试",
-      "url": "https://yqqff.github.io/",
-      "category": "程序",
-      "type": "网站",
-      "tags": [
-        "开源",
-        "学习"
-      ]
-    },
-    {
-      "name": "ps笔刷",
-      "description": "ps上可能会好用的笔刷",
-      "url": "http://通过网盘分享的文件：笔刷链接:",
-      "category": "绘画",
-      "type": "网盘链接",
-      "tags": [
-        "工具"
       ]
     },
     {
