@@ -123,6 +123,19 @@
         "开发",
         "学习"
       ]
+    },
+    {
+      "name": "Easydict",
+      "description": "一个桌面级翻译器，选中文本即可翻译，辅助阅读老外文档代码有奇效",
+      "url": "https://github.com/tisfeng/Easydict",
+      "category": "程序",
+      "type": "在线工具",
+      "tags": [
+        "开源",
+        "开发",
+        "效率",
+        "工具"
+      ]
     }
   ]
 }
