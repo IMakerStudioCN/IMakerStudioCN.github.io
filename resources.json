@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026.08.19",
+  "updatedAt": "2026.08.20",
   "submitUrl": "https://ycne7r106xve.feishu.cn/share/base/form/shrcnQFGFcQ58VJzYAg3pSeuNce/",
   "defaultCover": "/assets/resource-cover.webp",
   "resources": [
@@ -110,6 +110,26 @@
       "type": "网盘链接",
       "tags": [
         "素材"
+      ]
+    },
+    {
+      "name": "测试4",
+      "description": "测试",
+      "url": "https://imakerstudiocn.github.io/submission.html",
+      "category": "绘画",
+      "type": "网站",
+      "tags": [
+        "开源"
+      ]
+    },
+    {
+      "name": "测试7",
+      "description": "测试",
+      "url": "https://yqqff.github.io/",
+      "category": "绘画",
+      "type": "网站",
+      "tags": [
+        "开源"
       ]
     }
   ]
