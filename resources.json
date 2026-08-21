@@ -138,7 +138,7 @@
       ]
     },
     {
-      "name": "Termux | F-Droid - 自由来源的 Android 应用存储库",
+      "name": "Termux ",
       "description": "带有软件包的终端模拟器，可以像linux系统一样安装管理各类开源软件",
       "url": "https://f-droid.org/packages/com.termux/",
       "category": "程序",
