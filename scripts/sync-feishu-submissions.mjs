@@ -76,18 +76,28 @@ function textValue(value) {
   return "";
 }
 
+function cleanUrlText(value) {
+  return String(value ?? "")
+    .replace(/[\u200B-\u200D\u2060\uFEFF]/gu, "")
+    .replace(/[\u00A0\u202F]/gu, " ");
+}
+
 function urlValue(value) {
-  if (Array.isArray(value)) {
-    for (const item of value) {
+  const values = Array.isArray(value)
+    ? value
+    : value && typeof value === "object"
+      ? [value.link, value.url, value.text, value.value, value.name]
+      : null;
+  if (values) {
+    let fallback = "";
+    for (const item of values) {
       const result = urlValue(item);
-      if (result) return result;
+      if (!fallback && result) fallback = result;
+      if (result && normalizeUrl(result)) return result;
     }
-    return "";
+    return fallback;
   }
-  if (value && typeof value === "object") {
-    return urlValue(value.link ?? value.url ?? value.text ?? "");
-  }
-  const match = String(value ?? "").match(/https?:\/\/\S+/i);
+  const match = cleanUrlText(value).match(/https?:\/\/\S+/i);
   if (!match) return "";
   return match[0]
     .split(/(?=(?:提取码|访问码|密码)[：:])/u, 1)[0]
@@ -96,7 +106,7 @@ function urlValue(value) {
 
 function normalizeUrl(value) {
   try {
-    const url = new URL(String(value).trim());
+    const url = new URL(cleanUrlText(value).trim());
     if (!new Set(["http:", "https:"]).has(url.protocol)) return "";
     return url.href;
   } catch {

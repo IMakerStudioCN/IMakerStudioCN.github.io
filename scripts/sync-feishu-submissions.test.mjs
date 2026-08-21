@@ -143,6 +143,20 @@ test("normalizes Chinese URLs and pasted share text before writing resources", a
           items: [
             { record_id: "unicode", fields: resourceFields("中文链接", "链接：https://example.com/中文目录?文件=设计，素材 提取码：1234") },
             { record_id: "attached-code", fields: resourceFields("紧邻提取码", "https://pan.example.com/s/共享文件提取码：abcd") },
+            {
+              record_id: "baidu-share",
+              fields: resourceFields(
+                "百度网盘分享文本",
+                "通过网盘分享的文件：Unity Shader入门精要\n链接: \u200Bhttps://pan.baidu.com/s/1iRHucuNTepHebefViINuiQ?pwd=\u20601111\u00A0提取码: 1111\n--来自百度网盘超级会员v4的分享",
+              ),
+            },
+            {
+              record_id: "object-fallback",
+              fields: resourceFields("复合字段后备值", {
+                link: "https://[无效",
+                text: "备用链接：https://example.com/可用资源",
+              }),
+            },
             { record_id: "encoded", fields: resourceFields("已编码", "https://example.com/%E5%B7%B2%E7%BC%96%E7%A0%81?q=%E4%B8%AD%E6%96%87") },
             { record_id: "duplicate", fields: resourceFields("重复链接", "https://example.com/已有?name=资源") },
             { record_id: "invalid", fields: resourceFields("无效链接", "https://[无效") },
@@ -157,6 +171,8 @@ test("normalizes Chinese URLs and pasted share text before writing resources", a
     assert.deepEqual(source.resources.slice(1).map((resource) => resource.url), [
       "https://example.com/%E4%B8%AD%E6%96%87%E7%9B%AE%E5%BD%95?%E6%96%87%E4%BB%B6=%E8%AE%BE%E8%AE%A1%EF%BC%8C%E7%B4%A0%E6%9D%90",
       "https://pan.example.com/s/%E5%85%B1%E4%BA%AB%E6%96%87%E4%BB%B6",
+      "https://pan.baidu.com/s/1iRHucuNTepHebefViINuiQ?pwd=1111",
+      "https://example.com/%E5%8F%AF%E7%94%A8%E8%B5%84%E6%BA%90",
       "https://example.com/%E5%B7%B2%E7%BC%96%E7%A0%81?q=%E4%B8%AD%E6%96%87",
     ]);
     assert.ok(logs.some((line) => line.includes("重复链接（飞书记录 ID：duplicate）：链接已存在")));
