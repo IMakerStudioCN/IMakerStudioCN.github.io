@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026.08.20",
+  "updatedAt": "2026.08.21",
   "submitUrl": "https://ycne7r106xve.feishu.cn/share/base/form/shrcnQFGFcQ58VJzYAg3pSeuNce/",
   "defaultCover": "/assets/resource-cover.webp",
   "resources": [
@@ -135,6 +135,43 @@
         "开发",
         "效率",
         "工具"
+      ]
+    },
+    {
+      "name": "Termux | F-Droid - 自由来源的 Android 应用存储库",
+      "description": "带有软件包的终端模拟器，可以像linux系统一样安装管理各类开源软件",
+      "url": "https://f-droid.org/packages/com.termux/",
+      "category": "程序",
+      "type": "在线工具",
+      "tags": [
+        "开源",
+        "开发",
+        "工具"
+      ]
+    },
+    {
+      "name": "Trae code",
+      "description": "AI IDE，ai帮你写代码做项目",
+      "url": "https://www.trae.cn/",
+      "category": "程序",
+      "type": "在线工具",
+      "tags": [
+        "开发",
+        "设计",
+        "工具",
+        "效率"
+      ]
+    },
+    {
+      "name": "Unity学习大礼包",
+      "description": "适合初学者入门，建议直接看唐老狮的课，细致易懂有练习",
+      "url": "https://pan.baidu.com/s/1fVnoYRE7BUBR7p-fnWK6rQ?pwd=1111",
+      "category": "程序",
+      "type": "网盘链接",
+      "tags": [
+        "学习",
+        "开源",
+        "效率"
       ]
     }
   ]
