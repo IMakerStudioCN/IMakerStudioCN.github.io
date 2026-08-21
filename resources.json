@@ -161,29 +161,6 @@
         "工具",
         "效率"
       ]
-    },
-    {
-      "name": "Unity学习大礼包",
-      "description": "适合初学者入门，建议直接看唐老狮的课，细致易懂有练习",
-      "url": "https://pan.baidu.com/s/1fVnoYRE7BUBR7p-fnWK6rQ?pwd=1111",
-      "category": "程序",
-      "type": "网盘链接",
-      "tags": [
-        "学习",
-        "开源",
-        "效率"
-      ]
-    },
-    {
-      "name": "Unity Shader 入门精要电子书",
-      "description": "提取码：1111",
-      "url": "https://pan.baidu.com/s/1iRHucuNTepHebefViINuiQ?pwd=1111",
-      "category": "程序",
-      "type": "文档",
-      "tags": [
-        "开发",
-        "学习"
-      ]
     }
   ]
 }
