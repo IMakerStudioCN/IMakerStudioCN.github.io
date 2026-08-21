@@ -87,8 +87,21 @@ function urlValue(value) {
   if (value && typeof value === "object") {
     return urlValue(value.link ?? value.url ?? value.text ?? "");
   }
-  const match = String(value ?? "").match(/https?:\/\/[^\s，,]+/i);
-  return match?.[0] || "";
+  const match = String(value ?? "").match(/https?:\/\/\S+/i);
+  if (!match) return "";
+  return match[0]
+    .split(/(?=(?:提取码|访问码|密码)[：:])/u, 1)[0]
+    .replace(/[，,。；;、）】》>]+$/u, "");
+}
+
+function normalizeUrl(value) {
+  try {
+    const url = new URL(String(value).trim());
+    if (!new Set(["http:", "https:"]).has(url.protocol)) return "";
+    return url.href;
+  } catch {
+    return "";
+  }
 }
 
 function tagValues(value) {
@@ -164,7 +177,7 @@ async function listRecords(token) {
 async function sync(token) {
   const records = await listRecords(token);
   const source = JSON.parse(await readFile("resources.json", "utf8"));
-  const existingUrls = new Set(source.resources.map((resource) => resource.url.trim().toLowerCase()));
+  const existingUrls = new Set(source.resources.map((resource) => normalizeUrl(resource.url) || resource.url.trim()));
   const accepted = [];
   const skipped = [];
   let processedCount = 0;
@@ -200,7 +213,7 @@ async function sync(token) {
       type: textValue(fields[config.fields.type]),
       tags: tagValues(fields[config.fields.tags]),
     };
-    const cover = urlValue(fields[config.fields.cover]);
+    const cover = normalizeUrl(urlValue(fields[config.fields.cover]));
     if (cover) resource.cover = cover;
 
     const missing = Object.entries(resource)
@@ -211,11 +224,12 @@ async function sync(token) {
       skipped.push(`${recordLabel(record, resource.name)}：缺少 ${missing.map((key) => fieldLabels[key] || key).join("、")}`);
       continue;
     }
-    if (!/^https?:\/\//i.test(resource.url)) {
+    const normalizedUrl = normalizeUrl(resource.url);
+    if (!normalizedUrl) {
       skipped.push(`${recordLabel(record, resource.name)}：链接格式错误`);
       continue;
     }
-    const normalizedUrl = resource.url.trim().toLowerCase();
+    resource.url = normalizedUrl;
     if (existingUrls.has(normalizedUrl)) {
       skipped.push(`${recordLabel(record, resource.name)}：链接已存在`);
       continue;
