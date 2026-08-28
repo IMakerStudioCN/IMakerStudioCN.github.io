@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026.08.21",
+  "updatedAt": "2026.08.29",
   "submitUrl": "https://ycne7r106xve.feishu.cn/share/base/form/shrcnQFGFcQ58VJzYAg3pSeuNce/",
   "defaultCover": "/assets/resource-cover.webp",
   "resources": [
@@ -171,6 +171,16 @@
       "tags": [
         "开发",
         "学习"
+      ]
+    },
+    {
+      "name": "UI设计",
+      "description": "超强的UI设计内容，内有工程文件和需要的UI设计资源",
+      "url": "https://www.ignoredone.space/",
+      "category": "绘画",
+      "type": "网站",
+      "tags": [
+        "设计"
       ]
     }
   ]
