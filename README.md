@@ -1,8 +1,9 @@
-# IMakerStudioCN 资源簿
+# 爱美客工作室官方网站与资源站
 
-一个由 GitHub Pages 托管、无需服务器的小型链接资源导航。
+一个由 GitHub Pages 托管、无需服务器的工作室官网，以及由历届成员共同维护的资源分享站。
 
 - 网站：<https://imakerstudiocn.github.io/>
+- 资源站：<https://imakerstudiocn.github.io/resources.html>
 - 访客投稿页：<https://imakerstudiocn.github.io/submission.html>
 - 管理者维护页：<https://imakerstudiocn.github.io/admin.html>
 - 在线手册：<https://imakerstudiocn.github.io/maintenance.html>
@@ -66,11 +67,11 @@
 
 ## 文件配置索引
 
-- `index.html`：首页标题、导航、介绍、资源区标题、维护原则和页脚。
+- `index.html`、`home.js`：工作室官网首页及资源站概况、最近收录内容。
+- `resources.html`、`app.js`：资源站列表、分类筛选、搜索和统计。
 - `submission.html`、`submission.js`：访客飞书投稿入口及投稿地址读取脚本。
 - `admin.html`：管理者在线编辑、投稿审核和发布入口。
 - `resources.json`：更新时间、投稿地址、默认封面和资源数据。
-- `app.js`：卡片生成、分类、搜索、计数和数据读取。
 - `.pages.yml`：Pages CMS 字段配置。
 - `scripts/sync-feishu-submissions.mjs`：飞书记录转换脚本。
 - `.github/workflows/sync-feishu-submissions.yml`：定时创建并自动合并 PR。
@@ -83,20 +84,22 @@
 
 ## 标题与文案配置
 
-### 首页 `index.html`
+### 官网首页 `index.html`
 
-- 浏览器标题：`<title>资源簿</title>`。
+- 浏览器标题：`<title>爱美客工作室 | IMaker Studio</title>`。
 - 搜索引擎摘要：`<meta name="description">` 的 `content`。
-- 左上角站名：`class="brand"` 内的“资”和“资源簿”。
+- 左上角站名：`class="brand"` 内的“IM”和“爱美客工作室”。
 - 导航名称和地址：`class="header-actions"` 内链接文字与 `href`。
-- 首页小标题：“少而精的链接收藏”。
-- 首页主标题：“找到值得打开的资源”。
-- 首页简介：`class="intro-note"`。
-- 统计标签：“项资源”“个分类”“最后整理”；数字和日期自动读取。
-- 资源区标题：“资源索引”“浏览全部”。
-- 搜索提示：输入框的 `placeholder`。
-- 空结果提示：`class="empty-state"` 内文字。
+- 官网主标题：“把想法做成作品，把经验留给下一届”。
+- 工作室介绍、成员成长、资源站接入和投稿流程分别位于对应 section。
+- `home.js` 从 `resources.json` 读取资源数量、分类数量、最后整理日期和最近三条资源。
 - 页脚：`<footer>` 内站名、说明和链接。
+
+### 资源站 `resources.html`
+
+- 资源站主标题、介绍、统计、筛选器和资源列表均在本页。
+- `app.js` 负责读取数据、生成卡片、筛选和搜索。
+- 修改资源数据不需要改 HTML；维护 `resources.json` 即可同时更新官网概况与资源站。
 
 修改站名后，用仓库搜索查找旧站名，并同步修改 `maintenance.html`、`404.html` 和本文件。其他页面的浏览器标题位于各自文件的 `<title>`。
 
@@ -156,7 +159,7 @@ JSON 只能使用英文双引号和英文标点。最后一条资源后不要加
 1. 复制现有 HTML 页面，使用小写英文文件名，例如 `guide.html`。
 2. 修改 `<title>`、`meta description`、正文标题和内容。
 3. 保留 `./styles.css` 相对路径，需要交互时再引用独立脚本。
-4. 在 `index.html` 的 `header-actions` 或页脚增加 `./guide.html` 链接。
+4. 在 `index.html`、`resources.html` 的导航或页脚增加 `./guide.html` 链接。
 5. 如果所有页面都需要入口，同步修改 `maintenance.html` 和 `404.html`。
 6. 发布后访问 `https://imakerstudiocn.github.io/guide.html`，检查桌面和手机布局。
 

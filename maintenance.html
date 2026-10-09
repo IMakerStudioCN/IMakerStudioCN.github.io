@@ -5,14 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="IMakerStudioCN 资源簿的配置、内容维护、投稿审核与交接手册。" />
     <meta name="theme-color" content="#f4f5f0" />
-    <title>站务手册 | 资源簿</title>
+    <title>站务手册 | 爱美客工作室</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
     <a class="skip-link" href="#manual">跳到手册正文</a>
     <header class="site-header">
-      <a class="brand" href="./" aria-label="资源簿首页"><span class="brand-mark" aria-hidden="true">资</span><span>资源簿</span></a>
-      <nav class="header-actions" aria-label="主要导航"><a href="./">返回资源库</a><a href="./admin.html">管理者维护</a><a class="submit-link" href="./submission.html">访客投稿</a></nav>
+      <a class="brand" href="./" aria-label="爱美客工作室首页"><span class="brand-mark brand-mark-studio" aria-hidden="true">IM</span><span>爱美客工作室</span></a>
+      <nav class="header-actions" aria-label="主要导航"><a href="./">官网首页</a><a href="./resources.html">资源站</a><a href="./admin.html">管理者维护</a><a class="submit-link" href="./submission.html">访客投稿</a></nav>
     </header>
 
     <main class="manual-main" id="manual">
@@ -28,13 +28,13 @@
 
           <section class="manual-section" id="files">
             <h2>文件与权限</h2>
-            <ul><li><code>index.html</code>：首页标题、导航、介绍、资源区标题、维护原则和页脚。</li><li><code>submission.html</code>：访客飞书投稿入口。</li><li><code>submission.js</code>：从 <code>resources.json</code> 读取当前飞书表单地址。</li><li><code>admin.html</code>：管理者在线编辑、投稿审核与发布入口。</li><li><code>resources.json</code>：更新时间、投稿地址、默认封面和全部资源。</li><li><code>app.js</code>：资源卡片、分类按钮、搜索、计数和数据读取。</li><li><code>.pages.yml</code>：Pages CMS 管理者编辑器的字段配置。</li><li><code>scripts/sync-feishu-submissions.mjs</code>：读取飞书审核记录并写入资源数据。</li><li><code>.github/workflows/sync-feishu-submissions.yml</code>：定时创建并自动合并 PR，并回写飞书同步状态。</li><li><code>styles.css</code>：颜色、字号、间距、封面透明度和手机布局。</li><li><code>assets/resource-cover.webp</code>：卡片共用的默认封面。</li><li><code>maintenance.html</code>：网页手册，维护流程变化后应同步更新。</li><li><code>README.md</code>：仓库首页交接手册，应与网页手册同步。</li><li><code>README.txt</code>：纯文本交接手册，应同步更新。</li><li><code>404.html</code>：无效地址页的标题、提示语和返回按钮。</li><li><code>.nojekyll</code>：让 Pages 直接发布静态文件，保留为空文件。</li></ul>
+            <ul><li><code>index.html</code>、<code>home.js</code>：工作室官网首页，以及资源站统计和最近收录。</li><li><code>resources.html</code>、<code>app.js</code>：资源站列表、分类筛选、搜索和统计。</li><li><code>submission.html</code>：访客飞书投稿入口。</li><li><code>submission.js</code>：从 <code>resources.json</code> 读取当前飞书表单地址。</li><li><code>admin.html</code>：管理者在线编辑、投稿审核与发布入口。</li><li><code>resources.json</code>：更新时间、投稿地址、默认封面和全部资源。</li><li><code>.pages.yml</code>：Pages CMS 管理者编辑器的字段配置。</li><li><code>scripts/sync-feishu-submissions.mjs</code>：读取飞书审核记录并写入资源数据。</li><li><code>.github/workflows/sync-feishu-submissions.yml</code>：定时创建并自动合并 PR，并回写飞书同步状态。</li><li><code>styles.css</code>：官网、资源站、投稿页、管理页与手机布局。</li><li><code>assets/resource-cover.webp</code>：卡片共用的默认封面。</li><li><code>maintenance.html</code>：网页手册，维护流程变化后应同步更新。</li><li><code>README.md</code>：仓库首页交接手册，应与网页手册同步。</li><li><code>README.txt</code>：纯文本交接手册，应同步更新。</li><li><code>404.html</code>：无效地址页的标题、提示语和返回按钮。</li><li><code>.nojekyll</code>：让 Pages 直接发布静态文件，保留为空文件。</li></ul>
             <div class="callout"><p><code>submission.html</code> 现仅用于访客投稿；管理者入口已独立为 <code>admin.html</code>。日常维护通常只编辑 <code>resources.json</code>，修改页面文字、外观或功能时才编辑其他文件。</p></div>
           </section>
 
           <section class="manual-section" id="titles">
-            <h2>标题与文案配置</h2><h3>首页 <code>index.html</code></h3>
-            <ul><li>浏览器标签标题：查找 <code>&lt;title&gt;资源簿&lt;/title&gt;</code>。</li><li>搜索引擎摘要：修改 <code>&lt;meta name="description"&gt;</code> 的 <code>content</code>。</li><li>左上角站名：修改 <code>class="brand"</code> 内的“资”和“资源簿”；“资”是方形标记。</li><li>导航标题：修改 <code>class="header-actions"</code> 中各链接文字；链接地址在对应 <code>href</code>。</li><li>首页小标题：查找“少而精的链接收藏”；主标题：查找“找到值得打开的资源”。</li><li>首页简介：修改 <code>class="intro-note"</code> 的段落。</li><li>统计标签：修改“项资源”“个分类”“最后整理”；数字与日期由脚本填写。</li><li>资源区标题：修改“资源索引”“浏览全部”；搜索提示在输入框 <code>placeholder</code>。</li><li>空状态：修改 <code>class="empty-state"</code> 内的提示和按钮文字。</li><li>页脚：修改 <code>&lt;footer&gt;</code> 内站名、描述和链接。</li></ul>
+            <h2>标题与文案配置</h2><h3>官网首页 <code>index.html</code></h3>
+            <ul><li>浏览器标签标题：查找 <code>&lt;title&gt;爱美客工作室 | IMaker Studio&lt;/title&gt;</code>。</li><li>搜索引擎摘要：修改 <code>&lt;meta name="description"&gt;</code> 的 <code>content</code>。</li><li>左上角站名：修改 <code>class="brand"</code> 内的“IM”和“爱美客工作室”。</li><li>导航标题：修改 <code>class="header-actions"</code> 中各链接文字；链接地址在对应 <code>href</code>。</li><li>官网主标题：查找“把想法做成作品，把经验留给下一届”。</li><li>工作室介绍、成员成长、资源站接入和投稿流程分别位于对应 section。</li><li><code>home.js</code> 自动读取资源数量、分类数量、最后整理日期和最近三条资源。</li><li>资源站标题、筛选和资源列表位于 <code>resources.html</code>，由 <code>app.js</code> 读取并生成。</li><li>页脚：修改 <code>&lt;footer&gt;</code> 内站名、描述和链接。</li></ul>
             <h3>其他页面</h3><p>修改站名后，用仓库搜索功能搜索旧站名，并同步修改 <code>maintenance.html</code>、<code>404.html</code> 和 <code>README.md</code>。手册页和 404 页的浏览器标题均在各自文件的 <code>&lt;title&gt;</code>。</p>
           </section>
 
@@ -57,7 +57,7 @@
   "cover": "./assets/example-cover.jpg"
 }</code></pre>
             <ul><li><code>name</code>：卡片大标题，建议不超过 24 个中文字符。</li><li><code>description</code>：卡片说明，建议 30 至 70 个中文字符。</li><li><code>url</code>：点击后的外部地址，必须保留 <code>https://</code>。</li><li><code>category</code>：内容主题，如“开发、设计、学习、效率”；第一排按钮自动读取所有分类。</li><li><code>type</code>：资源载体，如“网站、网盘链接、在线工具、文档、视频、课程平台”；第二排按钮自动读取所有类型。</li><li><code>tags</code>：更细的关键词；卡片显示前两个，搜索读取全部。</li><li><code>cover</code>：可选。填写后覆盖默认封面；省略时使用顶部 <code>defaultCover</code>。</li></ul>
-            <h3>扩展分类和资源类型</h3><p>直接在资源对象的 <code>category</code> 或 <code>type</code> 中写入新名称，页面会自动生成按钮，不需要修改 <code>index.html</code> 或 <code>app.js</code>。同一含义必须使用完全相同的文字。重命名时搜索并一次性修改所有相关资源。</p>
+            <h3>扩展分类和资源类型</h3><p>直接在资源对象的 <code>category</code> 或 <code>type</code> 中写入新名称，资源站会自动生成按钮，不需要修改 <code>resources.html</code> 或 <code>app.js</code>。同一含义必须使用完全相同的文字。重命名时搜索并一次性修改所有相关资源。</p>
             <h3>扩展标签</h3><p>在 <code>tags</code> 数组中增加英文双引号包裹的标签，并用英文逗号分隔，例如 <code>["教程", "免费", "中文"]</code>。建议每条保留 2 至 5 个短标签，不重复分类或类型。标签会参与搜索但不会生成筛选按钮；需要按钮时应使用 <code>category</code> 或 <code>type</code>。</p>
             <h3>网盘链接建议</h3><p>网盘资源的 <code>type</code> 统一写成“网盘链接”。说明中写清内容、格式和更新时间；提取码可以写在说明中，但不要收录需要私人账号、个人权限或来源不明的文件。链接失效后及时删除或替换。</p>
             <h3>更换封面</h3><p>全站默认封面在 <code>resources.json</code> 的 <code>defaultCover</code>。把新图片上传到 <code>assets</code>，再修改地址。建议使用横向 JPG、PNG 或 WebP，宽度 1200 至 2000 像素，文件小于 500 KB，不使用有版权风险、商标或难以阅读文字的图片。</p>
@@ -117,6 +117,6 @@ FEISHU_VIEW_ID=vew3HOr4oa</code></pre>
         </div>
       </div>
     </main>
-    <footer><span>资源簿</span><p>站务手册与网站同步维护。</p><a href="./">返回资源库</a></footer>
+    <footer><span>爱美客工作室</span><p>站务手册与网站同步维护。</p><div class="footer-links"><a href="./">官网首页</a><a href="./resources.html">资源站</a></div></footer>
   </body>
 </html>

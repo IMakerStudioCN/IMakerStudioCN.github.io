@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="爱美客工作室成员共同维护的学习与创作资源站。" />
+    <meta name="theme-color" content="#f4f5f0" />
+    <title>资源站 | 爱美客工作室</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#resources">跳到资源列表</a>
+    <header class="site-header"><a class="brand" href="./" aria-label="爱美客工作室首页"><span class="brand-mark brand-mark-studio" aria-hidden="true">IM</span><span>爱美客工作室</span></a><nav class="header-actions" aria-label="主要导航"><a href="./">官网首页</a><a href="#about">关于资源站</a><a href="./admin.html">维护</a><a class="submit-link" href="./submission.html">投稿</a></nav></header>
+    <main>
+      <section class="intro" aria-labelledby="page-title"><div class="intro-copy"><p class="kicker">IMaker Studio Resource Library</p><h1 id="page-title">找到值得打开的<br />资源</h1><p class="intro-note">由爱美客工作室历届成员共同筛选和维护。这里没有信息流，只保留清晰的分类、简短的说明和原始链接。</p></div><aside class="intro-index" aria-label="站点概况"><div><strong id="resource-count">0</strong><span>项资源</span></div><div><strong id="category-count">0</strong><span>个分类</span></div><p>最后整理<br /><time id="updated-at">加载中</time></p></aside></section>
+      <section class="catalog" id="resources" aria-labelledby="catalog-title"><div class="catalog-head"><div><p class="kicker">资源索引</p><h2 id="catalog-title">浏览全部</h2></div><label class="search-box"><span>搜索</span><input id="search-input" type="search" placeholder="名称、简介或标签" autocomplete="off" /><kbd>/</kbd></label></div><div class="filter-groups" aria-label="资源筛选"><div class="filter-group"><span class="filter-label">内容分类</span><div class="filter-row" id="category-filters" aria-label="按内容分类筛选"></div></div><div class="filter-group"><span class="filter-label">资源类型</span><div class="filter-row" id="type-filters" aria-label="按资源类型筛选"></div></div></div><div id="status" class="status" role="status" aria-live="polite">正在读取资源…</div><div id="resource-grid" class="resource-grid" hidden></div><div id="empty-state" class="empty-state" hidden><strong>没有找到匹配的资源</strong><p>换一个关键词，或清除当前筛选。</p><button id="clear-filters" type="button">查看全部资源</button></div></section>
+      <section class="about" id="about" aria-labelledby="resource-about-title"><div><p class="kicker">收录原则</p><h2 id="resource-about-title">链接之外，<br />只留下判断。</h2></div><div class="principles"><p><strong>可用</strong><span>优先收录能解决明确问题、来源可靠并可正常访问的资源。</span></p><p><strong>好懂</strong><span>每条说明尽量回答“它是什么、适合谁、能解决什么问题”。</span></p><p><strong>传承</strong><span>让每一届成员验证过的工具与资料，可以继续帮助后来者。</span></p></div></section>
+    </main>
+    <footer><span>爱美客工作室资源站</span><p>让有用的链接被保存、分享和传承。</p><div class="footer-links"><a href="./">官网</a><a href="./submission.html">投稿</a><a href="./maintenance.html">站务手册</a></div></footer>
+  </body>
+</html>
