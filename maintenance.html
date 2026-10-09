@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="description" content="IMakerStudioCN 资源簿的配置、内容维护、投稿审核与交接手册。" />
-    <meta name="theme-color" content="#f4f5f0" />
+    <meta name="theme-color" content="#11161b" />
     <title>站务手册 | 爱美客工作室</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
@@ -67,14 +67,15 @@
 
           <section class="manual-section" id="appearance">
             <h2>外观配置</h2><h3>颜色变量</h3>
-            <pre><code>--paper: #f4f5f0;       /* 页面背景 */
---surface: #ffffff;     /* 悬停表面 */
---ink: #17201b;         /* 主文字和深色按钮 */
---muted: #667069;       /* 次要文字 */
---line: #d7dcd5;        /* 分隔线 */
---accent: #126b4b;      /* 强调色 */
---accent-soft: #dcebe3; /* 聚焦状态浅色 */
---radius: 14px;         /* 圆角基准 */</code></pre>
+            <pre><code>--paper: #e9edf0;       /* 页面背景 */
+--surface: #f7f9fa;     /* 悬停表面 */
+--ink: #11161b;         /* 主文字和深色界面 */
+--muted: #59636d;       /* 次要文字 */
+--line: #aeb7bd;        /* 分隔线 */
+--accent: #009fc4;      /* 冷青强调色 */
+--accent-soft: #d4eef3; /* 聚焦状态浅色 */
+--signal: #e6d43a;      /* 警示黄色 */
+--radius: 0;            /* 斜切直角风格 */</code></pre>
             <p>变量位于 <code>styles.css</code> 顶部。修改后检查首页、按钮、搜索框、卡片和代码块的对比度。</p>
             <h3>字号与间距</h3><ul><li>首页主标题：<code>.intro h1</code></li><li>资源区标题：<code>.catalog-head h2</code></li><li>卡片标题：<code>.resource-card h3</code></li><li>卡片高度和内边距：<code>.resource-card</code> 的 <code>min-height</code> 与 <code>padding</code></li><li>最大页面宽度：<code>.site-header, main, footer</code> 的 <code>width</code></li><li>手机布局：文件底部 <code>@media (max-width: 760px)</code></li></ul>
             <p>每次改字号、标题或卡片后，同时检查约 375 像素宽的手机页面是否横向溢出。</p>

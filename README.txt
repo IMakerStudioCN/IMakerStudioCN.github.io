@@ -264,7 +264,8 @@ styles.css 顶部的颜色变量：
 --line：分隔线。
 --accent：强调色。
 --accent-soft：聚焦状态浅色。
---radius：圆角基准。
+--signal：警示黄色。
+--radius：圆角基准；当前为 0，配合斜切直角风格。
 
 常用样式位置：
 

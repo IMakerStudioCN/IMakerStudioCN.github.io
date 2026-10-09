@@ -191,14 +191,15 @@ JSON 只能使用英文双引号和英文标点。最后一条资源后不要加
 `styles.css` 顶部变量控制全站颜色：
 
 ```css
---paper: #f4f5f0;       /* 页面背景 */
---surface: #ffffff;     /* 悬停表面 */
---ink: #17201b;         /* 主文字和按钮 */
---muted: #667069;       /* 次要文字 */
---line: #d7dcd5;        /* 分隔线 */
---accent: #126b4b;      /* 强调色 */
---accent-soft: #dcebe3; /* 聚焦浅色 */
---radius: 14px;         /* 圆角 */
+--paper: #e9edf0;       /* 页面背景 */
+--surface: #f7f9fa;     /* 悬停表面 */
+--ink: #11161b;         /* 主文字和深色界面 */
+--muted: #59636d;       /* 次要文字 */
+--line: #aeb7bd;        /* 分隔线 */
+--accent: #009fc4;      /* 冷青强调色 */
+--accent-soft: #d4eef3; /* 聚焦浅色 */
+--signal: #e6d43a;      /* 警示黄色 */
+--radius: 0;            /* 斜切直角风格 */
 ```
 
 常用位置：`.intro h1` 控制首页主标题，`.catalog-head h2` 控制资源区标题，`.resource-card h3` 控制卡片标题，`.resource-card` 控制卡片高度与间距，`.site-header, main, footer` 控制页面最大宽度，`@media (max-width: 760px)` 控制手机布局。
