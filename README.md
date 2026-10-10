@@ -67,7 +67,7 @@
 
 ## 文件配置索引
 
-- `index.html`、`home.js`：工作室官网首页及资源站概况、最近收录内容。
+- `index.html`、`home.js`：工作室官网首页、作品轮播、页面动效，以及资源站概况和最近收录内容。
 - `resources.html`、`app.js`：资源站列表、分类筛选、搜索和统计。
 - `submission.html`、`submission.js`：访客飞书投稿入口及投稿地址读取脚本。
 - `admin.html`：管理者在线编辑、投稿审核和发布入口。
@@ -92,8 +92,10 @@
 - 导航名称和地址：`class="header-actions"` 内链接文字与 `href`。
 - 官网主标题：“把想法做成作品，把经验留给下一届”。
 - 工作室介绍、作品展示、资源站接入和投稿流程分别位于对应 section。
-- 作品展示位于 `id="works"` 的 section；每件作品是一个 `class="work-card"` 的外部链接卡片，可配置作品名、简介、平台地址和补充信息。
-- `home.js` 从 `resources.json` 读取资源数量、分类数量、最后整理日期和最近三条资源。
+- 作品展示位于 `id="works"` 的 section；每件作品放在一个 `class="work-slide"` 中，内部使用 `class="work-card"` 的外部链接卡片。
+- 新增作品时复制完整的 `work-slide`，修改作品名、简介、平台地址和编号；`home.js` 会自动计算总数，并支持按钮、方向键和手机左右滑动切换。
+- `home.js` 从 `resources.json` 读取资源数量、分类数量、最后整理日期和最近三条资源，同时控制分段进入动效。
+- 首屏下拉动效定义在 `styles.css`；系统启用“减少动态效果”后会自动关闭动画。
 - 页脚：`<footer>` 内站名、说明和链接。
 
 ### 资源站 `resources.html`

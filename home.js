@@ -44,4 +44,76 @@ async function loadHomeResources() {
   }
 }
 
+function initWorkCarousel() {
+  const carousel = document.querySelector(".works-carousel");
+  const track = document.querySelector("#works-track");
+  const slides = [...document.querySelectorAll(".work-slide")];
+  const current = document.querySelector("#works-current");
+  const total = document.querySelector("#works-total");
+  const progress = document.querySelector("#works-progress-bar");
+  if (!carousel || !track || !slides.length || !current || !total || !progress) return;
+
+  let activeIndex = 0;
+  let touchStartX = null;
+
+  const showSlide = (requestedIndex) => {
+    activeIndex = (requestedIndex + slides.length) % slides.length;
+    track.style.setProperty("--work-index", String(activeIndex));
+    progress.style.setProperty("--work-progress", `${((activeIndex + 1) / slides.length) * 100}%`);
+    current.textContent = String(activeIndex + 1).padStart(2, "0");
+    slides.forEach((slide, index) => {
+      const isActive = index === activeIndex;
+      slide.setAttribute("aria-hidden", String(!isActive));
+      const link = slide.querySelector("a");
+      if (link) link.tabIndex = isActive ? 0 : -1;
+    });
+  };
+
+  total.textContent = String(slides.length).padStart(2, "0");
+  carousel.querySelectorAll("[data-direction]").forEach((button) => {
+    button.addEventListener("click", () => {
+      showSlide(activeIndex + (button.dataset.direction === "next" ? 1 : -1));
+    });
+  });
+
+  carousel.addEventListener("keydown", (event) => {
+    if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
+    event.preventDefault();
+    showSlide(activeIndex + (event.key === "ArrowRight" ? 1 : -1));
+  });
+
+  const viewport = carousel.querySelector(".works-viewport");
+  viewport?.addEventListener("touchstart", (event) => {
+    touchStartX = event.changedTouches[0]?.clientX ?? null;
+  }, { passive: true });
+  viewport?.addEventListener("touchend", (event) => {
+    if (touchStartX === null) return;
+    const distance = (event.changedTouches[0]?.clientX ?? touchStartX) - touchStartX;
+    if (Math.abs(distance) > 45) showSlide(activeIndex + (distance < 0 ? 1 : -1));
+    touchStartX = null;
+  }, { passive: true });
+
+  showSlide(0);
+}
+
+function initSectionReveals() {
+  const sections = [...document.querySelectorAll(".studio-about, .works-section, .resource-bridge, .contribution-section, .studio-closing")];
+  if (!sections.length) return;
+  sections.forEach((section) => section.classList.add("reveal-section"));
+  if (window.matchMedia("(prefers-reduced-motion: reduce)").matches || !("IntersectionObserver" in window)) {
+    sections.forEach((section) => section.classList.add("is-visible"));
+    return;
+  }
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (!entry.isIntersecting) return;
+      entry.target.classList.add("is-visible");
+      observer.unobserve(entry.target);
+    });
+  }, { threshold: 0.12 });
+  sections.forEach((section) => observer.observe(section));
+}
+
 loadHomeResources();
+initWorkCarousel();
+initSectionReveals();

@@ -75,7 +75,7 @@ index.html
 工作室官网首页，包括介绍、作品展示、资源站概况、最近收录和投稿流程。
 
 home.js
-从 resources.json 读取资源站数量、分类、更新时间和最近三条资源。
+从 resources.json 读取资源站数量、分类、更新时间和最近三条资源，并控制作品轮播与分段进入动效。
 
 resources.html 和 app.js
 资源站列表、分类筛选、搜索、统计和资源卡片。
@@ -134,8 +134,9 @@ README.txt
 导航名称和地址：修改 class="header-actions" 内的文字和 href。
 官网主标题：查找“把想法做成作品，把经验留给下一届”。
 工作室介绍、作品展示、资源站接入和投稿流程位于对应 section。
-作品展示位于 id="works" 的 section。每件作品使用 class="work-card" 的链接卡片，可配置作品名、简介、平台地址和补充信息。
-官网的资源站统计和最近收录由 home.js 自动读取。
+作品展示位于 id="works" 的 section。每件作品放在一个 class="work-slide" 中，内部使用 class="work-card" 的链接卡片。
+新增作品时复制完整的 work-slide，修改作品名、简介、平台地址和编号。home.js 会自动计算总数，并支持按钮、方向键和手机左右滑动切换。
+官网的资源站统计、最近收录和分段进入动效由 home.js 控制。首屏下拉动效定义在 styles.css；系统启用“减少动态效果”后会自动关闭动画。
 页脚文字：修改 footer 内的站名、说明和链接。
 
 资源站页面位于 resources.html。资源主标题、介绍、筛选器和列表在该文件中，app.js 负责读取 resources.json、生成卡片、筛选和搜索。
