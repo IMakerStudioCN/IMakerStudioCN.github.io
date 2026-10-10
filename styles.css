@@ -170,7 +170,7 @@ footer p { margin: 0; color: var(--muted); }
 .studio-hero { position: relative; min-height: min(780px, calc(100dvh - 72px)); display: grid; grid-template-columns: minmax(0, 1.45fr) minmax(280px, .55fr); gap: 3rem; align-items: stretch; padding: 5.5rem 0 4rem; border-bottom: 2px solid var(--ink); }
 .studio-hero::after { content: "01"; position: absolute; right: 0; bottom: -2.2rem; color: rgba(17, 22, 27, .08); font: 800 8rem/.8 ui-monospace, Consolas, monospace; pointer-events: none; }
 .studio-hero-copy { align-self: center; }
-.studio-hero h1 { max-width: 980px; margin: 0; font-size: clamp(4rem, 8.4vw, 7.7rem); line-height: .86; letter-spacing: -.075em; font-weight: 850; text-wrap: balance; }
+.studio-hero h1 { max-width: 980px; margin: 0; font-size: clamp(3.5rem, 6vw, 5.2rem); line-height: 1.08; letter-spacing: -.035em; font-weight: 850; text-wrap: balance; }
 .studio-lead { max-width: 47rem; margin: 2rem 0 0; color: var(--muted); font-size: 1.08rem; }
 .hero-actions { display: flex; flex-wrap: wrap; gap: .75rem; margin-top: 2.5rem; }
 .primary-action, .secondary-action { display: inline-flex; min-width: 190px; align-items: center; justify-content: space-between; gap: 2rem; padding: .9rem 1.1rem; border: 1px solid var(--ink); border-radius: 0; font-weight: 720; clip-path: polygon(0 0, calc(100% - 11px) 0, 100% 11px, 100% 100%, 11px 100%, 0 calc(100% - 11px)); transition: background-color 180ms ease, color 180ms ease, transform 180ms ease; }
@@ -350,7 +350,7 @@ footer a { color: var(--accent); }
   .channel-card-admin { margin-inline: -14px; padding-inline: 14px; }
   .review-flow { gap: 2.5rem; padding-top: 4.5rem; }
   .studio-hero { min-height: auto; grid-template-columns: 1fr; gap: 2rem; padding: 4rem 0; }
-  .studio-hero h1 { font-size: clamp(3.25rem, 15.5vw, 5.4rem); }
+  .studio-hero h1 { font-size: clamp(2.8rem, 10vw, 4.2rem); line-height: 1.08; letter-spacing: -.035em; }
   .studio-manifesto { min-height: 390px; }
   .studio-about, .contribution-section { grid-template-columns: 1fr; gap: 3rem; padding: 5rem 0; }
   .works-section, .resource-bridge { padding: 5rem 0; }
