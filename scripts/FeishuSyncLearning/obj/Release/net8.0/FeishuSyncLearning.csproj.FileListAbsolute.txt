@@ -1,0 +1,15 @@
+C:\Users\36048\Documents\ChatGPT\New project\scripts\FeishuSyncLearning\bin\Release\net8.0\FeishuSyncLearning.exe
+C:\Users\36048\Documents\ChatGPT\New project\scripts\FeishuSyncLearning\bin\Release\net8.0\FeishuSyncLearning.deps.json
+C:\Users\36048\Documents\ChatGPT\New project\scripts\FeishuSyncLearning\bin\Release\net8.0\FeishuSyncLearning.runtimeconfig.json
+C:\Users\36048\Documents\ChatGPT\New project\scripts\FeishuSyncLearning\bin\Release\net8.0\FeishuSyncLearning.dll
+C:\Users\36048\Documents\ChatGPT\New project\scripts\FeishuSyncLearning\bin\Release\net8.0\FeishuSyncLearning.pdb
+C:\Users\36048\Documents\ChatGPT\New project\scripts\FeishuSyncLearning\obj\Release\net8.0\FeishuSyncLearning.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\36048\Documents\ChatGPT\New project\scripts\FeishuSyncLearning\obj\Release\net8.0\FeishuSyncLearning.AssemblyInfoInputs.cache
+C:\Users\36048\Documents\ChatGPT\New project\scripts\FeishuSyncLearning\obj\Release\net8.0\FeishuSyncLearning.AssemblyInfo.cs
+C:\Users\36048\Documents\ChatGPT\New project\scripts\FeishuSyncLearning\obj\Release\net8.0\FeishuSyncLearning.csproj.CoreCompileInputs.cache
+C:\Users\36048\Documents\ChatGPT\New project\scripts\FeishuSyncLearning\obj\Release\net8.0\FeishuSyncLearning.sourcelink.json
+C:\Users\36048\Documents\ChatGPT\New project\scripts\FeishuSyncLearning\obj\Release\net8.0\FeishuSyncLearning.dll
+C:\Users\36048\Documents\ChatGPT\New project\scripts\FeishuSyncLearning\obj\Release\net8.0\refint\FeishuSyncLearning.dll
+C:\Users\36048\Documents\ChatGPT\New project\scripts\FeishuSyncLearning\obj\Release\net8.0\FeishuSyncLearning.pdb
+C:\Users\36048\Documents\ChatGPT\New project\scripts\FeishuSyncLearning\obj\Release\net8.0\FeishuSyncLearning.genruntimeconfig.cache
+C:\Users\36048\Documents\ChatGPT\New project\scripts\FeishuSyncLearning\obj\Release\net8.0\ref\FeishuSyncLearning.dll

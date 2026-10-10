@@ -68,6 +68,7 @@
 ## 文件配置索引
 
 - `index.html`、`home.js`：工作室官网首页、作品轮播、页面动效，以及资源站概况和最近收录内容。
+- `works.html`、`works.js`：成员作品独立展示页，以及分段进入动效。
 - `resources.html`、`app.js`：资源站列表、分类筛选、搜索和统计。
 - `submission.html`、`submission.js`：访客飞书投稿入口及投稿地址读取脚本。
 - `admin.html`：管理者在线编辑、投稿审核和发布入口。
@@ -92,11 +93,20 @@
 - 导航名称和地址：`class="header-actions"` 内链接文字与 `href`。
 - 官网主标题：“把想法做成作品，把经验留给下一届”。
 - 工作室介绍、作品展示、资源站接入和投稿流程分别位于对应 section。
-- 作品展示位于 `id="works"` 的 section；每件作品放在一个 `class="work-slide"` 中，内部使用 `class="work-card"` 的外部链接卡片。
-- 新增作品时复制完整的 `work-slide`，修改作品名、简介、平台地址和编号；`home.js` 会自动计算总数，并支持按钮、方向键和手机左右滑动切换。
+- 首页作品展示位于 `id="works"` 的 section；每件作品放在一个 `class="work-slide"` 中，内部使用 `class="work-card"` 的链接卡片。“更多成员作品”入口指向 `works.html`。
+- 首页需要新增重点作品时，复制完整的 `work-slide`，修改作品名、简介、平台地址和编号；`home.js` 会自动计算总数，并支持按钮、方向键和手机左右滑动切换。
 - `home.js` 从 `resources.json` 读取资源数量、分类数量、最后整理日期和最近三条资源，同时控制分段进入动效。
 - 首屏下拉动效定义在 `styles.css`；系统启用“减少动态效果”后会自动关闭动画。
 - 页脚：`<footer>` 内站名、说明和链接。
+
+### 成员作品页 `works.html`
+
+- 页首简述、游戏作品、影像作品和结尾引导分别位于独立 section；页面不含登录入口。
+- TapTap 作品使用一个完整的 `class="project-panel"`。新增游戏作品时复制一整个 `project-panel`，修改编号、平台、标题、说明和外链；不要只复制其中的视觉块。
+- B 站视频使用 `class="video-card"`。新增视频时复制一整个 `video-card`，把 `href` 改成去除 `spm_id_from`、`vd_source` 等跟踪参数后的规范作品地址，并同步修改编号、显示标题、BV 号和无障碍说明。
+- 未确认的平台作品标题不要猜测，可暂用“成员作品 + 编号”，确认正式名称后再替换。
+- `works.js` 只负责滚动进入动效；作品内容直接写在 `works.html`。动效会遵守系统的“减少动态效果”设置。
+- 作品页的专用外观位于 `styles.css` 中 `Member works archive` 注释之后。调整色彩时优先修改 `.works-page` 内的 `--works-cyan` 和 `--works-yellow`，同时检查文字对比度和手机布局。
 
 ### 资源站 `resources.html`
 

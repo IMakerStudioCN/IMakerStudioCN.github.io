@@ -1,0 +1,94 @@
+{
+  "sampled_at_utc": "2026-09-10T01:33:33.302544+00:00",
+  "latest_recorded_response_at_utc": "2026-09-10T01:33:13.994Z",
+  "root_thread_id": "01a088d5-8e1e-7d12-bd38-8e73769cb0ba",
+  "root_turn_id": "01a088d7-e020-74e0-850b-5d571a8ce55f",
+  "request_timestamp_utc": "2026-09-10T01:04:19.390Z",
+  "request_ordinal": 8,
+  "root_thread_baseline_before_request": {
+    "input_tokens": 0,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 0,
+    "reasoning_output_tokens": 0,
+    "total_tokens": 0
+  },
+  "root_completion_event_observed": false,
+  "response_count": 91,
+  "totals": {
+    "input_tokens": 4597360,
+    "cached_input_tokens": 4399488,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 59329,
+    "reasoning_output_tokens": 12168,
+    "total_tokens": 4656689
+  },
+  "uncached_input_tokens": 197872,
+  "threads": [
+    {
+      "thread_id": "01a088d5-8e1e-7d12-bd38-8e73769cb0ba",
+      "agent_path": "/root",
+      "parent_thread_id": null,
+      "response_count": 42,
+      "usage": {
+        "input_tokens": 2907591,
+        "cached_input_tokens": 2809472,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 26085,
+        "reasoning_output_tokens": 7012,
+        "total_tokens": 2933676
+      }
+    },
+    {
+      "thread_id": "01a088dc-1020-77b0-97b1-519c41780583",
+      "agent_path": "/root/gear_wings",
+      "parent_thread_id": "01a088d5-8e1e-7d12-bd38-8e73769cb0ba",
+      "response_count": 12,
+      "usage": {
+        "input_tokens": 348547,
+        "cached_input_tokens": 330368,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 8509,
+        "reasoning_output_tokens": 955,
+        "total_tokens": 357056
+      }
+    },
+    {
+      "thread_id": "01a088db-bb92-70b1-9f50-21b7d26fcda4",
+      "agent_path": "/root/head_hair",
+      "parent_thread_id": "01a088d5-8e1e-7d12-bd38-8e73769cb0ba",
+      "response_count": 25,
+      "usage": {
+        "input_tokens": 937553,
+        "cached_input_tokens": 898304,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 18237,
+        "reasoning_output_tokens": 3337,
+        "total_tokens": 955790
+      }
+    },
+    {
+      "thread_id": "01a088da-5720-7b00-a763-a1ff6924c10a",
+      "agent_path": "/root/token_audit",
+      "parent_thread_id": "01a088d5-8e1e-7d12-bd38-8e73769cb0ba",
+      "response_count": 12,
+      "usage": {
+        "input_tokens": 403669,
+        "cached_input_tokens": 361344,
+        "cache_write_input_tokens": 0,
+        "output_tokens": 6498,
+        "reasoning_output_tokens": 864,
+        "total_tokens": 410167
+      }
+    }
+  ],
+  "method": "Sum token_usage_record.payload.usage for the exact root_turn_id and session_id; deduplicate response_id across root and descendant logs.",
+  "limitations": [
+    "Exact for model response usage already recorded locally at sampling time; in-flight responses and unflushed log entries are excluded.",
+    "Rerun after the conversation turn completes to include its final answer; observe the sample timestamp when reporting the value.",
+    "Cached input is a subset of input tokens; reasoning output is a subset of output tokens. Do not add these subsets again.",
+    "Repeated input context is counted on each response. These figures are token usage, not unique text length, account percentage, or monetary cost.",
+    "Includes model work performed by the token-audit agent. Blender CPU/GPU rendering is not itself a model token response.",
+    "The default scan covers the root log's date folder. For work spanning midnight, pass --sessions-dir with the common date-folder parent."
+  ]
+}

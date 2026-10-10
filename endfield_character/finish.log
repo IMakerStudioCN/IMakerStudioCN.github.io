@@ -1,0 +1,1040 @@
+Blender 4.5.3 LTS (hash 67807e1800cc built 2025-09-09 01:33:33)
+Read blend: "C:\Users\36048\Documents\ChatGPT\New project\endfield_character\Endfield_Operator.blend"
+Fra:1 Mem:202.57M (Peak 206.93M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Key | large softbox
+Fra:1 Mem:202.58M (Peak 206.93M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Fill | cool softbox
+Fra:1 Mem:202.58M (Peak 206.93M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Face | eye light
+Fra:1 Mem:202.74M (Peak 206.93M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Back crossing harness L
+Fra:1 Mem:202.75M (Peak 206.93M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Back crossing harness R
+Fra:1 Mem:202.77M (Peak 206.93M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Belt | angular metal buckle
+Fra:1 Mem:202.78M (Peak 206.93M) | Time:00:00.03 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Belt | buckle diagonal
+Fra:1 Mem:202.86M (Peak 206.93M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Belt | encircling tactical webbing
+Fra:1 Mem:203.03M (Peak 206.93M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Belt | keeper
+Fra:1 Mem:205.05M (Peak 206.93M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Belt | keeper.001
+Fra:1 Mem:205.08M (Peak 206.93M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Belt | keeper.002
+Fra:1 Mem:205.10M (Peak 206.93M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Belt | keeper.003
+Fra:1 Mem:205.12M (Peak 206.93M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Brow L | soft wine arc
+Fra:1 Mem:205.22M (Peak 206.93M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Brow R | soft wine arc
+Fra:1 Mem:205.32M (Peak 206.93M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / butt cap
+Fra:1 Mem:205.34M (Peak 206.93M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / central receiver
+Fra:1 Mem:205.36M (Peak 206.93M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / foregrip left inset
+Fra:1 Mem:205.38M (Peak 206.93M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / foregrip shell
+Fra:1 Mem:205.41M (Peak 206.93M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / forward barrel shroud
+Fra:1 Mem:205.43M (Peak 206.93M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / handguard vent 00
+Fra:1 Mem:205.45M (Peak 206.93M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / handguard vent 01
+Fra:1 Mem:205.47M (Peak 206.93M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / handguard vent 02
+Fra:1 Mem:205.50M (Peak 206.93M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / handguard vent 03
+Fra:1 Mem:205.52M (Peak 206.93M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / handguard vent 04
+Fra:1 Mem:205.54M (Peak 206.93M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / handguard vent 05
+Fra:1 Mem:205.57M (Peak 206.93M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / lower retention strap
+Fra:1 Mem:205.58M (Peak 206.93M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / magazine exterior
+Fra:1 Mem:205.60M (Peak 206.93M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / magazine floor plate
+Fra:1 Mem:205.62M (Peak 206.93M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / muzzle cap
+Fra:1 Mem:205.64M (Peak 206.93M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / oxblood identification
+Fra:1 Mem:205.67M (Peak 206.93M) | Time:00:00.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / rail notch 00
+Fra:1 Mem:205.69M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / rail notch 01
+Fra:1 Mem:205.71M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / rail notch 02
+Fra:1 Mem:205.74M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / rail notch 03
+Fra:1 Mem:205.76M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / rail notch 04
+Fra:1 Mem:205.78M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / rail notch 05
+Fra:1 Mem:205.80M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / rail notch 06
+Fra:1 Mem:205.83M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / rail notch 07
+Fra:1 Mem:205.85M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / rail notch 08
+Fra:1 Mem:205.87M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / rail notch 09
+Fra:1 Mem:205.90M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / rail notch 10
+Fra:1 Mem:205.92M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / rail notch 11
+Fra:1 Mem:205.94M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / receiver accent
+Fra:1 Mem:205.96M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / receiver faceplate
+Fra:1 Mem:205.99M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / recessed screw
+Fra:1 Mem:206.00M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / recessed screw.001
+Fra:1 Mem:206.01M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / recessed screw.002
+Fra:1 Mem:206.03M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / shoulder sling
+Fra:1 Mem:206.04M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / side grip
+Fra:1 Mem:206.06M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / solid muzzle face
+Fra:1 Mem:206.09M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / stock cheek pad
+Fra:1 Mem:206.11M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / stock spine
+Fra:1 Mem:206.13M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / top rail
+Fra:1 Mem:206.15M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Carbine / upper sling lug
+Fra:1 Mem:206.18M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Chest | embroidered label
+Fra:1 Mem:206.20M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Chest | identity patch
+Fra:1 Mem:206.22M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Chest | patch stitch
+Fra:1 Mem:206.24M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Chest | patch stitch.001
+Fra:1 Mem:206.25M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Chest | warning label
+Fra:1 Mem:206.30M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Collar | burgundy clasp
+Fra:1 Mem:206.32M (Peak 206.93M) | Time:00:00.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Collar | hanging utility tape
+Fra:1 Mem:206.61M (Peak 206.93M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Collar | high padded neck
+Fra:1 Mem:207.16M (Peak 207.16M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Collar | light piping
+Fra:1 Mem:207.25M (Peak 207.25M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Collar | metallic clasp
+Fra:1 Mem:207.28M (Peak 207.28M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Crystal wing L / shard 01
+Fra:1 Mem:207.28M (Peak 207.28M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Crystal wing L / shard 02
+Fra:1 Mem:207.28M (Peak 207.28M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Crystal wing L / shard 03
+Fra:1 Mem:207.28M (Peak 207.28M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Crystal wing L / shard 04
+Fra:1 Mem:207.28M (Peak 207.28M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Crystal wing L / shard 05
+Fra:1 Mem:207.28M (Peak 207.28M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Crystal wing L / shard 06
+Fra:1 Mem:207.28M (Peak 207.28M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Crystal wing L / shard 07
+Fra:1 Mem:207.29M (Peak 207.29M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Crystal wing L / shard 08
+Fra:1 Mem:207.29M (Peak 207.29M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Crystal wing R / shard 01
+Fra:1 Mem:207.29M (Peak 207.29M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Crystal wing R / shard 02
+Fra:1 Mem:207.29M (Peak 207.29M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Crystal wing R / shard 03
+Fra:1 Mem:207.29M (Peak 207.29M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Crystal wing R / shard 04
+Fra:1 Mem:207.29M (Peak 207.29M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Crystal wing R / shard 05
+Fra:1 Mem:207.29M (Peak 207.29M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Crystal wing R / shard 06
+Fra:1 Mem:207.30M (Peak 207.30M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Crystal wing R / shard 07
+Fra:1 Mem:207.30M (Peak 207.30M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Crystal wing R / shard 08
+Fra:1 Mem:207.30M (Peak 207.30M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Ear L | auricle
+Fra:1 Mem:207.44M (Peak 207.44M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Ear L | folded helix
+Fra:1 Mem:208.21M (Peak 208.21M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Ear L | inner concha
+Fra:1 Mem:208.30M (Peak 208.30M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Ear R | auricle
+Fra:1 Mem:208.44M (Peak 208.44M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Ear R | folded helix
+Fra:1 Mem:209.21M (Peak 209.21M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Ear R | inner concha
+Fra:1 Mem:209.31M (Peak 209.31M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | almond sclera
+Fra:1 Mem:209.36M (Peak 209.36M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | amber iris
+Fra:1 Mem:209.37M (Peak 209.37M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 00
+Fra:1 Mem:209.42M (Peak 209.42M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 01
+Fra:1 Mem:209.47M (Peak 209.47M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 02
+Fra:1 Mem:209.52M (Peak 209.52M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 03
+Fra:1 Mem:209.57M (Peak 209.57M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 04
+Fra:1 Mem:209.61M (Peak 209.61M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 05
+Fra:1 Mem:209.66M (Peak 209.66M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 06
+Fra:1 Mem:209.71M (Peak 209.71M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 07
+Fra:1 Mem:209.76M (Peak 209.76M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 08
+Fra:1 Mem:209.81M (Peak 209.81M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 09
+Fra:1 Mem:209.86M (Peak 209.86M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 10
+Fra:1 Mem:209.91M (Peak 209.91M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 11
+Fra:1 Mem:209.96M (Peak 209.96M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 12
+Fra:1 Mem:210.01M (Peak 210.01M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 13
+Fra:1 Mem:210.05M (Peak 210.05M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 14
+Fra:1 Mem:210.10M (Peak 210.10M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 15
+Fra:1 Mem:210.15M (Peak 210.15M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 16
+Fra:1 Mem:210.20M (Peak 210.20M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 17
+Fra:1 Mem:210.25M (Peak 210.25M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 18
+Fra:1 Mem:210.30M (Peak 210.30M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 19
+Fra:1 Mem:210.35M (Peak 210.35M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 20
+Fra:1 Mem:210.40M (Peak 210.40M) | Time:00:00.77 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 21
+Fra:1 Mem:210.44M (Peak 210.44M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 22
+Fra:1 Mem:210.49M (Peak 210.49M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 23
+Fra:1 Mem:210.54M (Peak 210.54M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 24
+Fra:1 Mem:210.59M (Peak 210.59M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 25
+Fra:1 Mem:210.64M (Peak 210.64M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 26
+Fra:1 Mem:210.69M (Peak 210.69M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | iris fiber 27
+Fra:1 Mem:210.74M (Peak 210.74M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | limbal outline
+Fra:1 Mem:210.75M (Peak 210.75M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | lower waterline
+Fra:1 Mem:211.28M (Peak 211.28M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | main catchlight
+Fra:1 Mem:211.28M (Peak 211.28M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | outer lash wing
+Fra:1 Mem:211.28M (Peak 211.28M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | oval pupil
+Fra:1 Mem:211.29M (Peak 211.29M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | secondary catchlight
+Fra:1 Mem:211.30M (Peak 211.30M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye L | tapered upper lash
+Fra:1 Mem:211.31M (Peak 211.31M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | almond sclera
+Fra:1 Mem:211.36M (Peak 211.36M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | amber iris
+Fra:1 Mem:211.37M (Peak 211.37M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 00
+Fra:1 Mem:211.42M (Peak 211.42M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 01
+Fra:1 Mem:211.47M (Peak 211.47M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 02
+Fra:1 Mem:211.52M (Peak 211.52M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 03
+Fra:1 Mem:211.57M (Peak 211.57M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 04
+Fra:1 Mem:211.61M (Peak 211.61M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 05
+Fra:1 Mem:211.66M (Peak 211.66M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 06
+Fra:1 Mem:211.71M (Peak 211.71M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 07
+Fra:1 Mem:211.76M (Peak 211.76M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 08
+Fra:1 Mem:211.81M (Peak 211.81M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 09
+Fra:1 Mem:211.86M (Peak 211.86M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 10
+Fra:1 Mem:211.91M (Peak 211.91M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 11
+Fra:1 Mem:211.96M (Peak 211.96M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 12
+Fra:1 Mem:212.01M (Peak 212.01M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 13
+Fra:1 Mem:212.05M (Peak 212.05M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 14
+Fra:1 Mem:212.10M (Peak 212.10M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 15
+Fra:1 Mem:212.15M (Peak 212.15M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 16
+Fra:1 Mem:212.20M (Peak 212.20M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 17
+Fra:1 Mem:212.25M (Peak 212.25M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 18
+Fra:1 Mem:212.30M (Peak 212.30M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 19
+Fra:1 Mem:212.35M (Peak 212.35M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 20
+Fra:1 Mem:212.40M (Peak 212.40M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 21
+Fra:1 Mem:212.45M (Peak 212.45M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 22
+Fra:1 Mem:212.50M (Peak 212.50M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 23
+Fra:1 Mem:212.54M (Peak 212.54M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 24
+Fra:1 Mem:212.59M (Peak 212.59M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 25
+Fra:1 Mem:212.64M (Peak 212.64M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 26
+Fra:1 Mem:212.69M (Peak 212.69M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | iris fiber 27
+Fra:1 Mem:212.74M (Peak 212.74M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | limbal outline
+Fra:1 Mem:212.75M (Peak 212.75M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | lower waterline
+Fra:1 Mem:213.28M (Peak 213.28M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | main catchlight
+Fra:1 Mem:213.29M (Peak 213.29M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | outer lash wing
+Fra:1 Mem:213.29M (Peak 213.29M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | oval pupil
+Fra:1 Mem:213.29M (Peak 213.29M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | secondary catchlight
+Fra:1 Mem:213.30M (Peak 213.30M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Eye R | tapered upper lash
+Fra:1 Mem:213.31M (Peak 213.31M) | Time:00:00.78 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Floating luminous halo
+Fra:1 Mem:213.70M (Peak 213.70M) | Time:00:00.79 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | L temple flick 01
+Fra:1 Mem:214.02M (Peak 214.02M) | Time:00:00.79 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | L temple flick 01 | fine sheen 1
+Fra:1 Mem:214.63M (Peak 214.63M) | Time:00:00.80 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | L temple flick 02
+Fra:1 Mem:215.11M (Peak 215.11M) | Time:00:00.81 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | L temple flick 03
+Fra:1 Mem:215.42M (Peak 215.42M) | Time:00:00.81 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | L temple flick 03 | fine sheen 1
+Fra:1 Mem:216.04M (Peak 216.04M) | Time:00:00.83 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | L temple flick 04
+Fra:1 Mem:216.52M (Peak 216.52M) | Time:00:00.84 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 01
+Fra:1 Mem:216.83M (Peak 216.83M) | Time:00:00.84 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 01 | fine sheen 1
+Fra:1 Mem:217.45M (Peak 217.45M) | Time:00:00.85 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 02
+Fra:1 Mem:217.92M (Peak 217.92M) | Time:00:00.86 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 03
+Fra:1 Mem:218.24M (Peak 218.24M) | Time:00:00.86 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 03 | fine sheen 1
+Fra:1 Mem:218.86M (Peak 218.86M) | Time:00:00.87 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 04
+Fra:1 Mem:219.17M (Peak 219.17M) | Time:00:00.87 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 04 | fine sheen 1
+Fra:1 Mem:219.79M (Peak 219.79M) | Time:00:00.88 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 05
+Fra:1 Mem:220.26M (Peak 220.26M) | Time:00:00.90 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 06
+Fra:1 Mem:220.58M (Peak 220.58M) | Time:00:00.90 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 06 | fine sheen 1
+Fra:1 Mem:221.20M (Peak 221.20M) | Time:00:00.91 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 07
+Fra:1 Mem:221.51M (Peak 221.51M) | Time:00:00.91 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 07 | fine sheen 1
+Fra:1 Mem:222.13M (Peak 222.13M) | Time:00:00.92 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 08
+Fra:1 Mem:222.61M (Peak 222.61M) | Time:00:00.93 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 09
+Fra:1 Mem:222.92M (Peak 222.92M) | Time:00:00.93 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 09 | fine sheen 1
+Fra:1 Mem:223.54M (Peak 223.54M) | Time:00:00.94 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 10
+Fra:1 Mem:223.85M (Peak 223.85M) | Time:00:00.94 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 10 | fine sheen 1
+Fra:1 Mem:224.47M (Peak 224.47M) | Time:00:00.96 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 11
+Fra:1 Mem:224.95M (Peak 224.95M) | Time:00:00.97 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 12
+Fra:1 Mem:225.26M (Peak 225.26M) | Time:00:00.97 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 12 | fine sheen 1
+Fra:1 Mem:225.88M (Peak 225.88M) | Time:00:00.98 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 13
+Fra:1 Mem:226.19M (Peak 226.19M) | Time:00:00.98 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 13 | fine sheen 1
+Fra:1 Mem:226.81M (Peak 226.81M) | Time:00:00.99 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 14
+Fra:1 Mem:227.29M (Peak 227.29M) | Time:00:01.00 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 15
+Fra:1 Mem:227.60M (Peak 227.60M) | Time:00:01.00 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 1 lock 15 | fine sheen 1
+Fra:1 Mem:228.22M (Peak 228.22M) | Time:00:01.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 01
+Fra:1 Mem:228.53M (Peak 228.53M) | Time:00:01.02 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 01 | fine sheen 1
+Fra:1 Mem:229.15M (Peak 229.15M) | Time:00:01.03 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 02
+Fra:1 Mem:229.63M (Peak 229.63M) | Time:00:01.04 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 03
+Fra:1 Mem:229.94M (Peak 229.94M) | Time:00:01.04 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 03 | fine sheen 1
+Fra:1 Mem:230.56M (Peak 230.56M) | Time:00:01.05 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 04
+Fra:1 Mem:230.87M (Peak 230.87M) | Time:00:01.05 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 04 | fine sheen 1
+Fra:1 Mem:231.49M (Peak 231.49M) | Time:00:01.06 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 05
+Fra:1 Mem:231.97M (Peak 231.97M) | Time:00:01.07 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 06
+Fra:1 Mem:232.28M (Peak 232.28M) | Time:00:01.07 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 06 | fine sheen 1
+Fra:1 Mem:232.90M (Peak 232.90M) | Time:00:01.09 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 07
+Fra:1 Mem:233.21M (Peak 233.21M) | Time:00:01.09 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 07 | fine sheen 1
+Fra:1 Mem:233.83M (Peak 233.83M) | Time:00:01.10 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 08
+Fra:1 Mem:234.31M (Peak 234.31M) | Time:00:01.11 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 09
+Fra:1 Mem:234.62M (Peak 234.62M) | Time:00:01.11 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 09 | fine sheen 1
+Fra:1 Mem:235.24M (Peak 235.24M) | Time:00:01.12 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 10
+Fra:1 Mem:235.56M (Peak 235.56M) | Time:00:01.12 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 10 | fine sheen 1
+Fra:1 Mem:236.17M (Peak 236.17M) | Time:00:01.13 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 11
+Fra:1 Mem:236.65M (Peak 236.65M) | Time:00:01.14 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 12
+Fra:1 Mem:236.96M (Peak 236.96M) | Time:00:01.14 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 12 | fine sheen 1
+Fra:1 Mem:237.58M (Peak 237.58M) | Time:00:01.16 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 13
+Fra:1 Mem:237.90M (Peak 237.90M) | Time:00:01.16 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 13 | fine sheen 1
+Fra:1 Mem:238.52M (Peak 238.52M) | Time:00:01.17 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 14
+Fra:1 Mem:238.99M (Peak 238.99M) | Time:00:01.18 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 15
+Fra:1 Mem:239.31M (Peak 239.31M) | Time:00:01.18 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 15 | fine sheen 1
+Fra:1 Mem:239.92M (Peak 239.92M) | Time:00:01.19 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 16
+Fra:1 Mem:240.24M (Peak 240.24M) | Time:00:01.19 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 16 | fine sheen 1
+Fra:1 Mem:240.86M (Peak 240.86M) | Time:00:01.20 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 17
+Fra:1 Mem:241.33M (Peak 241.33M) | Time:00:01.21 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 18
+Fra:1 Mem:241.65M (Peak 241.65M) | Time:00:01.22 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 2 lock 18 | fine sheen 1
+Fra:1 Mem:242.27M (Peak 242.27M) | Time:00:01.23 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 01
+Fra:1 Mem:242.58M (Peak 242.58M) | Time:00:01.23 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 01 | fine sheen 1
+Fra:1 Mem:243.20M (Peak 243.20M) | Time:00:01.24 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 02
+Fra:1 Mem:243.67M (Peak 243.67M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 03
+Fra:1 Mem:243.99M (Peak 243.99M) | Time:00:01.25 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 03 | fine sheen 1
+Fra:1 Mem:244.61M (Peak 244.61M) | Time:00:01.26 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 04
+Fra:1 Mem:244.92M (Peak 244.92M) | Time:00:01.26 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 04 | fine sheen 1
+Fra:1 Mem:245.54M (Peak 245.54M) | Time:00:01.27 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 05
+Fra:1 Mem:246.01M (Peak 246.01M) | Time:00:01.28 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 06
+Fra:1 Mem:246.33M (Peak 246.33M) | Time:00:01.28 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 06 | fine sheen 1
+Fra:1 Mem:246.95M (Peak 246.95M) | Time:00:01.30 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 07
+Fra:1 Mem:247.26M (Peak 247.26M) | Time:00:01.30 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 07 | fine sheen 1
+Fra:1 Mem:247.88M (Peak 247.88M) | Time:00:01.31 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 08
+Fra:1 Mem:248.35M (Peak 248.35M) | Time:00:01.32 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 09
+Fra:1 Mem:248.67M (Peak 248.67M) | Time:00:01.32 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 09 | fine sheen 1
+Fra:1 Mem:249.29M (Peak 249.29M) | Time:00:01.33 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 10
+Fra:1 Mem:249.60M (Peak 249.60M) | Time:00:01.33 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 10 | fine sheen 1
+Fra:1 Mem:250.22M (Peak 250.22M) | Time:00:01.34 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 11
+Fra:1 Mem:250.69M (Peak 250.69M) | Time:00:01.35 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 12
+Fra:1 Mem:251.01M (Peak 251.01M) | Time:00:01.36 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 12 | fine sheen 1
+Fra:1 Mem:251.63M (Peak 251.63M) | Time:00:01.37 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 13
+Fra:1 Mem:251.94M (Peak 251.94M) | Time:00:01.37 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 13 | fine sheen 1
+Fra:1 Mem:252.56M (Peak 252.56M) | Time:00:01.38 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 14
+Fra:1 Mem:253.04M (Peak 253.04M) | Time:00:01.39 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 15
+Fra:1 Mem:253.35M (Peak 253.35M) | Time:00:01.39 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 15 | fine sheen 1
+Fra:1 Mem:253.97M (Peak 253.97M) | Time:00:01.40 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 16
+Fra:1 Mem:254.28M (Peak 254.28M) | Time:00:01.40 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 16 | fine sheen 1
+Fra:1 Mem:254.90M (Peak 254.90M) | Time:00:01.41 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 17
+Fra:1 Mem:255.38M (Peak 255.38M) | Time:00:01.43 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 18
+Fra:1 Mem:255.69M (Peak 255.69M) | Time:00:01.43 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 18 | fine sheen 1
+Fra:1 Mem:256.31M (Peak 256.31M) | Time:00:01.44 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 19
+Fra:1 Mem:256.62M (Peak 256.62M) | Time:00:01.44 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | layer 3 lock 19 | fine sheen 1
+Fra:1 Mem:257.24M (Peak 257.24M) | Time:00:01.45 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | R temple flick 01
+Fra:1 Mem:257.56M (Peak 257.56M) | Time:00:01.45 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | R temple flick 01 | fine sheen 1
+Fra:1 Mem:258.18M (Peak 258.18M) | Time:00:01.46 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | R temple flick 02
+Fra:1 Mem:258.65M (Peak 258.65M) | Time:00:01.47 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | R temple flick 03
+Fra:1 Mem:258.96M (Peak 258.96M) | Time:00:01.47 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | R temple flick 03 | fine sheen 1
+Fra:1 Mem:259.58M (Peak 259.58M) | Time:00:01.49 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | R temple flick 04
+Fra:1 Mem:260.06M (Peak 260.06M) | Time:00:01.50 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | sculpted fringe 01
+Fra:1 Mem:260.37M (Peak 260.37M) | Time:00:01.50 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | sculpted fringe 01 | fine sheen 1
+Fra:1 Mem:260.99M (Peak 260.99M) | Time:00:01.51 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | sculpted fringe 02
+Fra:1 Mem:261.30M (Peak 261.30M) | Time:00:01.51 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | sculpted fringe 02 | fine sheen 1
+Fra:1 Mem:261.92M (Peak 261.92M) | Time:00:01.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | sculpted fringe 03
+Fra:1 Mem:262.24M (Peak 262.24M) | Time:00:01.52 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | sculpted fringe 03 | fine sheen 1
+Fra:1 Mem:262.86M (Peak 262.86M) | Time:00:01.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | sculpted fringe 04
+Fra:1 Mem:263.17M (Peak 263.17M) | Time:00:01.53 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | sculpted fringe 04 | fine sheen 1
+Fra:1 Mem:263.79M (Peak 263.79M) | Time:00:01.54 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | sculpted fringe 05
+Fra:1 Mem:264.10M (Peak 264.10M) | Time:00:01.54 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | sculpted fringe 05 | fine sheen 1
+Fra:1 Mem:264.72M (Peak 264.72M) | Time:00:01.56 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | sculpted fringe 06
+Fra:1 Mem:265.04M (Peak 265.04M) | Time:00:01.56 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | sculpted fringe 06 | fine sheen 1
+Fra:1 Mem:265.66M (Peak 265.66M) | Time:00:01.57 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | sculpted fringe 07
+Fra:1 Mem:265.97M (Peak 265.97M) | Time:00:01.57 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | sculpted fringe 07 | fine sheen 1
+Fra:1 Mem:266.59M (Peak 266.59M) | Time:00:01.58 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | sculpted fringe 08
+Fra:1 Mem:266.90M (Peak 266.90M) | Time:00:01.58 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | sculpted fringe 08 | fine sheen 1
+Fra:1 Mem:268.46M (Peak 268.46M) | Time:00:03.08 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hair | shaped short bob foundation
+Fra:1 Mem:270.93M (Peak 270.93M) | Time:00:03.09 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hanging strap / metal tip
+Fra:1 Mem:270.95M (Peak 270.95M) | Time:00:03.09 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Harness adjuster L
+Fra:1 Mem:270.97M (Peak 270.97M) | Time:00:03.09 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Harness adjuster R
+Fra:1 Mem:271.00M (Peak 271.00M) | Time:00:03.09 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Harness seam L
+Fra:1 Mem:271.12M (Peak 271.12M) | Time:00:03.09 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Harness seam L.001
+Fra:1 Mem:271.24M (Peak 271.24M) | Time:00:03.09 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Harness seam R
+Fra:1 Mem:271.36M (Peak 271.36M) | Time:00:03.09 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Harness seam R.001
+Fra:1 Mem:274.94M (Peak 275.07M) | Time:00:05.45 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Head | continuous sculpted anime face
+Fra:1 Mem:282.69M (Peak 283.48M) | Time:00:05.45 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hem | double bound edge
+Fra:1 Mem:284.24M (Peak 284.24M) | Time:00:05.45 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hem | double bound edge.001
+Fra:1 Mem:285.78M (Peak 285.78M) | Time:00:05.45 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hem | double bound edge.002
+Fra:1 Mem:287.32M (Peak 287.32M) | Time:00:05.45 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hem | double bound edge.003
+Fra:1 Mem:288.87M (Peak 288.87M) | Time:00:05.45 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hem | ID patch
+Fra:1 Mem:288.89M (Peak 288.89M) | Time:00:05.45 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hem | insignia
+Fra:1 Mem:289.31M (Peak 289.31M) | Time:00:05.70 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hidden fitted torso
+Fra:1 Mem:290.16M (Peak 290.16M) | Time:00:05.70 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hood | cord aglet
+Fra:1 Mem:290.17M (Peak 290.17M) | Time:00:05.70 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hood | cord aglet.001
+Fra:1 Mem:290.17M (Peak 290.17M) | Time:00:05.70 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hood | folded back volume
+Fra:1 Mem:290.47M (Peak 290.47M) | Time:00:05.70 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hood | hanging drawcord
+Fra:1 Mem:290.52M (Peak 290.52M) | Time:00:05.70 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hood | hanging drawcord.001
+Fra:1 Mem:290.57M (Peak 290.57M) | Time:00:05.70 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Hood | seam
+Fra:1 Mem:290.67M (Peak 290.67M) | Time:00:05.70 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Jacket | panel top seam
+Fra:1 Mem:290.74M (Peak 290.74M) | Time:00:05.70 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Jacket | panel top seam.001
+Fra:1 Mem:292.49M (Peak 292.49M) | Time:00:06.59 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Jacket | shaped main shell
+Fra:1 Mem:296.08M (Peak 296.44M) | Time:00:06.59 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Jacket | tailored princess seam
+Fra:1 Mem:296.22M (Peak 296.44M) | Time:00:06.59 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Jacket | tailored princess seam.001
+Fra:1 Mem:296.37M (Peak 296.44M) | Time:00:06.59 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | ankle panel piping
+Fra:1 Mem:296.42M (Peak 296.44M) | Time:00:06.59 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | ankle panel piping.001
+Fra:1 Mem:296.66M (Peak 296.66M) | Time:00:06.65 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | bare forearm
+Fra:1 Mem:297.79M (Peak 297.79M) | Time:00:06.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | black tailored sleeve
+Fra:1 Mem:299.39M (Peak 299.39M) | Time:00:06.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | boot midsole
+Fra:1 Mem:299.45M (Peak 299.45M) | Time:00:06.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | boot tongue
+Fra:1 Mem:299.48M (Peak 299.48M) | Time:00:06.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | buckle dark inset
+Fra:1 Mem:299.54M (Peak 299.54M) | Time:00:06.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | burgundy rubber outsole
+Fra:1 Mem:299.67M (Peak 299.67M) | Time:00:06.81 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | burgundy wrist wrap
+Fra:1 Mem:300.65M (Peak 300.68M) | Time:00:07.06 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | continuous stocking leg
+Fra:1 Mem:302.74M (Peak 302.95M) | Time:00:07.06 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | cross lace
+Fra:1 Mem:302.78M (Peak 302.95M) | Time:00:07.06 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | cross lace.001
+Fra:1 Mem:302.84M (Peak 302.95M) | Time:00:07.06 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | cross lace.002
+Fra:1 Mem:302.88M (Peak 302.95M) | Time:00:07.06 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | cross lace.003
+Fra:1 Mem:302.93M (Peak 302.95M) | Time:00:07.06 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | cuff seam
+Fra:1 Mem:304.09M (Peak 304.09M) | Time:00:07.06 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | cuff seam.001
+Fra:1 Mem:305.26M (Peak 305.26M) | Time:00:07.07 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | finger 1
+Fra:1 Mem:305.30M (Peak 305.30M) | Time:00:07.07 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | finger 2
+Fra:1 Mem:305.34M (Peak 305.34M) | Time:00:07.07 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | finger 3
+Fra:1 Mem:305.38M (Peak 305.38M) | Time:00:07.08 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | finger 4
+Fra:1 Mem:305.41M (Peak 305.41M) | Time:00:07.08 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | fingerless glove
+Fra:1 Mem:305.50M (Peak 305.50M) | Time:00:07.08 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | fingernail 1
+Fra:1 Mem:305.52M (Peak 305.52M) | Time:00:07.08 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | fingernail 2
+Fra:1 Mem:305.54M (Peak 305.54M) | Time:00:07.08 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | fingernail 3
+Fra:1 Mem:305.55M (Peak 305.55M) | Time:00:07.08 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | fingernail 4
+Fra:1 Mem:305.85M (Peak 305.85M) | Time:00:07.18 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | fitted ankle boot
+Fra:1 Mem:306.50M (Peak 306.50M) | Time:00:07.18 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | glove finger 1
+Fra:1 Mem:306.53M (Peak 306.53M) | Time:00:07.19 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | glove finger 2
+Fra:1 Mem:306.55M (Peak 306.55M) | Time:00:07.19 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | glove finger 3
+Fra:1 Mem:306.58M (Peak 306.58M) | Time:00:07.20 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | glove finger 4
+Fra:1 Mem:306.60M (Peak 306.60M) | Time:00:07.20 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | glove knuckle plate
+Fra:1 Mem:306.62M (Peak 306.62M) | Time:00:07.20 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | hand palm
+Fra:1 Mem:306.71M (Peak 306.71M) | Time:00:07.20 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | lace eyelet
+Fra:1 Mem:306.73M (Peak 306.73M) | Time:00:07.20 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | lace eyelet.001
+Fra:1 Mem:306.75M (Peak 306.75M) | Time:00:07.20 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | lace eyelet.002
+Fra:1 Mem:306.76M (Peak 306.76M) | Time:00:07.20 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | lace eyelet.003
+Fra:1 Mem:306.78M (Peak 306.78M) | Time:00:07.20 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | lace eyelet.004
+Fra:1 Mem:306.80M (Peak 306.80M) | Time:00:07.20 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | lace eyelet.005
+Fra:1 Mem:306.81M (Peak 306.81M) | Time:00:07.20 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | lace eyelet.006
+Fra:1 Mem:306.83M (Peak 306.83M) | Time:00:07.20 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | lace eyelet.007
+Fra:1 Mem:306.85M (Peak 306.85M) | Time:00:07.20 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | lace eyelet.008
+Fra:1 Mem:306.87M (Peak 306.87M) | Time:00:07.20 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | lace eyelet.009
+Fra:1 Mem:306.93M (Peak 306.93M) | Time:00:07.30 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | light turned cuff
+Fra:1 Mem:307.09M (Peak 307.09M) | Time:00:07.30 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | molded toe and vamp
+Fra:1 Mem:307.26M (Peak 307.26M) | Time:00:07.39 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | pale padded cuff
+Fra:1 Mem:307.36M (Peak 307.36M) | Time:00:07.39 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | return lace
+Fra:1 Mem:307.41M (Peak 307.41M) | Time:00:07.39 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | return lace.001
+Fra:1 Mem:307.46M (Peak 307.46M) | Time:00:07.39 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | return lace.002
+Fra:1 Mem:307.51M (Peak 307.51M) | Time:00:07.39 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | return lace.003
+Fra:1 Mem:307.60M (Peak 307.60M) | Time:00:07.49 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | shorts lower seam
+Fra:1 Mem:307.67M (Peak 307.67M) | Time:00:07.49 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | sleeve ID patch
+Fra:1 Mem:307.69M (Peak 307.69M) | Time:00:07.49 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | sleeve outer red piping
+Fra:1 Mem:307.76M (Peak 307.76M) | Time:00:07.49 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | sleeve stencil
+Fra:1 Mem:307.80M (Peak 307.80M) | Time:00:07.49 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | sole tread
+Fra:1 Mem:307.82M (Peak 307.82M) | Time:00:07.49 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | sole tread.001
+Fra:1 Mem:307.85M (Peak 307.85M) | Time:00:07.49 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | sole tread.002
+Fra:1 Mem:307.87M (Peak 307.87M) | Time:00:07.49 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | sole tread.003
+Fra:1 Mem:307.89M (Peak 307.89M) | Time:00:07.49 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | sole tread.004
+Fra:1 Mem:307.91M (Peak 307.91M) | Time:00:07.49 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | sole tread.005
+Fra:1 Mem:307.94M (Peak 307.94M) | Time:00:07.49 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | sole tread.006
+Fra:1 Mem:308.02M (Peak 308.02M) | Time:00:07.59 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | tactical shorts
+Fra:1 Mem:308.20M (Peak 308.20M) | Time:00:07.68 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | thigh harness band
+Fra:1 Mem:308.31M (Peak 308.31M) | Time:00:07.68 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | thigh strap adjuster
+Fra:1 Mem:308.35M (Peak 308.35M) | Time:00:07.69 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | thumb
+Fra:1 Mem:308.38M (Peak 308.38M) | Time:00:07.69 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | toe stitched seam
+Fra:1 Mem:308.47M (Peak 308.47M) | Time:00:07.69 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | tongue grey tab
+Fra:1 Mem:308.53M (Peak 308.53M) | Time:00:07.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | L | wrist black binding
+Fra:1 Mem:308.59M (Peak 308.59M) | Time:00:07.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Left belt pocket / flap 1
+Fra:1 Mem:308.61M (Peak 308.61M) | Time:00:07.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Left belt pocket / flap 2
+Fra:1 Mem:308.63M (Peak 308.63M) | Time:00:07.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Left belt pocket / keeper 1
+Fra:1 Mem:308.66M (Peak 308.66M) | Time:00:07.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Left belt pocket / keeper 2
+Fra:1 Mem:308.68M (Peak 308.68M) | Time:00:07.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Left belt pocket / snap 1
+Fra:1 Mem:308.70M (Peak 308.70M) | Time:00:07.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Left belt pocket / snap 2
+Fra:1 Mem:308.73M (Peak 308.73M) | Time:00:07.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Left belt pocket 1
+Fra:1 Mem:308.75M (Peak 308.75M) | Time:00:07.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Left belt pocket 2
+Fra:1 Mem:308.77M (Peak 308.77M) | Time:00:07.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Left thigh / grip groove
+Fra:1 Mem:308.79M (Peak 308.79M) | Time:00:07.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Left thigh / grip groove.001
+Fra:1 Mem:308.82M (Peak 308.82M) | Time:00:07.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Left thigh / grip groove.002
+Fra:1 Mem:308.84M (Peak 308.84M) | Time:00:07.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Left thigh / grip groove.003
+Fra:1 Mem:308.86M (Peak 308.86M) | Time:00:07.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Left thigh / lower retention band
+Fra:1 Mem:308.88M (Peak 308.88M) | Time:00:07.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Left thigh / sheath inlay
+Fra:1 Mem:308.91M (Peak 308.91M) | Time:00:07.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Left thigh / upper retention band
+Fra:1 Mem:308.93M (Peak 308.93M) | Time:00:07.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Left thigh / utility grip
+Fra:1 Mem:308.95M (Peak 308.95M) | Time:00:07.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Left thigh / utility sheath
+Fra:1 Mem:308.98M (Peak 308.98M) | Time:00:07.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Mouth | gentle closed seam
+Fra:1 Mem:309.12M (Peak 309.12M) | Time:00:07.75 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Mouth | lower lip reflected light
+Fra:1 Mem:309.35M (Peak 309.35M) | Time:00:07.84 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Neck
+Fra:1 Mem:309.76M (Peak 309.76M) | Time:00:07.84 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Nose | nostril accent -1
+Fra:1 Mem:309.81M (Peak 309.81M) | Time:00:07.84 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Nose | nostril accent 1
+Fra:1 Mem:309.86M (Peak 309.86M) | Time:00:07.84 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Oxblood hanging belt strap
+Fra:1 Mem:309.87M (Peak 309.87M) | Time:00:07.84 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | ankle panel piping
+Fra:1 Mem:309.92M (Peak 309.92M) | Time:00:07.84 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | ankle panel piping.001
+Fra:1 Mem:310.16M (Peak 310.16M) | Time:00:07.90 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | bare forearm
+Fra:1 Mem:311.29M (Peak 311.29M) | Time:00:08.00 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | black tailored sleeve
+Fra:1 Mem:312.89M (Peak 312.89M) | Time:00:08.00 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | boot midsole
+Fra:1 Mem:312.95M (Peak 312.95M) | Time:00:08.00 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | boot tongue
+Fra:1 Mem:312.98M (Peak 312.98M) | Time:00:08.00 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | buckle dark inset
+Fra:1 Mem:313.04M (Peak 313.04M) | Time:00:08.00 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | burgundy rubber outsole
+Fra:1 Mem:313.17M (Peak 313.17M) | Time:00:08.06 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | burgundy wrist wrap
+Fra:1 Mem:314.15M (Peak 314.18M) | Time:00:08.30 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | continuous stocking leg
+Fra:1 Mem:316.23M (Peak 316.45M) | Time:00:08.30 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | cross lace
+Fra:1 Mem:316.28M (Peak 316.45M) | Time:00:08.30 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | cross lace.001
+Fra:1 Mem:316.33M (Peak 316.45M) | Time:00:08.30 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | cross lace.002
+Fra:1 Mem:316.38M (Peak 316.45M) | Time:00:08.30 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | cross lace.003
+Fra:1 Mem:316.43M (Peak 316.45M) | Time:00:08.30 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | cuff seam
+Fra:1 Mem:317.59M (Peak 317.59M) | Time:00:08.30 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | cuff seam.001
+Fra:1 Mem:318.76M (Peak 318.76M) | Time:00:08.31 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | finger 1
+Fra:1 Mem:318.80M (Peak 318.80M) | Time:00:08.31 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | finger 2
+Fra:1 Mem:318.84M (Peak 318.84M) | Time:00:08.32 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | finger 3
+Fra:1 Mem:318.88M (Peak 318.88M) | Time:00:08.32 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | finger 4
+Fra:1 Mem:318.91M (Peak 318.91M) | Time:00:08.32 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | fingerless glove
+Fra:1 Mem:319.00M (Peak 319.00M) | Time:00:08.32 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | fingernail 1
+Fra:1 Mem:319.01M (Peak 319.01M) | Time:00:08.32 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | fingernail 2
+Fra:1 Mem:319.03M (Peak 319.03M) | Time:00:08.32 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | fingernail 3
+Fra:1 Mem:319.05M (Peak 319.05M) | Time:00:08.32 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | fingernail 4
+Fra:1 Mem:319.35M (Peak 319.35M) | Time:00:08.42 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | fitted ankle boot
+Fra:1 Mem:320.00M (Peak 320.00M) | Time:00:08.43 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | glove finger 1
+Fra:1 Mem:320.03M (Peak 320.03M) | Time:00:08.43 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | glove finger 2
+Fra:1 Mem:320.05M (Peak 320.05M) | Time:00:08.44 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | glove finger 3
+Fra:1 Mem:320.08M (Peak 320.08M) | Time:00:08.44 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | glove finger 4
+Fra:1 Mem:320.09M (Peak 320.09M) | Time:00:08.44 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | glove knuckle plate
+Fra:1 Mem:320.12M (Peak 320.12M) | Time:00:08.44 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | hand palm
+Fra:1 Mem:320.21M (Peak 320.21M) | Time:00:08.44 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | lace eyelet
+Fra:1 Mem:320.22M (Peak 320.22M) | Time:00:08.44 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | lace eyelet.001
+Fra:1 Mem:320.24M (Peak 320.24M) | Time:00:08.44 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | lace eyelet.002
+Fra:1 Mem:320.26M (Peak 320.26M) | Time:00:08.44 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | lace eyelet.003
+Fra:1 Mem:320.28M (Peak 320.28M) | Time:00:08.44 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | lace eyelet.004
+Fra:1 Mem:320.29M (Peak 320.29M) | Time:00:08.44 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | lace eyelet.005
+Fra:1 Mem:320.31M (Peak 320.31M) | Time:00:08.44 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | lace eyelet.006
+Fra:1 Mem:320.33M (Peak 320.33M) | Time:00:08.44 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | lace eyelet.007
+Fra:1 Mem:320.35M (Peak 320.35M) | Time:00:08.44 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | lace eyelet.008
+Fra:1 Mem:320.36M (Peak 320.36M) | Time:00:08.44 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | lace eyelet.009
+Fra:1 Mem:320.43M (Peak 320.43M) | Time:00:08.54 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | light turned cuff
+Fra:1 Mem:320.59M (Peak 320.59M) | Time:00:08.54 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | molded toe and vamp
+Fra:1 Mem:320.76M (Peak 320.76M) | Time:00:08.64 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | pale padded cuff
+Fra:1 Mem:320.86M (Peak 320.86M) | Time:00:08.64 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | return lace
+Fra:1 Mem:320.91M (Peak 320.91M) | Time:00:08.64 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | return lace.001
+Fra:1 Mem:320.96M (Peak 320.96M) | Time:00:08.64 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | return lace.002
+Fra:1 Mem:321.01M (Peak 321.01M) | Time:00:08.64 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | return lace.003
+Fra:1 Mem:321.09M (Peak 321.09M) | Time:00:08.74 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | shorts lower seam
+Fra:1 Mem:321.17M (Peak 321.17M) | Time:00:08.74 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | sleeve ID patch
+Fra:1 Mem:321.19M (Peak 321.19M) | Time:00:08.74 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | sleeve outer red piping
+Fra:1 Mem:321.26M (Peak 321.26M) | Time:00:08.74 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | sleeve stencil
+Fra:1 Mem:321.30M (Peak 321.30M) | Time:00:08.74 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | sole tread
+Fra:1 Mem:321.32M (Peak 321.32M) | Time:00:08.74 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | sole tread.001
+Fra:1 Mem:321.34M (Peak 321.34M) | Time:00:08.74 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | sole tread.002
+Fra:1 Mem:321.37M (Peak 321.37M) | Time:00:08.74 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | sole tread.003
+Fra:1 Mem:321.39M (Peak 321.39M) | Time:00:08.74 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | sole tread.004
+Fra:1 Mem:321.41M (Peak 321.41M) | Time:00:08.74 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | sole tread.005
+Fra:1 Mem:321.43M (Peak 321.43M) | Time:00:08.74 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | sole tread.006
+Fra:1 Mem:321.52M (Peak 321.52M) | Time:00:08.83 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | tactical shorts
+Fra:1 Mem:321.70M (Peak 321.70M) | Time:00:08.94 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | thigh harness band
+Fra:1 Mem:321.80M (Peak 321.80M) | Time:00:08.94 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | thigh strap adjuster
+Fra:1 Mem:321.84M (Peak 321.84M) | Time:00:08.95 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | thumb
+Fra:1 Mem:321.87M (Peak 321.87M) | Time:00:08.95 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | toe stitched seam
+Fra:1 Mem:321.97M (Peak 321.97M) | Time:00:08.95 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | tongue grey tab
+Fra:1 Mem:322.03M (Peak 322.03M) | Time:00:09.00 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | R | wrist black binding
+Fra:1 Mem:322.09M (Peak 322.09M) | Time:00:09.00 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Rear belt anchor L
+Fra:1 Mem:322.11M (Peak 322.11M) | Time:00:09.00 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Rear belt anchor R
+Fra:1 Mem:322.13M (Peak 322.13M) | Time:00:09.00 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Rear pouch / buckle face inset
+Fra:1 Mem:322.15M (Peak 322.15M) | Time:00:09.00 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Rear pouch / buckle face inset.001
+Fra:1 Mem:322.18M (Peak 322.18M) | Time:00:09.00 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Rear pouch / closure buckle
+Fra:1 Mem:322.20M (Peak 322.20M) | Time:00:09.00 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Rear pouch / closure buckle.001
+Fra:1 Mem:322.22M (Peak 322.22M) | Time:00:09.00 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Rear pouch / closure webbing
+Fra:1 Mem:322.25M (Peak 322.25M) | Time:00:09.00 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Rear pouch / closure webbing.001
+Fra:1 Mem:322.27M (Peak 322.27M) | Time:00:09.00 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Rear pouch / flap stitching
+Fra:1 Mem:322.32M (Peak 322.32M) | Time:00:09.00 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Rear pouch / flap stitching.001
+Fra:1 Mem:322.37M (Peak 322.37M) | Time:00:09.00 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Rear pouch / side gusset
+Fra:1 Mem:322.39M (Peak 322.39M) | Time:00:09.00 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Rear pouch / side gusset.001
+Fra:1 Mem:322.41M (Peak 322.41M) | Time:00:09.00 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Rear pouch / small maker tab
+Fra:1 Mem:322.44M (Peak 322.44M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Rear pouch / tab stripe
+Fra:1 Mem:322.46M (Peak 322.46M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Rear utility pouch / flap
+Fra:1 Mem:322.48M (Peak 322.48M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Rear utility pouch / lower panel
+Fra:1 Mem:322.51M (Peak 322.51M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Rear utility pouch / padded body
+Fra:1 Mem:322.53M (Peak 322.53M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Rear utility pouch / rear gusset
+Fra:1 Mem:322.55M (Peak 322.55M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Skirt | diagonal construction seam
+Fra:1 Mem:322.62M (Peak 322.62M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Skirt | diagonal grey binding
+Fra:1 Mem:322.70M (Peak 322.70M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Skirt | diagonal overlapping front panel
+Fra:1 Mem:322.71M (Peak 322.71M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Skirt | geometric hem marking
+Fra:1 Mem:322.71M (Peak 322.71M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Skirt | geometric hem marking.001
+Fra:1 Mem:322.72M (Peak 322.72M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Skirt | geometric hem marking.002
+Fra:1 Mem:322.72M (Peak 322.72M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Skirt | rear diagonal hem
+Fra:1 Mem:323.69M (Peak 323.78M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Skirt | rear unpadded cloth wrap
+Fra:1 Mem:323.91M (Peak 323.91M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Waist | ash asymmetrical drape
+Fra:1 Mem:323.91M (Peak 323.91M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Waist | drape sewn hem
+Fra:1 Mem:323.99M (Peak 323.99M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Waist | loose burgundy strap
+Fra:1 Mem:324.03M (Peak 324.03M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Waist | loose burgundy strap.001
+Fra:1 Mem:324.08M (Peak 324.08M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Waist | strap end
+Fra:1 Mem:324.11M (Peak 324.11M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Waist | strap end.001
+Fra:1 Mem:324.13M (Peak 324.13M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Wing opal socket L
+Fra:1 Mem:324.18M (Peak 324.18M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Wing opal socket R
+Fra:1 Mem:324.24M (Peak 324.24M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | black center tape
+Fra:1 Mem:324.38M (Peak 324.38M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | dark hanging pull
+Fra:1 Mem:324.41M (Peak 324.41M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth
+Fra:1 Mem:324.43M (Peak 324.43M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.001
+Fra:1 Mem:324.45M (Peak 324.45M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.002
+Fra:1 Mem:324.48M (Peak 324.48M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.003
+Fra:1 Mem:324.50M (Peak 324.50M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.004
+Fra:1 Mem:324.52M (Peak 324.52M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.005
+Fra:1 Mem:324.54M (Peak 324.54M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.006
+Fra:1 Mem:324.57M (Peak 324.57M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.007
+Fra:1 Mem:324.59M (Peak 324.59M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.008
+Fra:1 Mem:324.61M (Peak 324.61M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.009
+Fra:1 Mem:324.63M (Peak 324.63M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.010
+Fra:1 Mem:324.66M (Peak 324.66M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.011
+Fra:1 Mem:324.68M (Peak 324.68M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.012
+Fra:1 Mem:324.70M (Peak 324.70M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.013
+Fra:1 Mem:324.73M (Peak 324.73M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.014
+Fra:1 Mem:324.75M (Peak 324.75M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.015
+Fra:1 Mem:324.77M (Peak 324.77M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.016
+Fra:1 Mem:324.79M (Peak 324.79M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.017
+Fra:1 Mem:324.82M (Peak 324.82M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.018
+Fra:1 Mem:324.84M (Peak 324.84M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.019
+Fra:1 Mem:324.86M (Peak 324.86M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.020
+Fra:1 Mem:324.89M (Peak 324.89M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.021
+Fra:1 Mem:324.91M (Peak 324.91M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.022
+Fra:1 Mem:324.93M (Peak 324.93M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.023
+Fra:1 Mem:324.95M (Peak 324.95M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.024
+Fra:1 Mem:324.98M (Peak 324.98M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.025
+Fra:1 Mem:325.00M (Peak 325.00M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.026
+Fra:1 Mem:325.02M (Peak 325.02M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.027
+Fra:1 Mem:325.05M (Peak 325.05M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.028
+Fra:1 Mem:325.07M (Peak 325.07M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.029
+Fra:1 Mem:325.09M (Peak 325.09M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.030
+Fra:1 Mem:325.11M (Peak 325.11M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.031
+Fra:1 Mem:325.14M (Peak 325.14M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.032
+Fra:1 Mem:325.16M (Peak 325.16M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.033
+Fra:1 Mem:325.18M (Peak 325.18M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.034
+Fra:1 Mem:325.21M (Peak 325.21M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.035
+Fra:1 Mem:325.23M (Peak 325.23M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.036
+Fra:1 Mem:325.25M (Peak 325.25M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.037
+Fra:1 Mem:325.27M (Peak 325.27M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.038
+Fra:1 Mem:325.30M (Peak 325.30M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.039
+Fra:1 Mem:325.32M (Peak 325.32M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.040
+Fra:1 Mem:325.34M (Peak 325.34M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.041
+Fra:1 Mem:325.37M (Peak 325.37M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.042
+Fra:1 Mem:325.39M (Peak 325.39M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.043
+Fra:1 Mem:325.41M (Peak 325.41M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | individual metal tooth.044
+Fra:1 Mem:325.43M (Peak 325.43M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | Zip | slider
+Fra:1 Mem:325.30M (Peak 325.43M) | Time:00:09.01 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | FRONT | view label
+Fra:1 Mem:325.33M (Peak 325.43M) | Time:00:09.02 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | SIDE | view label
+Fra:1 Mem:325.35M (Peak 325.43M) | Time:00:09.02 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Synchronizing object | BACK | view label
+Fra:1 Mem:325.37M (Peak 325.43M) | Time:00:09.02 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Initializing
+Fra:1 Mem:199.23M (Peak 325.43M) | Time:00:09.04 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Waiting for render to start
+Fra:1 Mem:199.23M (Peak 325.43M) | Time:00:09.04 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Updating Scene
+Fra:1 Mem:199.23M (Peak 325.43M) | Time:00:09.04 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Updating Shaders
+Fra:1 Mem:199.23M (Peak 325.43M) | Time:00:09.04 | Mem:0.00M, Peak:0.00M | 02 | Three-view inspection, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:199.37M (Peak 325.43M) | Time:00:09.04 | Mem:0.05M, Peak:0.05M | 02 | Three-view inspection, ViewLayer | Updating Procedurals
+Fra:1 Mem:199.37M (Peak 325.43M) | Time:00:09.04 | Mem:0.05M, Peak:0.05M | 02 | Three-view inspection, ViewLayer | Updating Background
+Fra:1 Mem:199.37M (Peak 325.43M) | Time:00:09.04 | Mem:0.05M, Peak:0.05M | 02 | Three-view inspection, ViewLayer | Updating Camera
+Fra:1 Mem:199.37M (Peak 325.43M) | Time:00:09.04 | Mem:0.05M, Peak:0.05M | 02 | Three-view inspection, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:199.37M (Peak 325.43M) | Time:00:09.04 | Mem:0.05M, Peak:0.05M | 02 | Three-view inspection, ViewLayer | Updating Objects
+Fra:1 Mem:199.37M (Peak 325.43M) | Time:00:09.04 | Mem:0.05M, Peak:0.05M | 02 | Three-view inspection, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:199.75M (Peak 325.43M) | Time:00:09.04 | Mem:0.43M, Peak:0.43M | 02 | Three-view inspection, ViewLayer | Updating Particle Systems
+Fra:1 Mem:199.75M (Peak 325.43M) | Time:00:09.04 | Mem:0.43M, Peak:0.43M | 02 | Three-view inspection, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:199.75M (Peak 325.43M) | Time:00:09.04 | Mem:0.43M, Peak:0.43M | 02 | Three-view inspection, ViewLayer | Updating Meshes
+Fra:1 Mem:199.75M (Peak 325.43M) | Time:00:09.04 | Mem:0.43M, Peak:0.43M | 02 | Three-view inspection, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:199.75M (Peak 325.43M) | Time:00:09.04 | Mem:0.43M, Peak:0.43M | 02 | Three-view inspection, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:212.33M (Peak 325.43M) | Time:00:09.05 | Mem:0.46M, Peak:0.46M | 02 | Three-view inspection, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:12.87M, Peak:12.87M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.050 540/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:12.87M, Peak:12.87M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Back crossing harness L 2/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:12.87M, Peak:12.87M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Brow L | soft wine arc 11/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:12.87M, Peak:12.87M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.126 16/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:12.87M, Peak:12.87M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.149 20/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.11M, Peak:13.11M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.149 20/539 | Building BVH 0%
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.51M, Peak:13.53M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.150 21/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.44M, Peak:13.53M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.141 35/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.44M, Peak:13.53M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.144 38/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.46M, Peak:13.53M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.145 39/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.49M, Peak:13.53M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.146 40/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.51M, Peak:13.53M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.153 41/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.51M, Peak:13.53M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.122 42/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.52M, Peak:13.53M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.041 43/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.55M, Peak:13.56M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.042 44/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.56M, Peak:13.56M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.043 45/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.60M, Peak:13.60M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Carbine / shoulder sling 46/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.63M, Peak:13.63M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.130 48/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.66M, Peak:13.66M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.124 49/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.69M, Peak:13.69M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.123 50/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.70M, Peak:13.71M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.053 53/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.71M, Peak:13.71M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.052 54/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.73M, Peak:13.73M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere 55/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.76M, Peak:13.77M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.001 56/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.77M, Peak:13.77M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Chest | warning label 57/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.79M, Peak:13.79M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Collar | hanging utility tape 59/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.91M, Peak:13.91M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 60/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.95M, Peak:13.95M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.060 62/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.95M, Peak:13.96M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Crystal wing L / shard 01 63/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:13.94M, Peak:13.96M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Crystal wing L / shard 04 66/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:14.22M, Peak:14.22M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Crystal wing L / shard 05 67/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:14.24M, Peak:14.24M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Crystal wing L / shard 06 68/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:14.26M, Peak:14.26M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Crystal wing L / shard 08 70/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:14.28M, Peak:14.28M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Crystal wing R / shard 01 71/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:14.29M, Peak:14.29M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Crystal wing R / shard 02 72/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:14.29M, Peak:14.29M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Crystal wing R / shard 03 73/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:14.31M, Peak:14.31M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Crystal wing R / shard 04 74/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:14.34M, Peak:14.34M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Crystal wing R / shard 05 75/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:14.34M, Peak:14.35M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Crystal wing R / shard 06 76/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:14.35M, Peak:14.35M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Crystal wing R / shard 07 77/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:14.35M, Peak:14.35M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Crystal wing R / shard 08 78/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:14.35M, Peak:14.35M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.035 79/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:14.35M, Peak:14.35M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.036 81/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:14.35M, Peak:14.35M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Ear L | folded helix 80/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:14.35M, Peak:14.35M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | almond sclera 85/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:14.39M, Peak:14.39M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Ear R | folded helix 83/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:14.46M, Peak:14.46M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.047 537/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:14.52M, Peak:14.52M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | iris fiber 00 87/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:14.62M, Peak:14.62M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | iris fiber 01 88/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:14.65M, Peak:14.65M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | iris fiber 03 90/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:15.02M, Peak:15.02M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | iris fiber 04 91/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:15.06M, Peak:15.06M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | iris fiber 05 92/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:15.07M, Peak:15.10M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | iris fiber 06 93/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:15.09M, Peak:15.10M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | iris fiber 07 94/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:15.14M, Peak:15.14M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | iris fiber 08 95/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:15.16M, Peak:15.16M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | iris fiber 09 96/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:15.30M, Peak:15.30M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | iris fiber 10 97/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:15.49M, Peak:15.51M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.046 536/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:15.54M, Peak:15.54M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | iris fiber 12 99/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:15.52M, Peak:15.59M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | iris fiber 13 100/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:15.80M, Peak:15.80M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | iris fiber 14 101/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:15.82M, Peak:15.83M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | iris fiber 15 102/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:15.88M, Peak:15.88M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | iris fiber 17 104/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:15.91M, Peak:15.94M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | iris fiber 18 105/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:15.92M, Peak:15.94M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | iris fiber 19 106/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:16.01M, Peak:16.01M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | iris fiber 22 109/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:16.01M, Peak:16.03M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.045 535/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:16.02M, Peak:16.03M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | iris fiber 23 110/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:16.65M, Peak:16.65M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | iris fiber 24 111/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:16.72M, Peak:16.72M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | iris fiber 25 112/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:16.70M, Peak:16.75M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | iris fiber 26 113/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:16.77M, Peak:16.77M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | iris fiber 27 114/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:16.82M, Peak:16.82M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | limbal outline 115/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:16.87M, Peak:16.87M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | outer lash wing 118/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:16.94M, Peak:16.94M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.044 534/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:16.95M, Peak:16.95M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | oval pupil 119/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:17.01M, Peak:17.01M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | secondary catchlight 120/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:17.01M, Peak:17.04M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye L | tapered upper lash 121/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:17.02M, Peak:17.04M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | almond sclera 122/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:17.37M, Peak:17.37M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | iris fiber 00 124/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:17.43M, Peak:17.43M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | iris fiber 01 125/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:17.46M, Peak:17.46M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | iris fiber 02 126/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:17.52M, Peak:17.53M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | iris fiber 03 127/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:17.54M, Peak:17.55M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | iris fiber 04 128/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:17.82M, Peak:17.84M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | iris fiber 05 129/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:17.84M, Peak:17.84M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.043 533/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:17.91M, Peak:17.91M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | iris fiber 07 131/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:17.89M, Peak:17.92M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | iris fiber 09 133/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:17.90M, Peak:17.92M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | iris fiber 10 134/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:18.02M, Peak:18.02M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | iris fiber 11 135/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:18.06M, Peak:18.06M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | iris fiber 12 136/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:18.27M, Peak:18.27M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | iris fiber 13 137/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:18.42M, Peak:18.42M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | iris fiber 14 138/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:18.46M, Peak:18.46M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.042 532/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:18.50M, Peak:18.50M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | iris fiber 15 139/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:18.60M, Peak:18.60M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | iris fiber 16 140/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:18.72M, Peak:18.72M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | iris fiber 17 141/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:18.77M, Peak:18.77M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | iris fiber 19 143/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:18.79M, Peak:18.79M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | iris fiber 20 144/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:18.92M, Peak:18.92M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | iris fiber 21 145/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:19.16M, Peak:19.16M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | iris fiber 22 146/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:19.03M, Peak:19.24M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | iris fiber 23 147/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:19.02M, Peak:19.24M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | iris fiber 25 149/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:19.08M, Peak:19.24M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | limbal outline 152/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:19.10M, Peak:19.24M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | main catchlight 154/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:19.19M, Peak:19.24M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | outer lash wing 155/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:19.28M, Peak:19.28M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | secondary catchlight 157/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:19.28M, Peak:19.30M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.041 531/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:19.32M, Peak:19.32M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Eye R | tapered upper lash 158/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:19.38M, Peak:19.38M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Floating luminous halo 159/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:19.55M, Peak:19.57M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 160/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:19.57M, Peak:19.57M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 162/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:19.62M, Peak:19.62M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 163/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:20.03M, Peak:20.03M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | L temple flick 03 | fine sheen 1 164/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:20.44M, Peak:20.44M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.040 530/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:20.57M, Peak:20.57M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 165/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:20.63M, Peak:20.63M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 1 lock 01 | fine sheen 1 167/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:20.69M, Peak:20.70M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.039 529/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:20.74M, Peak:20.74M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 168/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:20.74M, Peak:20.74M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 169/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:21.09M, Peak:21.09M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 1 lock 03 | fine sheen 1 170/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:21.25M, Peak:21.25M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 171/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:21.63M, Peak:21.63M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 1 lock 04 | fine sheen 1 172/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:22.21M, Peak:22.21M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.038 528/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:22.77M, Peak:22.77M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 173/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:22.79M, Peak:22.79M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.037 527/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:23.03M, Peak:23.03M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.036 526/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:23.28M, Peak:23.28M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.035 525/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:23.50M, Peak:23.50M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.034 524/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:23.70M, Peak:23.70M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.033 523/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:23.76M, Peak:23.76M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 174/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:23.92M, Peak:24.03M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.032 522/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:24.15M, Peak:24.15M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.031 521/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:24.36M, Peak:24.36M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 1 lock 06 | fine sheen 1 175/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.05 | Mem:24.46M, Peak:24.46M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.030 520/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:24.97M, Peak:24.97M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.029 519/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:25.09M, Peak:25.09M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 176/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:25.15M, Peak:25.15M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.028 518/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:25.37M, Peak:25.37M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 1 lock 07 | fine sheen 1 177/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:25.64M, Peak:25.64M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.027 517/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:25.57M, Peak:25.78M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.026 516/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:25.73M, Peak:25.78M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 178/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:25.35M, Peak:25.78M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.025 515/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:25.36M, Peak:25.78M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 179/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:25.74M, Peak:25.78M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.024 514/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:25.94M, Peak:25.94M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.023 513/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:25.97M, Peak:25.97M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 1 lock 09 | fine sheen 1 180/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:26.18M, Peak:26.18M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 181/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:26.20M, Peak:26.20M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.022 512/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:26.30M, Peak:26.40M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 1 lock 10 | fine sheen 1 182/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:26.19M, Peak:26.40M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.021 511/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:26.23M, Peak:26.40M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 184/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:26.56M, Peak:26.56M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 1 lock 12 | fine sheen 1 185/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:26.87M, Peak:26.87M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.020 510/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:27.14M, Peak:27.18M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 186/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:27.23M, Peak:27.23M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.019 509/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:27.56M, Peak:27.56M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.018 508/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:27.51M, Peak:27.77M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 1 lock 13 | fine sheen 1 187/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:27.40M, Peak:27.77M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 188/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:27.44M, Peak:27.77M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 189/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:27.47M, Peak:27.77M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 1 lock 15 | fine sheen 1 190/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:27.57M, Peak:27.77M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 2 lock 01 | fine sheen 1 192/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:27.73M, Peak:27.77M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.016 506/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:28.03M, Peak:28.03M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 193/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:28.50M, Peak:28.50M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.015 505/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:28.65M, Peak:28.68M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.014 504/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:28.72M, Peak:28.72M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 194/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:28.74M, Peak:28.81M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 2 lock 03 | fine sheen 1 195/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:28.80M, Peak:28.81M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 196/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:29.41M, Peak:29.41M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.012 502/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:29.54M, Peak:29.54M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 2 lock 04 | fine sheen 1 197/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:29.86M, Peak:29.86M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.011 501/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:30.14M, Peak:30.14M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.010 500/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:30.47M, Peak:30.47M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.009 499/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:30.54M, Peak:30.54M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.008 498/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:30.58M, Peak:30.62M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 198/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:30.84M, Peak:30.84M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 199/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:30.96M, Peak:30.96M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.007 497/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:30.88M, Peak:31.13M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.006 496/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:30.92M, Peak:31.13M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 201/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:30.99M, Peak:31.13M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 2 lock 06 | fine sheen 1 200/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:31.40M, Peak:31.40M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 203/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:31.86M, Peak:31.86M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.005 495/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:32.07M, Peak:32.07M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.051 494/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:32.30M, Peak:32.31M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Zip | black center tape 493/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:32.54M, Peak:32.70M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 204/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:32.89M, Peak:32.89M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 2 lock 09 | fine sheen 1 205/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:33.05M, Peak:33.05M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 206/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:33.28M, Peak:33.28M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 2 lock 10 | fine sheen 1 207/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:33.40M, Peak:33.40M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 208/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:33.61M, Peak:33.99M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.039 492/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:33.79M, Peak:33.99M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 209/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:33.86M, Peak:33.99M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 2 lock 12 | fine sheen 1 210/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:34.38M, Peak:34.55M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.040 491/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:34.44M, Peak:34.55M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 211/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:34.28M, Peak:34.55M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 213/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:34.45M, Peak:34.55M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 214/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:34.78M, Peak:34.88M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 2 lock 15 | fine sheen 1 215/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:34.74M, Peak:34.88M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 216/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:34.97M, Peak:34.97M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 2 lock 16 | fine sheen 1 217/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:35.38M, Peak:35.38M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.066 490/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:35.54M, Peak:35.64M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.065 489/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:35.57M, Peak:35.64M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 218/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:35.60M, Peak:35.64M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 219/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:36.01M, Peak:36.01M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Waist | loose burgundy strap.001 488/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:35.80M, Peak:36.19M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 2 lock 18 | fine sheen 1 220/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:36.06M, Peak:36.19M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 221/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:36.12M, Peak:36.19M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Waist | loose burgundy strap 487/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:36.25M, Peak:36.25M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 3 lock 01 | fine sheen 1 222/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:36.60M, Peak:36.64M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 223/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:36.72M, Peak:36.72M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 224/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:36.76M, Peak:36.76M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Waist | drape sewn hem 486/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:37.75M, Peak:37.76M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Waist | ash asymmetrical drape 485/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:37.96M, Peak:37.96M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Skirt | rear unpadded cloth wrap 484/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:38.32M, Peak:38.32M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 3 lock 03 | fine sheen 1 225/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:38.54M, Peak:38.54M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 226/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:38.94M, Peak:38.94M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 3 lock 04 | fine sheen 1 227/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:39.16M, Peak:39.16M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 228/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:39.28M, Peak:39.28M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 229/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:39.64M, Peak:39.73M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 3 lock 06 | fine sheen 1 230/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:40.05M, Peak:40.05M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 231/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:40.28M, Peak:40.37M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 3 lock 07 | fine sheen 1 232/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:40.17M, Peak:40.37M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 233/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:40.51M, Peak:40.53M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 234/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:40.69M, Peak:40.69M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Skirt | rear diagonal hem 483/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:41.23M, Peak:41.23M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 3 lock 09 | fine sheen 1 235/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:41.24M, Peak:41.34M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 236/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:41.48M, Peak:41.53M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 3 lock 10 | fine sheen 1 237/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:41.52M, Peak:41.53M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 238/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:41.74M, Peak:41.92M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 239/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:41.70M, Peak:41.92M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 3 lock 12 | fine sheen 1 240/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:41.78M, Peak:41.92M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 241/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:42.31M, Peak:42.31M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 3 lock 13 | fine sheen 1 242/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:43.20M, Peak:43.20M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 3 lock 15 | fine sheen 1 245/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:43.84M, Peak:43.92M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 246/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:44.30M, Peak:44.30M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 3 lock 16 | fine sheen 1 247/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:44.42M, Peak:44.42M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 248/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:44.52M, Peak:44.52M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 249/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:44.77M, Peak:44.77M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 3 lock 18 | fine sheen 1 250/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:45.10M, Peak:45.10M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 251/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:45.92M, Peak:46.02M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | layer 3 lock 19 | fine sheen 1 252/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:46.10M, Peak:46.10M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 253/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:46.24M, Peak:46.24M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | R temple flick 01 | fine sheen 1 254/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:46.30M, Peak:46.63M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 255/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:46.43M, Peak:46.63M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 256/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:46.44M, Peak:46.63M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | R temple flick 03 | fine sheen 1 257/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:47.23M, Peak:47.23M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 258/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:47.40M, Peak:47.40M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 259/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:47.50M, Peak:47.50M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | sculpted fringe 01 | fine sheen 1 260/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:48.34M, Peak:48.34M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 261/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:48.30M, Peak:48.34M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | sculpted fringe 02 | fine sheen 1 262/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:48.85M, Peak:48.85M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 263/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:48.97M, Peak:49.02M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | sculpted fringe 03 | fine sheen 1 264/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:49.13M, Peak:49.13M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 265/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:49.51M, Peak:49.51M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | sculpted fringe 04 | fine sheen 1 266/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:49.91M, Peak:49.91M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 267/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:49.99M, Peak:50.02M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | sculpted fringe 05 | fine sheen 1 268/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:49.88M, Peak:50.02M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 269/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:49.93M, Peak:50.02M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | sculpted fringe 06 | fine sheen 1 270/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:50.63M, Peak:50.63M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 271/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:50.80M, Peak:50.80M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | sculpted fringe 07 | fine sheen 1 272/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:52.26M, Peak:52.26M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 273/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:52.53M, Peak:52.53M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hair | sculpted fringe 08 | fine sheen 1 274/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:52.91M, Peak:53.05M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 275/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:52.80M, Peak:53.05M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.111 276/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:52.90M, Peak:53.05M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.087 277/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:53.94M, Peak:53.98M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.085 278/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:53.78M, Peak:54.10M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Skirt | geometric hem marking.002 482/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:53.82M, Peak:54.10M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Harness seam L 279/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:53.87M, Peak:54.10M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Harness seam L.001 280/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:53.89M, Peak:54.10M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Harness seam R 281/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:53.94M, Peak:54.10M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Harness seam R.001 282/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:54.29M, Peak:54.29M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Skirt | geometric hem marking 480/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:54.30M, Peak:54.35M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Skirt | diagonal overlapping front panel 479/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:54.17M, Peak:54.35M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hem | double bound edge 284/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:54.95M, Peak:54.95M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hem | double bound edge.001 285/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:54.92M, Peak:54.98M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Skirt | diagonal grey binding 478/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:54.97M, Peak:54.98M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 283/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:59.00M, Peak:59.00M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hem | double bound edge.002 286/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:59.40M, Peak:59.71M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.054 288/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:59.48M, Peak:59.71M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hem | insignia 289/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:59.56M, Peak:59.71M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Skirt | diagonal construction seam 477/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:59.43M, Peak:59.71M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hem | double bound edge.003 287/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:60.09M, Peak:60.09M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cylinder 291/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:60.14M, Peak:60.14M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 290/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:60.64M, Peak:60.65M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.090 476/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:60.35M, Peak:60.67M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.089 475/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:60.38M, Peak:60.67M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cylinder.001 292/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:60.41M, Peak:60.67M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.092 474/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:60.39M, Peak:60.67M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.091 473/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:60.40M, Peak:60.67M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.014 293/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:60.40M, Peak:60.67M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hood | hanging drawcord 294/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:60.56M, Peak:60.67M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.102 472/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:60.58M, Peak:60.67M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Hood | seam 296/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:60.61M, Peak:60.67M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Jacket | panel top seam 297/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:60.64M, Peak:60.67M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Jacket | panel top seam.001 298/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:60.69M, Peak:60.69M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.101 471/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:60.73M, Peak:60.73M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Jacket | tailored princess seam 300/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:60.78M, Peak:60.78M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Jacket | tailored princess seam.001 301/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:60.79M, Peak:60.80M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH L | ankle panel piping 302/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:60.79M, Peak:60.80M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.097 470/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:61.07M, Peak:61.07M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.093 469/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:62.56M, Peak:62.71M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Rear pouch / flap stitching.001 468/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:62.83M, Peak:62.83M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 304/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:63.01M, Peak:63.03M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Rear pouch / flap stitching 467/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:63.22M, Peak:63.24M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.098 466/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:63.42M, Peak:63.42M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.094 465/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:63.58M, Peak:63.58M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.099 464/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:63.75M, Peak:63.78M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.095 463/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:64.00M, Peak:64.00M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.100 462/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:64.13M, Peak:64.13M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.096 461/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:64.44M, Peak:64.45M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.086 460/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:64.64M, Peak:64.64M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.088 459/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:64.84M, Peak:64.84M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 458/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:65.48M, Peak:65.48M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 306/539 | Building BVH
+Fra:1 Mem:212.20M (Peak 325.43M) | Time:00:09.06 | Mem:65.50M, Peak:65.50M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 305/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:66.43M, Peak:66.46M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.076 307/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:66.47M, Peak:66.47M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.068 457/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:66.81M, Peak:66.81M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH R | toe stitched seam 456/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:67.79M, Peak:67.83M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 455/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:68.07M, Peak:68.07M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.001 454/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:68.38M, Peak:68.38M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 453/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:68.62M, Peak:69.17M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.004 308/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:68.70M, Peak:69.17M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 452/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:70.64M, Peak:70.64M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.075 451/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:70.79M, Peak:70.79M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.074 450/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:70.52M, Peak:70.96M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.073 449/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:70.73M, Peak:70.96M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.072 448/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:70.98M, Peak:70.99M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.071 447/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:71.13M, Peak:71.13M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.070 446/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:71.42M, Peak:71.42M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.069 445/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:71.56M, Peak:71.57M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH R | sleeve stencil 444/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:71.82M, Peak:71.83M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH R | sleeve outer red piping 443/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:71.29M, Peak:72.29M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 309/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:71.73M, Peak:72.29M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.056 442/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:71.42M, Peak:72.29M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 441/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:71.87M, Peak:72.29M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 310/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:72.46M, Peak:72.48M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH R | return lace.003 440/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:72.63M, Peak:72.63M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH L | cross lace 312/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:72.65M, Peak:72.65M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 311/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:73.42M, Peak:73.44M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH R | return lace.002 439/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:73.32M, Peak:73.45M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH R | return lace.001 438/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:73.34M, Peak:73.45M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH L | cross lace.001 313/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:73.59M, Peak:73.59M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH L | cross lace.002 314/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:73.80M, Peak:73.82M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH R | return lace 437/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:73.99M, Peak:73.99M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH L | cross lace.003 315/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:74.05M, Peak:74.05M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH L | cuff seam 316/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:74.07M, Peak:74.07M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH L | cuff seam.001 317/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:75.00M, Peak:75.01M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 436/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:75.81M, Peak:75.81M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 318/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:75.91M, Peak:75.91M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 319/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:75.88M, Peak:75.91M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 435/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:75.88M, Peak:75.91M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 321/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:76.07M, Peak:76.07M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.009 322/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:76.07M, Peak:76.07M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.010 323/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:76.12M, Peak:76.12M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.011 324/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:76.15M, Peak:76.15M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.012 325/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:76.23M, Peak:76.23M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.013 326/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:76.30M, Peak:76.31M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 328/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:76.30M, Peak:76.31M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 329/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:76.31M, Peak:76.31M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 330/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:76.33M, Peak:76.33M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.057 332/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:76.35M, Peak:76.35M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.008 333/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:76.37M, Peak:76.37M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.025 334/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:75.77M, Peak:76.40M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.026 335/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:75.81M, Peak:76.40M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.028 337/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:75.83M, Peak:76.40M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 434/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:75.92M, Peak:76.40M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.029 338/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:76.07M, Peak:76.40M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.030 339/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:76.35M, Peak:76.40M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.031 340/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:76.39M, Peak:76.40M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.032 341/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:76.48M, Peak:76.48M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.033 342/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:76.75M, Peak:76.80M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.034 343/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:76.76M, Peak:76.80M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.024 433/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:76.76M, Peak:76.80M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 344/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:76.89M, Peak:76.89M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 345/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:76.89M, Peak:76.90M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 346/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:77.09M, Peak:77.09M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.023 432/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:77.34M, Peak:77.34M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH L | return lace 347/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:77.43M, Peak:77.43M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.022 431/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:77.52M, Peak:77.52M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH L | return lace.001 348/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:77.74M, Peak:77.74M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH L | return lace.002 349/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:77.77M, Peak:77.77M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH L | return lace.003 350/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:77.80M, Peak:77.80M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.021 430/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:78.13M, Peak:78.19M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.020 429/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:78.14M, Peak:78.19M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.058 352/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:78.25M, Peak:78.25M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH L | sleeve outer red piping 353/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:76.88M, Peak:78.26M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH L | sleeve stencil 354/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:76.98M, Peak:78.26M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.078 355/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:77.00M, Peak:78.26M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.079 356/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:77.19M, Peak:78.26M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.018 427/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:77.34M, Peak:78.26M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.080 357/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:77.35M, Peak:78.26M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.081 358/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:77.42M, Peak:78.26M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.082 359/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:77.52M, Peak:78.26M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.017 426/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:77.76M, Peak:78.26M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.084 361/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:77.76M, Peak:78.26M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 363/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:77.74M, Peak:78.26M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.016 425/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:77.77M, Peak:78.26M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.003 364/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:77.92M, Peak:78.26M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 365/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:77.96M, Peak:78.26M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.077 367/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:78.00M, Peak:78.26M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.104 369/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:78.05M, Peak:78.26M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.108 370/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:78.09M, Peak:78.26M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.105 371/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:78.11M, Peak:78.26M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.109 372/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:78.23M, Peak:78.26M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.106 373/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:78.36M, Peak:78.36M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.110 374/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:78.42M, Peak:78.42M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.002 423/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:78.45M, Peak:78.45M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.103 375/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:78.64M, Peak:78.64M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.107 376/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:78.77M, Peak:78.77M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.118 378/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:78.71M, Peak:78.77M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.119 379/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:78.73M, Peak:78.77M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.113 382/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:78.73M, Peak:78.77M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.114 383/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:78.91M, Peak:78.91M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.112 385/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:78.99M, Peak:78.99M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mouth | gentle closed seam 386/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:79.35M, Peak:79.35M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mouth | lower lip reflected light 387/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:79.54M, Peak:79.54M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Nose | nostril accent -1 389/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:79.55M, Peak:79.55M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 388/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:79.57M, Peak:79.57M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Nose | nostril accent 1 390/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:79.56M, Peak:79.60M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.055 422/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:79.70M, Peak:79.71M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 421/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:80.01M, Peak:80.01M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Oxblood hanging belt strap 391/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:80.07M, Peak:80.07M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 420/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:80.23M, Peak:80.23M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH R | ankle panel piping.001 393/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:80.29M, Peak:80.29M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 419/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:80.36M, Peak:80.36M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 394/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:80.42M, Peak:80.42M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 418/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:80.68M, Peak:80.68M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 417/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:80.93M, Peak:80.93M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 395/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:81.19M, Peak:81.19M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 396/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:81.82M, Peak:81.82M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.067 397/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:82.50M, Peak:82.50M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Cube.002 398/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:82.72M, Peak:82.98M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 399/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:83.68M, Peak:83.83M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 400/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:84.26M, Peak:84.26M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 401/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:85.74M, Peak:85.74M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH R | cross lace 402/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:86.61M, Peak:86.61M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH R | cross lace.001 403/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:88.35M, Peak:88.35M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH R | cross lace.002 404/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:88.85M, Peak:88.85M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH R | cross lace.003 405/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:88.63M, Peak:88.88M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.007 416/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:88.66M, Peak:88.88M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 408/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:88.68M, Peak:88.88M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 410/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:88.70M, Peak:88.88M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Mesh 409/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:88.77M, Peak:88.88M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.003 412/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:89.31M, Peak:89.31M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.004 413/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.06 | Mem:89.78M, Peak:89.78M | 02 | Three-view inspection, ViewLayer | Updating Geometry BVH Sphere.005 414/539 | Building BVH
+Fra:1 Mem:212.21M (Peak 325.43M) | Time:00:09.07 | Mem:89.42M, Peak:92.26M | 02 | Three-view inspection, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:212.22M (Peak 325.43M) | Time:00:09.07 | Mem:89.42M, Peak:92.26M | 02 | Three-view inspection, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:212.22M (Peak 325.43M) | Time:00:09.07 | Mem:89.98M, Peak:92.26M | 02 | Three-view inspection, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:212.22M (Peak 325.43M) | Time:00:09.07 | Mem:89.98M, Peak:92.26M | 02 | Three-view inspection, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:245.52M (Peak 325.43M) | Time:00:09.08 | Mem:89.98M, Peak:92.26M | 02 | Three-view inspection, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:245.52M (Peak 325.43M) | Time:00:09.08 | Mem:123.27M, Peak:123.27M | 02 | Three-view inspection, ViewLayer | Updating Objects Flags
+Fra:1 Mem:245.52M (Peak 325.43M) | Time:00:09.08 | Mem:123.29M, Peak:123.29M | 02 | Three-view inspection, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:245.53M (Peak 325.43M) | Time:00:09.08 | Mem:123.29M, Peak:123.29M | 02 | Three-view inspection, ViewLayer | Updating Images
+Fra:1 Mem:245.53M (Peak 325.43M) | Time:00:09.08 | Mem:123.29M, Peak:123.29M | 02 | Three-view inspection, ViewLayer | Updating Camera Volume
+Fra:1 Mem:245.53M (Peak 325.43M) | Time:00:09.08 | Mem:123.29M, Peak:123.29M | 02 | Three-view inspection, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:245.53M (Peak 325.43M) | Time:00:09.08 | Mem:123.37M, Peak:123.37M | 02 | Three-view inspection, ViewLayer | Updating Lights
+Fra:1 Mem:245.53M (Peak 325.43M) | Time:00:09.08 | Mem:123.37M, Peak:123.37M | 02 | Three-view inspection, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:246.12M (Peak 325.43M) | Time:00:09.09 | Mem:123.96M, Peak:123.96M | 02 | Three-view inspection, ViewLayer | Updating Integrator
+Fra:1 Mem:246.12M (Peak 325.43M) | Time:00:09.09 | Mem:123.96M, Peak:123.96M | 02 | Three-view inspection, ViewLayer | Updating Film
+Fra:1 Mem:246.12M (Peak 325.43M) | Time:00:09.09 | Mem:123.88M, Peak:123.96M | 02 | Three-view inspection, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:246.12M (Peak 325.43M) | Time:00:09.09 | Mem:123.97M, Peak:123.97M | 02 | Three-view inspection, ViewLayer | Updating Baking
+Fra:1 Mem:246.12M (Peak 325.43M) | Time:00:09.09 | Mem:123.97M, Peak:123.97M | 02 | Three-view inspection, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:246.15M (Peak 325.43M) | Time:00:09.09 | Mem:123.97M, Peak:123.97M | 02 | Three-view inspection, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:246.15M (Peak 325.43M) | Time:00:09.09 | Mem:123.97M, Peak:123.97M | 02 | Three-view inspection, ViewLayer | Sample 0/48
+Fra:1 Mem:503.27M (Peak 503.27M) | Time:00:09.36 | Remaining:00:12.70 | Mem:380.81M, Peak:380.81M | 02 | Three-view inspection, ViewLayer | Sample 1/48
+Fra:1 Mem:611.42M (Peak 773.65M) | Time:00:27.00 | Mem:380.81M, Peak:380.81M | 02 | Three-view inspection, ViewLayer | Sample 48/48
+Fra:1 Mem:611.42M (Peak 773.65M) | Time:00:27.00 | Mem:380.81M, Peak:380.81M | 02 | Three-view inspection, ViewLayer | Finished
+Saved: 'C:\Users\36048\Documents\ChatGPT\New project\endfield_character\three_views.png'
+Time: 00:27.37 (Saving: 00:00.35)
+
+Info: Saved as "Endfield_Operator.blend"
+FINAL_SAVED_AND_CHECKED {'character_mesh_objects': 363, 'nonfinite_meshes': [], 'reference_packed': True, 'camera_count': 5, 'scene_names': ['01 | Operator studio', '02 | Three-view inspection'], 'static_model': True}
+
+Blender quit

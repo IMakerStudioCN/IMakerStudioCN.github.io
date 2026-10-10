@@ -1,0 +1,11 @@
+{
+  "character_mesh_objects": 363,
+  "nonfinite_meshes": [],
+  "reference_packed": true,
+  "camera_count": 5,
+  "scene_names": [
+    "01 | Operator studio",
+    "02 | Three-view inspection"
+  ],
+  "static_model": true
+}

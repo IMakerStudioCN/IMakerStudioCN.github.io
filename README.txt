@@ -77,6 +77,9 @@ index.html
 home.js
 从 resources.json 读取资源站数量、分类、更新时间和最近三条资源，并控制作品轮播与分段进入动效。
 
+works.html 和 works.js
+成员作品独立展示页，以及滚动进入动效。页面按游戏作品和影像作品分区，不包含登录入口。
+
 resources.html 和 app.js
 资源站列表、分类筛选、搜索、统计和资源卡片。
 
@@ -134,10 +137,17 @@ README.txt
 导航名称和地址：修改 class="header-actions" 内的文字和 href。
 官网主标题：查找“把想法做成作品，把经验留给下一届”。
 工作室介绍、作品展示、资源站接入和投稿流程位于对应 section。
-作品展示位于 id="works" 的 section。每件作品放在一个 class="work-slide" 中，内部使用 class="work-card" 的链接卡片。
-新增作品时复制完整的 work-slide，修改作品名、简介、平台地址和编号。home.js 会自动计算总数，并支持按钮、方向键和手机左右滑动切换。
+首页作品展示位于 id="works" 的 section。每件作品放在一个 class="work-slide" 中，内部使用 class="work-card" 的链接卡片。“更多成员作品”入口指向 works.html。
+首页需要新增重点作品时，复制完整的 work-slide，修改作品名、简介、平台地址和编号。home.js 会自动计算总数，并支持按钮、方向键和手机左右滑动切换。
 官网的资源站统计、最近收录和分段进入动效由 home.js 控制。首屏下拉动效定义在 styles.css；系统启用“减少动态效果”后会自动关闭动画。
 页脚文字：修改 footer 内的站名、说明和链接。
+
+成员作品页位于 works.html。
+页首简述、游戏作品、影像作品和结尾引导分别位于独立 section，页面不加入登录入口。
+TapTap 作品使用一个完整的 class="project-panel"。新增游戏作品时复制整个 project-panel，并修改编号、平台、标题、说明和外链。
+B 站视频使用 class="video-card"。新增视频时复制整个 video-card，把 href 改成去除 spm_id_from、vd_source 等跟踪参数后的规范作品地址，并同步修改编号、显示标题、BV 号和无障碍说明。
+未确认的平台作品标题不要猜测，可暂用“成员作品 + 编号”，确认正式名称后再替换。
+works.js 只负责滚动进入动效。页面专用外观在 styles.css 的 Member works archive 注释之后，主色由 .works-page 中的 --works-cyan 和 --works-yellow 控制。修改后同时检查手机布局和文字对比度。
 
 资源站页面位于 resources.html。资源主标题、介绍、筛选器和列表在该文件中，app.js 负责读取 resources.json、生成卡片、筛选和搜索。
 

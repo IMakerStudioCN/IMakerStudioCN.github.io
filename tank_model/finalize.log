@@ -1,0 +1,774 @@
+Blender 4.5.3 LTS (hash 67807e1800cc built 2025-09-09 01:33:33)
+Read blend: "C:\Users\36048\Documents\ChatGPT\New project\tank_model\Ironclad_07.blend"
+Fra:1 Mem:137.17M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Lower hull welded tub
+Fra:1 Mem:137.17M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Upper hull sloped glacis
+Fra:1 Mem:137.18M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt lower rubber flap
+Fra:1 Mem:137.18M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt retaining fastener.001
+Fra:1 Mem:138.19M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side skirt spaced armor -1 01
+Fra:1 Mem:139.19M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt retaining fastener.002
+Fra:1 Mem:139.20M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt hinge.001
+Fra:1 Mem:139.20M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side skirt spaced armor -1 02
+Fra:1 Mem:139.21M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt lower rubber flap.002
+Fra:1 Mem:139.22M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt retaining fastener.004
+Fra:1 Mem:139.23M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt hinge.002
+Fra:1 Mem:139.32M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side skirt spaced armor -1 03
+Fra:1 Mem:139.34M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt lower rubber flap.003
+Fra:1 Mem:139.38M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt retaining fastener.006
+Fra:1 Mem:139.37M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt retaining fastener.007
+Fra:1 Mem:139.37M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt hinge.003
+Fra:1 Mem:139.41M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side skirt spaced armor -1 04
+Fra:1 Mem:139.43M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt lower rubber flap.004
+Fra:1 Mem:139.44M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt retaining fastener.009
+Fra:1 Mem:139.50M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt hinge.004
+Fra:1 Mem:139.50M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side skirt spaced armor -1 05
+Fra:1 Mem:139.49M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt lower rubber flap.005
+Fra:1 Mem:139.53M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt retaining fastener.011
+Fra:1 Mem:139.53M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mud guard flexible end
+Fra:1 Mem:139.54M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mud guard flexible end.001
+Fra:1 Mem:139.58M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Track fender continuous.001
+Fra:1 Mem:139.60M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Side skirt spaced armor 1 00
+Fra:1 Mem:139.59M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt lower rubber flap.006
+Fra:1 Mem:139.65M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt retaining fastener.012
+Fra:1 Mem:139.65M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt retaining fastener.013
+Fra:1 Mem:139.74M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt lower rubber flap.010
+Fra:1 Mem:139.76M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt retaining fastener.020
+Fra:1 Mem:139.76M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt retaining fastener.021
+Fra:1 Mem:139.88M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt hinge.010
+Fra:1 Mem:139.87M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt lower rubber flap.011
+Fra:1 Mem:139.91M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt retaining fastener.022
+Fra:1 Mem:139.93M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt retaining fastener.023
+Fra:1 Mem:139.96M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mud guard flexible end.002
+Fra:1 Mem:139.94M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mud guard flexible end.003
+Fra:1 Mem:139.96M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rubber roadwheel tire
+Fra:1 Mem:139.96M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pressed steel wheel rim
+Fra:1 Mem:140.01M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim seam
+Fra:1 Mem:140.08M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Axle hub
+Fra:1 Mem:140.09M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt
+Fra:1 Mem:140.10M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.001
+Fra:1 Mem:140.19M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.002
+Fra:1 Mem:140.36M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.003
+Fra:1 Mem:140.36M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.005
+Fra:1 Mem:140.40M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.006
+Fra:1 Mem:140.43M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pressed steel wheel rim.001
+Fra:1 Mem:140.43M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim seam.001
+Fra:1 Mem:140.47M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hub cap.001
+Fra:1 Mem:140.49M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.008
+Fra:1 Mem:140.54M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.011
+Fra:1 Mem:140.55M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.013
+Fra:1 Mem:140.64M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trailing suspension arm.001
+Fra:1 Mem:140.58M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rubber roadwheel tire.001
+Fra:1 Mem:140.68M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pressed steel wheel rim.002
+Fra:1 Mem:140.77M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim seam.002
+Fra:1 Mem:140.78M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hub cap.002
+Fra:1 Mem:140.78M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.016
+Fra:1 Mem:140.94M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.017
+Fra:1 Mem:141.02M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.018
+Fra:1 Mem:141.03M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.020
+Fra:1 Mem:141.06M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.021
+Fra:1 Mem:141.04M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.022
+Fra:1 Mem:141.12M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.023
+Fra:1 Mem:141.18M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pressed steel wheel rim.003
+Fra:1 Mem:141.31M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim seam.003
+Fra:1 Mem:141.37M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Axle hub.003
+Fra:1 Mem:141.34M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hub cap.003
+Fra:1 Mem:141.34M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.024
+Fra:1 Mem:141.32M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.026
+Fra:1 Mem:141.46M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.029
+Fra:1 Mem:141.52M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.030
+Fra:1 Mem:141.63M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.031
+Fra:1 Mem:141.55M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trailing suspension arm.002
+Fra:1 Mem:141.57M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rubber roadwheel tire.002
+Fra:1 Mem:141.61M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim seam.004
+Fra:1 Mem:141.62M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pressed steel wheel rim.004
+Fra:1 Mem:141.65M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Axle hub.004
+Fra:1 Mem:141.73M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hub cap.004
+Fra:1 Mem:141.77M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.032
+Fra:1 Mem:141.80M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.033
+Fra:1 Mem:141.81M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.034
+Fra:1 Mem:141.73M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.035
+Fra:1 Mem:141.86M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.037
+Fra:1 Mem:141.83M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.036
+Fra:1 Mem:141.83M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.038
+Fra:1 Mem:141.86M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.039
+Fra:1 Mem:141.94M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim seam.005
+Fra:1 Mem:141.93M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hub cap.005
+Fra:1 Mem:141.88M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.040
+Fra:1 Mem:141.89M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.045
+Fra:1 Mem:141.91M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trailing suspension arm.003
+Fra:1 Mem:142.09M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rubber roadwheel tire.003
+Fra:1 Mem:142.15M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pressed steel wheel rim.006
+Fra:1 Mem:142.35M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Axle hub.006
+Fra:1 Mem:142.50M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hub cap.006
+Fra:1 Mem:142.39M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.048
+Fra:1 Mem:142.41M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.049
+Fra:1 Mem:142.44M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.050
+Fra:1 Mem:142.43M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.051
+Fra:1 Mem:142.40M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.052
+Fra:1 Mem:142.48M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.053
+Fra:1 Mem:142.55M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.054
+Fra:1 Mem:142.59M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.055
+Fra:1 Mem:142.68M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pressed steel wheel rim.007
+Fra:1 Mem:142.70M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim seam.007
+Fra:1 Mem:142.70M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Axle hub.007
+Fra:1 Mem:142.78M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hub cap.007
+Fra:1 Mem:142.94M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.056
+Fra:1 Mem:142.95M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.057
+Fra:1 Mem:142.86M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.063
+Fra:1 Mem:142.80M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rubber roadwheel tire.004
+Fra:1 Mem:142.94M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pressed steel wheel rim.008
+Fra:1 Mem:143.00M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim seam.008
+Fra:1 Mem:143.02M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Axle hub.008
+Fra:1 Mem:143.10M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.065
+Fra:1 Mem:143.08M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.068
+Fra:1 Mem:143.17M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.069
+Fra:1 Mem:143.27M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.070
+Fra:1 Mem:143.25M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.071
+Fra:1 Mem:143.30M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pressed steel wheel rim.009
+Fra:1 Mem:143.29M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim seam.009
+Fra:1 Mem:143.28M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Axle hub.009
+Fra:1 Mem:143.38M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hub cap.009
+Fra:1 Mem:143.36M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.072
+Fra:1 Mem:143.38M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.073
+Fra:1 Mem:143.48M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.074
+Fra:1 Mem:143.56M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.075
+Fra:1 Mem:143.55M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.077
+Fra:1 Mem:143.55M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.078
+Fra:1 Mem:143.63M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.079
+Fra:1 Mem:143.64M (Peak 143.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trailing suspension arm.005
+Fra:1 Mem:143.81M (Peak 143.81M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rubber roadwheel tire.005
+Fra:1 Mem:143.80M (Peak 143.81M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pressed steel wheel rim.010
+Fra:1 Mem:143.78M (Peak 143.81M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Axle hub.010
+Fra:1 Mem:143.80M (Peak 143.81M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hub cap.010
+Fra:1 Mem:143.77M (Peak 143.81M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.081
+Fra:1 Mem:143.94M (Peak 143.94M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.082
+Fra:1 Mem:144.01M (Peak 144.01M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.083
+Fra:1 Mem:144.04M (Peak 144.04M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.084
+Fra:1 Mem:144.10M (Peak 144.10M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.087
+Fra:1 Mem:144.05M (Peak 144.10M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pressed steel wheel rim.011
+Fra:1 Mem:144.08M (Peak 144.10M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Axle hub.011
+Fra:1 Mem:144.00M (Peak 144.10M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.088
+Fra:1 Mem:144.06M (Peak 144.10M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.089
+Fra:1 Mem:144.12M (Peak 144.12M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.090
+Fra:1 Mem:144.23M (Peak 144.24M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.091
+Fra:1 Mem:144.22M (Peak 144.24M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.092
+Fra:1 Mem:144.25M (Peak 144.25M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.093
+Fra:1 Mem:144.33M (Peak 144.33M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.094
+Fra:1 Mem:144.33M (Peak 144.33M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.095
+Fra:1 Mem:144.34M (Peak 144.34M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front idler
+Fra:1 Mem:144.41M (Peak 144.41M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | End wheel face
+Fra:1 Mem:144.49M (Peak 144.49M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | End wheel hub
+Fra:1 Mem:144.43M (Peak 144.49M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess
+Fra:1 Mem:144.44M (Peak 144.49M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.002
+Fra:1 Mem:144.48M (Peak 144.49M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.004
+Fra:1 Mem:144.51M (Peak 144.51M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.005
+Fra:1 Mem:144.55M (Peak 144.55M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.007
+Fra:1 Mem:144.52M (Peak 144.55M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.008
+Fra:1 Mem:144.59M (Peak 144.59M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.010
+Fra:1 Mem:144.64M (Peak 144.64M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.011
+Fra:1 Mem:144.65M (Peak 144.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Drive sprocket
+Fra:1 Mem:144.62M (Peak 144.66M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | End wheel face.001
+Fra:1 Mem:144.67M (Peak 144.67M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.012
+Fra:1 Mem:144.67M (Peak 144.67M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket drive tooth
+Fra:1 Mem:144.89M (Peak 144.91M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.013
+Fra:1 Mem:144.95M (Peak 144.94M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket drive tooth.001
+Fra:1 Mem:144.95M (Peak 144.95M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.014
+Fra:1 Mem:145.01M (Peak 145.01M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.015
+Fra:1 Mem:144.92M (Peak 145.01M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.016
+Fra:1 Mem:144.96M (Peak 145.01M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.017
+Fra:1 Mem:144.97M (Peak 145.01M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.018
+Fra:1 Mem:145.01M (Peak 145.01M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.019
+Fra:1 Mem:144.97M (Peak 145.01M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket drive tooth.007
+Fra:1 Mem:145.02M (Peak 145.02M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket drive tooth.008
+Fra:1 Mem:145.06M (Peak 145.06M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.021
+Fra:1 Mem:145.09M (Peak 145.09M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket drive tooth.009
+Fra:1 Mem:145.02M (Peak 145.09M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.022
+Fra:1 Mem:145.06M (Peak 145.09M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.023
+Fra:1 Mem:145.06M (Peak 145.09M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rubber roadwheel tire.006
+Fra:1 Mem:145.07M (Peak 145.09M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pressed steel wheel rim.012
+Fra:1 Mem:145.11M (Peak 145.11M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim seam.012
+Fra:1 Mem:145.18M (Peak 145.18M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hub cap.012
+Fra:1 Mem:145.33M (Peak 145.33M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.096
+Fra:1 Mem:145.29M (Peak 145.33M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.097
+Fra:1 Mem:145.31M (Peak 145.33M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.098
+Fra:1 Mem:145.37M (Peak 145.37M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.099
+Fra:1 Mem:145.37M (Peak 145.37M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.100
+Fra:1 Mem:145.42M (Peak 145.42M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.102
+Fra:1 Mem:145.51M (Peak 145.51M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pressed steel wheel rim.013
+Fra:1 Mem:145.59M (Peak 145.59M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim seam.013
+Fra:1 Mem:145.79M (Peak 145.79M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Axle hub.013
+Fra:1 Mem:145.80M (Peak 145.80M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.104
+Fra:1 Mem:145.88M (Peak 145.88M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.106
+Fra:1 Mem:145.92M (Peak 145.92M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.107
+Fra:1 Mem:145.93M (Peak 145.93M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.108
+Fra:1 Mem:145.97M (Peak 145.97M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.110
+Fra:1 Mem:145.98M (Peak 145.98M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.111
+Fra:1 Mem:145.99M (Peak 145.99M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rubber roadwheel tire.007
+Fra:1 Mem:146.03M (Peak 146.03M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pressed steel wheel rim.014
+Fra:1 Mem:145.99M (Peak 146.03M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim seam.014
+Fra:1 Mem:146.03M (Peak 146.03M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hub cap.014
+Fra:1 Mem:146.25M (Peak 146.25M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.112
+Fra:1 Mem:146.25M (Peak 146.25M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.113
+Fra:1 Mem:146.23M (Peak 146.25M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.114
+Fra:1 Mem:146.24M (Peak 146.25M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.116
+Fra:1 Mem:146.36M (Peak 146.36M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.117
+Fra:1 Mem:146.36M (Peak 146.36M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.118
+Fra:1 Mem:146.32M (Peak 146.36M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.119
+Fra:1 Mem:146.40M (Peak 146.40M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim seam.015
+Fra:1 Mem:146.41M (Peak 146.41M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Axle hub.015
+Fra:1 Mem:146.40M (Peak 146.41M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.120
+Fra:1 Mem:146.45M (Peak 146.45M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.121
+Fra:1 Mem:146.51M (Peak 146.51M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.122
+Fra:1 Mem:146.63M (Peak 146.63M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.123
+Fra:1 Mem:146.68M (Peak 146.68M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.124
+Fra:1 Mem:146.60M (Peak 146.68M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.125
+Fra:1 Mem:146.62M (Peak 146.68M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.127
+Fra:1 Mem:146.63M (Peak 146.68M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trailing suspension arm.008
+Fra:1 Mem:146.67M (Peak 146.68M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rubber roadwheel tire.008
+Fra:1 Mem:146.81M (Peak 146.81M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pressed steel wheel rim.016
+Fra:1 Mem:146.85M (Peak 146.83M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Axle hub.016
+Fra:1 Mem:146.83M (Peak 146.83M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.128
+Fra:1 Mem:146.87M (Peak 146.88M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.130
+Fra:1 Mem:146.94M (Peak 146.94M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.131
+Fra:1 Mem:146.90M (Peak 146.94M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.132
+Fra:1 Mem:146.86M (Peak 146.94M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.133
+Fra:1 Mem:146.97M (Peak 146.97M) | Time:00:00.08 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.134
+Fra:1 Mem:147.01M (Peak 147.01M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.135
+Fra:1 Mem:146.98M (Peak 147.01M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim seam.017
+Fra:1 Mem:147.03M (Peak 147.03M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hub cap.017
+Fra:1 Mem:147.06M (Peak 147.06M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.136
+Fra:1 Mem:147.23M (Peak 147.23M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.137
+Fra:1 Mem:147.24M (Peak 147.24M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.138
+Fra:1 Mem:147.27M (Peak 147.24M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.139
+Fra:1 Mem:147.23M (Peak 147.24M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.140
+Fra:1 Mem:147.31M (Peak 147.31M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.142
+Fra:1 Mem:147.33M (Peak 147.33M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.143
+Fra:1 Mem:147.38M (Peak 147.38M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trailing suspension arm.009
+Fra:1 Mem:147.42M (Peak 147.42M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rubber roadwheel tire.009
+Fra:1 Mem:147.45M (Peak 147.45M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pressed steel wheel rim.018
+Fra:1 Mem:147.38M (Peak 147.45M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Axle hub.018
+Fra:1 Mem:147.37M (Peak 147.45M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hub cap.018
+Fra:1 Mem:147.60M (Peak 147.60M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.144
+Fra:1 Mem:147.61M (Peak 147.61M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.147
+Fra:1 Mem:147.71M (Peak 147.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.148
+Fra:1 Mem:147.75M (Peak 147.75M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.149
+Fra:1 Mem:147.74M (Peak 147.75M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.150
+Fra:1 Mem:147.73M (Peak 147.75M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.151
+Fra:1 Mem:147.77M (Peak 147.77M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pressed steel wheel rim.019
+Fra:1 Mem:147.73M (Peak 147.77M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim seam.019
+Fra:1 Mem:147.77M (Peak 147.77M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Axle hub.019
+Fra:1 Mem:147.80M (Peak 147.80M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.153
+Fra:1 Mem:147.84M (Peak 147.84M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.154
+Fra:1 Mem:147.84M (Peak 147.84M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.155
+Fra:1 Mem:147.98M (Peak 147.98M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.157
+Fra:1 Mem:148.12M (Peak 148.12M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Trailing suspension arm.010
+Fra:1 Mem:148.13M (Peak 148.13M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rubber roadwheel tire.010
+Fra:1 Mem:148.02M (Peak 148.13M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pressed steel wheel rim.020
+Fra:1 Mem:148.10M (Peak 148.13M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim seam.020
+Fra:1 Mem:148.13M (Peak 148.13M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Axle hub.020
+Fra:1 Mem:148.10M (Peak 148.13M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.161
+Fra:1 Mem:148.12M (Peak 148.13M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.164
+Fra:1 Mem:148.19M (Peak 148.19M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.165
+Fra:1 Mem:148.20M (Peak 148.20M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.166
+Fra:1 Mem:148.30M (Peak 148.30M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pressed steel wheel rim.021
+Fra:1 Mem:148.39M (Peak 148.39M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim seam.021
+Fra:1 Mem:148.43M (Peak 148.43M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.168
+Fra:1 Mem:148.40M (Peak 148.43M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.169
+Fra:1 Mem:148.49M (Peak 148.49M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.170
+Fra:1 Mem:148.52M (Peak 148.52M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.171
+Fra:1 Mem:148.70M (Peak 148.70M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.172
+Fra:1 Mem:148.80M (Peak 148.80M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.173
+Fra:1 Mem:148.79M (Peak 148.80M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rubber roadwheel tire.011
+Fra:1 Mem:148.82M (Peak 148.82M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pressed steel wheel rim.022
+Fra:1 Mem:148.85M (Peak 148.84M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Axle hub.022
+Fra:1 Mem:148.77M (Peak 148.84M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hub cap.022
+Fra:1 Mem:148.76M (Peak 148.84M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.176
+Fra:1 Mem:148.96M (Peak 148.96M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.177
+Fra:1 Mem:149.10M (Peak 149.10M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.178
+Fra:1 Mem:149.17M (Peak 149.17M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.179
+Fra:1 Mem:149.08M (Peak 149.17M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.180
+Fra:1 Mem:149.09M (Peak 149.17M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.182
+Fra:1 Mem:149.14M (Peak 149.17M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.183
+Fra:1 Mem:149.25M (Peak 149.25M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Pressed steel wheel rim.023
+Fra:1 Mem:149.29M (Peak 149.29M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim seam.023
+Fra:1 Mem:149.19M (Peak 149.29M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Axle hub.023
+Fra:1 Mem:149.23M (Peak 149.29M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.187
+Fra:1 Mem:149.23M (Peak 149.29M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.189
+Fra:1 Mem:149.26M (Peak 149.29M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.190
+Fra:1 Mem:149.30M (Peak 149.30M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Roadwheel hub bolt.191
+Fra:1 Mem:149.35M (Peak 149.35M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | End wheel face.002
+Fra:1 Mem:149.40M (Peak 149.40M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | End wheel hub.002
+Fra:1 Mem:149.60M (Peak 149.60M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.024
+Fra:1 Mem:149.57M (Peak 149.60M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.025
+Fra:1 Mem:149.47M (Peak 149.60M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.027
+Fra:1 Mem:149.60M (Peak 149.60M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.028
+Fra:1 Mem:149.66M (Peak 149.66M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.031
+Fra:1 Mem:149.76M (Peak 149.76M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.032
+Fra:1 Mem:149.73M (Peak 149.76M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.033
+Fra:1 Mem:149.68M (Peak 149.76M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.035
+Fra:1 Mem:149.80M (Peak 149.80M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Drive sprocket.001
+Fra:1 Mem:149.76M (Peak 149.80M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | End wheel face.003
+Fra:1 Mem:149.84M (Peak 149.84M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | End wheel hub.003
+Fra:1 Mem:149.81M (Peak 149.84M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.036
+Fra:1 Mem:149.75M (Peak 149.84M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket drive tooth.012
+Fra:1 Mem:149.75M (Peak 149.84M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket drive tooth.014
+Fra:1 Mem:149.79M (Peak 149.84M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.039
+Fra:1 Mem:149.83M (Peak 149.84M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket drive tooth.015
+Fra:1 Mem:149.86M (Peak 149.86M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.040
+Fra:1 Mem:149.91M (Peak 149.91M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket drive tooth.016
+Fra:1 Mem:149.97M (Peak 149.97M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.042
+Fra:1 Mem:150.03M (Peak 150.03M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket drive tooth.018
+Fra:1 Mem:150.11M (Peak 150.11M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.043
+Fra:1 Mem:150.20M (Peak 150.19M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.044
+Fra:1 Mem:150.23M (Peak 150.23M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket drive tooth.020
+Fra:1 Mem:150.25M (Peak 150.25M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.045
+Fra:1 Mem:150.19M (Peak 150.25M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket drive tooth.021
+Fra:1 Mem:150.17M (Peak 150.25M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.046
+Fra:1 Mem:150.25M (Peak 150.25M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket drive tooth.022
+Fra:1 Mem:150.29M (Peak 150.29M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket face recess.047
+Fra:1 Mem:150.33M (Peak 150.33M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Sprocket drive tooth.023
+Fra:1 Mem:150.26M (Peak 150.33M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Upper return roller.003
+Fra:1 Mem:150.28M (Peak 150.33M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Upper return roller.004
+Fra:1 Mem:150.30M (Peak 150.33M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Upper return roller.005
+Fra:1 Mem:150.54M (Peak 150.54M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret bearing ring
+Fra:1 Mem:150.55M (Peak 150.55M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Angular welded turret
+Fra:1 Mem:150.59M (Peak 150.59M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Composite cheek armor
+Fra:1 Mem:150.59M (Peak 150.59M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret side modular block
+Fra:1 Mem:150.61M (Peak 150.61M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cheek armor bolt
+Fra:1 Mem:150.65M (Peak 150.65M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret side modular block.001
+Fra:1 Mem:150.61M (Peak 150.65M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cheek armor bolt.002
+Fra:1 Mem:150.64M (Peak 150.65M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cheek armor bolt.003
+Fra:1 Mem:150.63M (Peak 150.65M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret side modular block.002
+Fra:1 Mem:150.66M (Peak 150.66M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret weld seam
+Fra:1 Mem:150.67M (Peak 150.67M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cheek armor bolt.005
+Fra:1 Mem:150.80M (Peak 150.80M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret side grab rail
+Fra:1 Mem:150.79M (Peak 150.80M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret side grab rail.001
+Fra:1 Mem:150.79M (Peak 150.80M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Composite cheek armor.001
+Fra:1 Mem:150.81M (Peak 150.81M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret side modular block.003
+Fra:1 Mem:150.73M (Peak 150.81M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cheek armor bolt.006
+Fra:1 Mem:150.79M (Peak 150.81M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret side modular block.004
+Fra:1 Mem:150.82M (Peak 150.83M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cheek armor bolt.008
+Fra:1 Mem:150.85M (Peak 150.85M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cheek armor bolt.010
+Fra:1 Mem:150.87M (Peak 150.87M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cheek armor bolt.011
+Fra:1 Mem:150.92M (Peak 150.93M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret weld seam.001
+Fra:1 Mem:150.90M (Peak 150.93M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret side grab rail.002
+Fra:1 Mem:150.89M (Peak 150.93M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret side grab rail.003
+Fra:1 Mem:150.89M (Peak 150.93M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mantlet armored collar
+Fra:1 Mem:150.95M (Peak 150.95M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mantlet dust seal.002
+Fra:1 Mem:150.98M (Peak 150.98M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Mantlet dust seal.004
+Fra:1 Mem:151.00M (Peak 151.00M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Main gun tube
+Fra:1 Mem:151.04M (Peak 151.04M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Segmented thermal sleeve
+Fra:1 Mem:151.14M (Peak 151.14M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thermal sleeve clamp.001
+Fra:1 Mem:151.05M (Peak 151.14M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thermal sleeve clamp.002
+Fra:1 Mem:151.21M (Peak 151.21M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thermal sleeve clamp.003
+Fra:1 Mem:151.22M (Peak 151.22M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Segmented thermal sleeve.002
+Fra:1 Mem:151.42M (Peak 151.42M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thermal sleeve clamp.004
+Fra:1 Mem:151.72M (Peak 151.72M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hatch lifting handle
+Fra:1 Mem:151.80M (Peak 151.80M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hatch lifting handle.001
+Fra:1 Mem:151.79M (Peak 151.80M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Thermal sleeve clamp.005
+Fra:1 Mem:151.83M (Peak 151.83M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Bore evacuator
+Fra:1 Mem:151.88M (Peak 151.88M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Evacuator steel ring
+Fra:1 Mem:151.86M (Peak 151.88M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Evacuator steel ring.001
+Fra:1 Mem:151.91M (Peak 151.91M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Open gun muzzle
+Fra:1 Mem:152.00M (Peak 152.00M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Bore interior darkness
+Fra:1 Mem:152.27M (Peak 152.27M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Muzzle reference sensor
+Fra:1 Mem:152.24M (Peak 152.27M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hatch gasket
+Fra:1 Mem:152.34M (Peak 152.34M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hatch hinge
+Fra:1 Mem:152.26M (Peak 152.34M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hatch perimeter bolt
+Fra:1 Mem:152.24M (Peak 152.34M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hatch perimeter bolt.002
+Fra:1 Mem:152.21M (Peak 152.34M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hatch perimeter bolt.003
+Fra:1 Mem:152.25M (Peak 152.34M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hatch perimeter bolt.004
+Fra:1 Mem:152.33M (Peak 152.34M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hatch perimeter bolt.005
+Fra:1 Mem:152.39M (Peak 152.39M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hatch perimeter bolt.007
+Fra:1 Mem:152.59M (Peak 152.59M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hatch gasket.001
+Fra:1 Mem:152.63M (Peak 152.63M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hatch perimeter bolt.006
+Fra:1 Mem:152.64M (Peak 152.64M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hatch perimeter bolt.008
+Fra:1 Mem:152.49M (Peak 152.64M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hatch perimeter bolt.009
+Fra:1 Mem:152.56M (Peak 152.64M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hatch perimeter bolt.010
+Fra:1 Mem:152.62M (Peak 152.64M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hatch perimeter bolt.011
+Fra:1 Mem:152.69M (Peak 152.69M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hatch perimeter bolt.012
+Fra:1 Mem:152.73M (Peak 152.73M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hatch perimeter bolt.013
+Fra:1 Mem:152.72M (Peak 152.73M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hatch perimeter bolt.014
+Fra:1 Mem:152.68M (Peak 152.73M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Hatch perimeter bolt.015
+Fra:1 Mem:152.67M (Peak 152.73M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Commander periscope block
+Fra:1 Mem:152.68M (Peak 152.73M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Periscope lens
+Fra:1 Mem:152.69M (Peak 152.73M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Commander periscope block.001
+Fra:1 Mem:152.72M (Peak 152.73M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Periscope lens.001
+Fra:1 Mem:152.80M (Peak 152.80M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Commander periscope block.002
+Fra:1 Mem:152.80M (Peak 152.80M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Periscope lens.002
+Fra:1 Mem:152.87M (Peak 152.87M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Commander periscope block.003
+Fra:1 Mem:152.93M (Peak 152.93M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Periscope lens.003
+Fra:1 Mem:152.95M (Peak 152.95M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Commander periscope block.004
+Fra:1 Mem:152.98M (Peak 152.98M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Periscope lens.004
+Fra:1 Mem:153.05M (Peak 153.05M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Commander periscope block.005
+Fra:1 Mem:152.94M (Peak 153.05M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Periscope lens.005
+Fra:1 Mem:152.95M (Peak 153.05M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Gunner blue optical window
+Fra:1 Mem:152.94M (Peak 153.05M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Panoramic sight base
+Fra:1 Mem:152.97M (Peak 153.05M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Panoramic sight head
+Fra:1 Mem:152.95M (Peak 153.05M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Panoramic sight glass
+Fra:1 Mem:152.99M (Peak 153.05M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Smoke launcher tube
+Fra:1 Mem:153.01M (Peak 153.05M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Smoke launcher cap.001
+Fra:1 Mem:153.18M (Peak 153.18M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Smoke launcher tube.002
+Fra:1 Mem:153.25M (Peak 153.25M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Aerial spring winding.001
+Fra:1 Mem:153.17M (Peak 153.25M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Aerial spring winding.002
+Fra:1 Mem:153.21M (Peak 153.25M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Aerial spring winding.003
+Fra:1 Mem:153.23M (Peak 153.25M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Aerial spring winding.004
+Fra:1 Mem:153.37M (Peak 153.37M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Aerial spring winding.005
+Fra:1 Mem:153.42M (Peak 153.42M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Headlight guard
+Fra:1 Mem:153.38M (Peak 153.42M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Aerial spring winding.006
+Fra:1 Mem:153.45M (Peak 153.45M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Smoke launcher tube.004
+Fra:1 Mem:153.45M (Peak 153.45M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Smoke launcher cap.004
+Fra:1 Mem:153.57M (Peak 153.57M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Smoke launcher cap.006
+Fra:1 Mem:153.59M (Peak 153.59M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Smoke launcher tube.007
+Fra:1 Mem:153.67M (Peak 153.67M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Smoke launcher cap.007
+Fra:1 Mem:153.79M (Peak 153.79M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Aerial spring base.001
+Fra:1 Mem:153.86M (Peak 153.86M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Flexible radio aerial.001
+Fra:1 Mem:153.89M (Peak 153.89M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Aerial spring winding.008
+Fra:1 Mem:153.85M (Peak 153.89M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Aerial spring winding.010
+Fra:1 Mem:154.07M (Peak 154.08M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Aerial spring winding.011
+Fra:1 Mem:154.12M (Peak 154.12M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Headlight guard.001
+Fra:1 Mem:154.23M (Peak 154.23M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Aerial spring winding.012
+Fra:1 Mem:154.14M (Peak 154.23M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Aerial spring winding.013
+Fra:1 Mem:154.20M (Peak 154.23M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Aerial spring winding.014
+Fra:1 Mem:154.21M (Peak 154.23M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Driver periscope guard
+Fra:1 Mem:154.32M (Peak 154.32M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Driver periscope guard.001
+Fra:1 Mem:154.37M (Peak 154.37M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Headlight guard.002
+Fra:1 Mem:154.47M (Peak 154.47M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Driver periscope glass.001
+Fra:1 Mem:154.46M (Peak 154.47M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Engine grille recessed frame
+Fra:1 Mem:154.41M (Peak 154.47M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Engine cooling louvre.001
+Fra:1 Mem:154.39M (Peak 154.47M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Engine cooling louvre.002
+Fra:1 Mem:154.45M (Peak 154.47M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Engine cooling louvre.003
+Fra:1 Mem:154.49M (Peak 154.49M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Engine cooling louvre.004
+Fra:1 Mem:154.50M (Peak 154.50M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Engine cooling louvre.005
+Fra:1 Mem:154.65M (Peak 154.65M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Engine cooling louvre.006
+Fra:1 Mem:154.65M (Peak 154.65M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Engine cooling louvre.007
+Fra:1 Mem:154.66M (Peak 154.66M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Engine cooling louvre.009
+Fra:1 Mem:154.68M (Peak 154.68M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Engine cooling louvre.010
+Fra:1 Mem:154.69M (Peak 154.69M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Deck access screw
+Fra:1 Mem:154.67M (Peak 154.69M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Deck access screw.001
+Fra:1 Mem:154.69M (Peak 154.69M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Deck access screw.002
+Fra:1 Mem:154.74M (Peak 154.73M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Deck access screw.003
+Fra:1 Mem:154.73M (Peak 154.73M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Engine grille recessed frame.001
+Fra:1 Mem:154.75M (Peak 154.76M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Braided tow cable
+Fra:1 Mem:154.77M (Peak 154.77M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Engine cooling louvre.014
+Fra:1 Mem:154.81M (Peak 154.81M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Engine cooling louvre.015
+Fra:1 Mem:154.82M (Peak 154.82M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Engine cooling louvre.017
+Fra:1 Mem:154.82M (Peak 154.82M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Braided tow cable.001
+Fra:1 Mem:154.87M (Peak 154.87M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Engine cooling louvre.018
+Fra:1 Mem:154.86M (Peak 154.87M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Engine cooling louvre.020
+Fra:1 Mem:154.85M (Peak 154.87M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Engine cooling louvre.021
+Fra:1 Mem:154.88M (Peak 154.88M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Engine cooling louvre.022
+Fra:1 Mem:154.90M (Peak 154.90M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Engine cooling louvre.024
+Fra:1 Mem:154.94M (Peak 154.94M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket perimeter
+Fra:1 Mem:154.92M (Peak 154.94M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Engine cooling louvre.025
+Fra:1 Mem:154.97M (Peak 154.97M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Deck access screw.004
+Fra:1 Mem:154.99M (Peak 154.99M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Deck access screw.005
+Fra:1 Mem:155.04M (Peak 155.04M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Deck access screw.006
+Fra:1 Mem:155.02M (Peak 155.04M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Deck access screw.007
+Fra:1 Mem:155.07M (Peak 155.07M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Exhaust horizontal slat.001
+Fra:1 Mem:155.05M (Peak 155.07M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Exhaust horizontal slat.003
+Fra:1 Mem:155.06M (Peak 155.07M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rear exhaust recess.001
+Fra:1 Mem:155.10M (Peak 155.10M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Exhaust horizontal slat.005
+Fra:1 Mem:155.08M (Peak 155.10M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Exhaust horizontal slat.006
+Fra:1 Mem:155.11M (Peak 155.11M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Headlamp housing
+Fra:1 Mem:155.12M (Peak 155.12M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Headlight round lens
+Fra:1 Mem:155.18M (Peak 155.18M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail lamp frame
+Fra:1 Mem:155.16M (Peak 155.18M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail lamp
+Fra:1 Mem:155.19M (Peak 155.19M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tow shackle mount
+Fra:1 Mem:155.19M (Peak 155.19M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket perimeter.001
+Fra:1 Mem:155.20M (Peak 155.20M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tow shackle.001
+Fra:1 Mem:155.24M (Peak 155.24M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Headlamp housing.001
+Fra:1 Mem:155.24M (Peak 155.24M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Headlight round lens.001
+Fra:1 Mem:155.27M (Peak 155.27M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail lamp frame.001
+Fra:1 Mem:155.29M (Peak 155.29M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tail lamp.001
+Fra:1 Mem:155.36M (Peak 155.36M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tow shackle.002
+Fra:1 Mem:155.36M (Peak 155.36M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tow shackle mount.003
+Fra:1 Mem:155.40M (Peak 155.40M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Tow shackle.003
+Fra:1 Mem:155.49M (Peak 155.49M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cable retaining clip
+Fra:1 Mem:155.55M (Peak 155.55M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cable retaining clip.001
+Fra:1 Mem:155.65M (Peak 155.65M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cable retaining clip.002
+Fra:1 Mem:155.65M (Peak 155.65M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cable retaining clip.004
+Fra:1 Mem:155.67M (Peak 155.67M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Cable retaining clip.005
+Fra:1 Mem:155.74M (Peak 155.74M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret bustle storage box
+Fra:1 Mem:155.73M (Peak 155.74M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Stowage latch
+Fra:1 Mem:155.78M (Peak 155.79M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket vertical brace
+Fra:1 Mem:155.78M (Peak 155.79M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket vertical brace.002
+Fra:1 Mem:155.78M (Peak 155.79M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket vertical brace.003
+Fra:1 Mem:155.91M (Peak 155.92M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket vertical brace.004
+Fra:1 Mem:155.92M (Peak 155.92M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket mesh vertical.002
+Fra:1 Mem:155.94M (Peak 155.93M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket mesh vertical.003
+Fra:1 Mem:155.96M (Peak 155.96M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket mesh vertical.004
+Fra:1 Mem:155.97M (Peak 155.97M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket mesh vertical.005
+Fra:1 Mem:156.08M (Peak 156.08M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket mesh vertical.006
+Fra:1 Mem:156.11M (Peak 156.11M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket mesh vertical.007
+Fra:1 Mem:156.09M (Peak 156.11M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket mesh vertical.008
+Fra:1 Mem:156.15M (Peak 156.15M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket mesh vertical.010
+Fra:1 Mem:156.08M (Peak 156.15M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket mesh vertical.012
+Fra:1 Mem:156.11M (Peak 156.15M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket mesh vertical.013
+Fra:1 Mem:156.22M (Peak 156.22M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket mesh vertical.014
+Fra:1 Mem:156.26M (Peak 156.26M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket mesh vertical.015
+Fra:1 Mem:156.24M (Peak 156.26M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket mesh vertical.017
+Fra:1 Mem:156.29M (Peak 156.29M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket mesh vertical.018
+Fra:1 Mem:156.45M (Peak 156.45M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket mesh vertical.019
+Fra:1 Mem:156.48M (Peak 156.49M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket mesh vertical.020
+Fra:1 Mem:156.47M (Peak 156.49M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket mesh vertical.021
+Fra:1 Mem:156.50M (Peak 156.50M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket mesh vertical.022
+Fra:1 Mem:156.55M (Peak 156.55M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket mesh crosswire
+Fra:1 Mem:156.51M (Peak 156.55M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket mesh crosswire.001
+Fra:1 Mem:156.62M (Peak 156.62M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket mesh crosswire.002
+Fra:1 Mem:156.66M (Peak 156.66M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket mesh crosswire.003
+Fra:1 Mem:156.68M (Peak 156.68M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket mesh crosswire.004
+Fra:1 Mem:156.69M (Peak 156.70M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket mesh crosswire.005
+Fra:1 Mem:156.79M (Peak 156.80M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket side mesh
+Fra:1 Mem:156.82M (Peak 156.82M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket side mesh.002
+Fra:1 Mem:156.74M (Peak 156.82M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket side mesh.003
+Fra:1 Mem:156.73M (Peak 156.82M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket side mesh.005
+Fra:1 Mem:156.77M (Peak 156.82M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket side mesh.007
+Fra:1 Mem:156.84M (Peak 156.84M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket side crosswire
+Fra:1 Mem:156.87M (Peak 156.87M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket side crosswire.001
+Fra:1 Mem:156.92M (Peak 156.92M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket side crosswire.003
+Fra:1 Mem:156.93M (Peak 156.93M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket side crosswire.004
+Fra:1 Mem:156.94M (Peak 156.94M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Port tactical number
+Fra:1 Mem:156.94M (Peak 156.94M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket side mesh.009
+Fra:1 Mem:156.98M (Peak 156.98M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket side mesh.011
+Fra:1 Mem:157.13M (Peak 157.13M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket side mesh.012
+Fra:1 Mem:157.12M (Peak 157.13M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket side mesh.013
+Fra:1 Mem:157.11M (Peak 157.13M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket side mesh.014
+Fra:1 Mem:157.08M (Peak 157.13M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket side mesh.015
+Fra:1 Mem:157.13M (Peak 157.13M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Basket side mesh.017
+Fra:1 Mem:157.18M (Peak 157.18M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Starboard tactical number
+Fra:1 Mem:157.18M (Peak 157.18M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Canvas securing strap
+Fra:1 Mem:157.23M (Peak 157.23M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Canvas securing strap.001
+Fra:1 Mem:157.25M (Peak 157.25M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Canvas equipment bag.001
+Fra:1 Mem:157.25M (Peak 157.25M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Canvas securing strap.002
+Fra:1 Mem:157.33M (Peak 157.33M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Canvas securing strap.003
+Fra:1 Mem:157.33M (Peak 157.33M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Canvas securing strap.005
+Fra:1 Mem:157.43M (Peak 157.43M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shovel wooden shaft
+Fra:1 Mem:157.42M (Peak 157.43M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Shovel steel blade
+Fra:1 Mem:157.43M (Peak 157.43M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Front identification
+Fra:1 Mem:157.62M (Peak 157.62M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip
+Fra:1 Mem:157.62M (Peak 157.62M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.001
+Fra:1 Mem:157.71M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.002
+Fra:1 Mem:157.71M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.003
+Fra:1 Mem:157.64M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.005
+Fra:1 Mem:157.65M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.006
+Fra:1 Mem:157.66M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.008
+Fra:1 Mem:157.64M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.009
+Fra:1 Mem:157.65M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.010
+Fra:1 Mem:157.64M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.012
+Fra:1 Mem:157.62M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.015
+Fra:1 Mem:157.62M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.016
+Fra:1 Mem:157.62M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.017
+Fra:1 Mem:157.62M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.020
+Fra:1 Mem:157.63M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.021
+Fra:1 Mem:157.63M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.023
+Fra:1 Mem:157.63M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.024
+Fra:1 Mem:157.63M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.030
+Fra:1 Mem:157.63M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.033
+Fra:1 Mem:157.64M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.036
+Fra:1 Mem:157.64M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.037
+Fra:1 Mem:157.64M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.038
+Fra:1 Mem:157.64M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.040
+Fra:1 Mem:157.64M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.041
+Fra:1 Mem:157.64M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.042
+Fra:1 Mem:157.64M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.044
+Fra:1 Mem:157.65M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.046
+Fra:1 Mem:157.65M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.047
+Fra:1 Mem:157.65M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.048
+Fra:1 Mem:157.65M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.051
+Fra:1 Mem:157.65M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.052
+Fra:1 Mem:157.66M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.053
+Fra:1 Mem:157.66M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.057
+Fra:1 Mem:157.66M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.058
+Fra:1 Mem:157.66M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.059
+Fra:1 Mem:157.67M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.060
+Fra:1 Mem:157.67M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.061
+Fra:1 Mem:157.67M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.062
+Fra:1 Mem:157.67M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.064
+Fra:1 Mem:157.67M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.065
+Fra:1 Mem:157.68M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.066
+Fra:1 Mem:157.68M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.068
+Fra:1 Mem:157.68M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.069
+Fra:1 Mem:157.68M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.070
+Fra:1 Mem:157.68M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.071
+Fra:1 Mem:157.68M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.073
+Fra:1 Mem:157.68M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.074
+Fra:1 Mem:157.69M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.075
+Fra:1 Mem:157.69M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.076
+Fra:1 Mem:157.69M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.078
+Fra:1 Mem:157.69M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.081
+Fra:1 Mem:157.69M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.082
+Fra:1 Mem:157.69M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.083
+Fra:1 Mem:157.70M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.084
+Fra:1 Mem:157.70M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.086
+Fra:1 Mem:157.70M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.087
+Fra:1 Mem:157.70M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.088
+Fra:1 Mem:157.70M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.089
+Fra:1 Mem:157.71M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.091
+Fra:1 Mem:157.71M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.092
+Fra:1 Mem:157.71M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.095
+Fra:1 Mem:157.71M (Peak 157.71M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.096
+Fra:1 Mem:157.72M (Peak 157.72M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.097
+Fra:1 Mem:157.72M (Peak 157.72M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.099
+Fra:1 Mem:157.72M (Peak 157.72M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.101
+Fra:1 Mem:157.72M (Peak 157.72M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.103
+Fra:1 Mem:157.73M (Peak 157.73M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff
+Fra:1 Mem:157.73M (Peak 157.73M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.001
+Fra:1 Mem:157.73M (Peak 157.73M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.002
+Fra:1 Mem:157.73M (Peak 157.73M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.003
+Fra:1 Mem:157.73M (Peak 157.73M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.004
+Fra:1 Mem:157.74M (Peak 157.74M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.005
+Fra:1 Mem:157.74M (Peak 157.74M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.007
+Fra:1 Mem:157.74M (Peak 157.74M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.008
+Fra:1 Mem:157.75M (Peak 157.75M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.009
+Fra:1 Mem:157.75M (Peak 157.75M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.011
+Fra:1 Mem:157.75M (Peak 157.75M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.013
+Fra:1 Mem:157.75M (Peak 157.75M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.015
+Fra:1 Mem:157.75M (Peak 157.75M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.016
+Fra:1 Mem:157.75M (Peak 157.75M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.017
+Fra:1 Mem:157.76M (Peak 157.76M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.018
+Fra:1 Mem:157.76M (Peak 157.76M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.019
+Fra:1 Mem:157.76M (Peak 157.76M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.106
+Fra:1 Mem:157.76M (Peak 157.76M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.107
+Fra:1 Mem:157.76M (Peak 157.76M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.108
+Fra:1 Mem:157.77M (Peak 157.77M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.109
+Fra:1 Mem:157.77M (Peak 157.77M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.110
+Fra:1 Mem:157.77M (Peak 157.77M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.111
+Fra:1 Mem:157.77M (Peak 157.77M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.113
+Fra:1 Mem:157.77M (Peak 157.77M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.114
+Fra:1 Mem:157.78M (Peak 157.78M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.115
+Fra:1 Mem:157.78M (Peak 157.78M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.118
+Fra:1 Mem:157.78M (Peak 157.78M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.119
+Fra:1 Mem:157.78M (Peak 157.78M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.121
+Fra:1 Mem:157.78M (Peak 157.78M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.123
+Fra:1 Mem:157.79M (Peak 157.79M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.124
+Fra:1 Mem:157.79M (Peak 157.79M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.125
+Fra:1 Mem:157.79M (Peak 157.79M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.127
+Fra:1 Mem:157.79M (Peak 157.79M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.128
+Fra:1 Mem:157.79M (Peak 157.79M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.129
+Fra:1 Mem:157.79M (Peak 157.79M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.130
+Fra:1 Mem:157.80M (Peak 157.80M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.131
+Fra:1 Mem:157.80M (Peak 157.80M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.132
+Fra:1 Mem:157.80M (Peak 157.80M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.134
+Fra:1 Mem:157.80M (Peak 157.80M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.135
+Fra:1 Mem:157.80M (Peak 157.80M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.136
+Fra:1 Mem:157.81M (Peak 157.81M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.138
+Fra:1 Mem:157.81M (Peak 157.81M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.141
+Fra:1 Mem:157.81M (Peak 157.81M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.142
+Fra:1 Mem:157.82M (Peak 157.82M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.144
+Fra:1 Mem:157.82M (Peak 157.82M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.145
+Fra:1 Mem:157.82M (Peak 157.82M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.146
+Fra:1 Mem:157.82M (Peak 157.82M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.147
+Fra:1 Mem:157.82M (Peak 157.82M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.149
+Fra:1 Mem:157.83M (Peak 157.83M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.150
+Fra:1 Mem:157.83M (Peak 157.83M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.152
+Fra:1 Mem:157.83M (Peak 157.83M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.154
+Fra:1 Mem:157.83M (Peak 157.83M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.155
+Fra:1 Mem:157.83M (Peak 157.83M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.156
+Fra:1 Mem:157.84M (Peak 157.84M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.157
+Fra:1 Mem:157.84M (Peak 157.84M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.159
+Fra:1 Mem:157.84M (Peak 157.84M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.161
+Fra:1 Mem:157.84M (Peak 157.84M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.162
+Fra:1 Mem:157.84M (Peak 157.84M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.163
+Fra:1 Mem:157.84M (Peak 157.84M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.164
+Fra:1 Mem:157.84M (Peak 157.84M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.165
+Fra:1 Mem:157.85M (Peak 157.85M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.166
+Fra:1 Mem:157.85M (Peak 157.85M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.167
+Fra:1 Mem:157.85M (Peak 157.85M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.168
+Fra:1 Mem:157.85M (Peak 157.85M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.169
+Fra:1 Mem:157.85M (Peak 157.85M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.170
+Fra:1 Mem:157.85M (Peak 157.85M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.172
+Fra:1 Mem:157.85M (Peak 157.85M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.174
+Fra:1 Mem:157.85M (Peak 157.85M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.175
+Fra:1 Mem:157.86M (Peak 157.86M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.177
+Fra:1 Mem:157.86M (Peak 157.86M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.178
+Fra:1 Mem:157.86M (Peak 157.86M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.179
+Fra:1 Mem:157.86M (Peak 157.86M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.180
+Fra:1 Mem:157.86M (Peak 157.86M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.181
+Fra:1 Mem:157.87M (Peak 157.87M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.183
+Fra:1 Mem:157.87M (Peak 157.87M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.184
+Fra:1 Mem:157.87M (Peak 157.87M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.185
+Fra:1 Mem:157.87M (Peak 157.87M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.187
+Fra:1 Mem:157.87M (Peak 157.87M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.188
+Fra:1 Mem:157.87M (Peak 157.87M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.190
+Fra:1 Mem:157.88M (Peak 157.88M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.191
+Fra:1 Mem:157.88M (Peak 157.88M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.192
+Fra:1 Mem:157.88M (Peak 157.88M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.193
+Fra:1 Mem:157.88M (Peak 157.88M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.194
+Fra:1 Mem:157.88M (Peak 157.88M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.195
+Fra:1 Mem:157.88M (Peak 157.88M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.196
+Fra:1 Mem:157.88M (Peak 157.88M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.198
+Fra:1 Mem:157.89M (Peak 157.89M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.199
+Fra:1 Mem:157.89M (Peak 157.89M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.200
+Fra:1 Mem:157.89M (Peak 157.89M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.201
+Fra:1 Mem:157.89M (Peak 157.89M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.203
+Fra:1 Mem:157.89M (Peak 157.89M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.206
+Fra:1 Mem:157.90M (Peak 157.90M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.207
+Fra:1 Mem:157.90M (Peak 157.90M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.208
+Fra:1 Mem:157.90M (Peak 157.90M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Skirt paint chip.209
+Fra:1 Mem:157.90M (Peak 157.90M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.021
+Fra:1 Mem:157.90M (Peak 157.90M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.022
+Fra:1 Mem:157.90M (Peak 157.90M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.025
+Fra:1 Mem:157.90M (Peak 157.90M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.026
+Fra:1 Mem:157.90M (Peak 157.90M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.027
+Fra:1 Mem:157.91M (Peak 157.91M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.028
+Fra:1 Mem:157.91M (Peak 157.91M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.030
+Fra:1 Mem:157.91M (Peak 157.91M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.031
+Fra:1 Mem:157.91M (Peak 157.91M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.032
+Fra:1 Mem:157.91M (Peak 157.91M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.033
+Fra:1 Mem:157.91M (Peak 157.91M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.034
+Fra:1 Mem:157.91M (Peak 157.91M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.037
+Fra:1 Mem:157.92M (Peak 157.92M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.038
+Fra:1 Mem:157.92M (Peak 157.92M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Turret edge scuff.039
+Fra:1 Mem:157.92M (Peak 157.92M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Studio ground
+Fra:1 Mem:157.92M (Peak 157.92M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Key | broad warm softbox
+Fra:1 Mem:157.92M (Peak 157.92M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Fill | cool overhead
+Fra:1 Mem:157.92M (Peak 157.92M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Synchronizing object | Rim | rear strip
+Fra:1 Mem:157.95M (Peak 157.95M) | Time:00:00.09 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Initializing
+Fra:1 Mem:97.04M (Peak 157.95M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Waiting for render to start
+Fra:1 Mem:97.04M (Peak 157.95M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Scene
+Fra:1 Mem:97.04M (Peak 157.95M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Updating Shaders
+Fra:1 Mem:97.04M (Peak 157.95M) | Time:00:00.11 | Mem:0.00M, Peak:0.00M | Scene, ViewLayer | Loading render kernels (may take a few minutes the first time)
+Fra:1 Mem:97.16M (Peak 157.95M) | Time:00:00.11 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Procedurals
+Fra:1 Mem:97.16M (Peak 157.95M) | Time:00:00.11 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Background
+Fra:1 Mem:97.16M (Peak 157.95M) | Time:00:00.11 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Camera
+Fra:1 Mem:97.16M (Peak 157.95M) | Time:00:00.11 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Meshes Flags
+Fra:1 Mem:97.16M (Peak 157.95M) | Time:00:00.11 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Objects
+Fra:1 Mem:97.16M (Peak 157.95M) | Time:00:00.11 | Mem:0.04M, Peak:0.04M | Scene, ViewLayer | Updating Objects | Copying Transformations to device
+Fra:1 Mem:97.44M (Peak 157.95M) | Time:00:00.11 | Mem:0.31M, Peak:0.31M | Scene, ViewLayer | Updating Particle Systems
+Fra:1 Mem:97.44M (Peak 157.95M) | Time:00:00.11 | Mem:0.31M, Peak:0.31M | Scene, ViewLayer | Updating Particle Systems | Copying Particles to device
+Fra:1 Mem:97.44M (Peak 157.95M) | Time:00:00.11 | Mem:0.31M, Peak:0.31M | Scene, ViewLayer | Updating Meshes
+Fra:1 Mem:97.44M (Peak 157.95M) | Time:00:00.11 | Mem:0.31M, Peak:0.31M | Scene, ViewLayer | Updating Objects | Applying Static Transformations
+Fra:1 Mem:97.44M (Peak 157.95M) | Time:00:00.11 | Mem:0.31M, Peak:0.31M | Scene, ViewLayer | Updating Mesh | Computing attributes
+Fra:1 Mem:100.47M (Peak 157.95M) | Time:00:00.11 | Mem:0.38M, Peak:0.38M | Scene, ViewLayer | Updating Mesh | Copying Attributes to device
+Fra:1 Mem:100.34M (Peak 157.95M) | Time:00:00.11 | Mem:3.21M, Peak:3.21M | Scene, ViewLayer | Updating Geometry BVH Cube.068 2/1 | Building BVH
+Fra:1 Mem:100.34M (Peak 157.95M) | Time:00:00.13 | Mem:3.25M, Peak:3.25M | Scene, ViewLayer | Updating Geometry BVH Cube.068 2/1 | Building BVH 0%
+Fra:1 Mem:100.34M (Peak 157.95M) | Time:00:00.13 | Mem:3.29M, Peak:3.32M | Scene, ViewLayer | Updating Scene BVH | Building
+Fra:1 Mem:100.36M (Peak 157.95M) | Time:00:00.13 | Mem:3.29M, Peak:3.32M | Scene, ViewLayer | Updating Scene BVH | Building BVH
+Fra:1 Mem:100.36M (Peak 157.95M) | Time:00:00.14 | Mem:18.07M, Peak:24.79M | Scene, ViewLayer | Updating Scene BVH | Copying BVH to device
+Fra:1 Mem:100.36M (Peak 157.95M) | Time:00:00.14 | Mem:18.07M, Peak:24.79M | Scene, ViewLayer | Updating Mesh | Computing normals
+Fra:1 Mem:109.41M (Peak 157.95M) | Time:00:00.14 | Mem:18.07M, Peak:24.79M | Scene, ViewLayer | Updating Mesh | Copying Mesh to device
+Fra:1 Mem:109.41M (Peak 157.95M) | Time:00:00.14 | Mem:27.12M, Peak:27.12M | Scene, ViewLayer | Updating Objects Flags
+Fra:1 Mem:109.41M (Peak 157.95M) | Time:00:00.14 | Mem:27.13M, Peak:27.13M | Scene, ViewLayer | Updating Primitive Offsets
+Fra:1 Mem:109.41M (Peak 157.95M) | Time:00:00.14 | Mem:27.14M, Peak:27.14M | Scene, ViewLayer | Updating Images
+Fra:1 Mem:109.41M (Peak 157.95M) | Time:00:00.14 | Mem:27.14M, Peak:27.14M | Scene, ViewLayer | Updating Camera Volume
+Fra:1 Mem:109.41M (Peak 157.95M) | Time:00:00.14 | Mem:27.14M, Peak:27.14M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:109.41M (Peak 157.95M) | Time:00:00.14 | Mem:27.22M, Peak:27.22M | Scene, ViewLayer | Updating Lights
+Fra:1 Mem:109.41M (Peak 157.95M) | Time:00:00.14 | Mem:27.22M, Peak:27.22M | Scene, ViewLayer | Updating Lights | Computing tree
+Fra:1 Mem:109.42M (Peak 157.95M) | Time:00:00.14 | Mem:27.23M, Peak:27.23M | Scene, ViewLayer | Updating Integrator
+Fra:1 Mem:109.42M (Peak 157.95M) | Time:00:00.14 | Mem:27.23M, Peak:27.23M | Scene, ViewLayer | Updating Film
+Fra:1 Mem:109.42M (Peak 157.95M) | Time:00:00.14 | Mem:27.15M, Peak:27.23M | Scene, ViewLayer | Updating Lookup Tables
+Fra:1 Mem:109.42M (Peak 157.95M) | Time:00:00.14 | Mem:27.23M, Peak:27.23M | Scene, ViewLayer | Updating Baking
+Fra:1 Mem:109.42M (Peak 157.95M) | Time:00:00.14 | Mem:27.23M, Peak:27.23M | Scene, ViewLayer | Updating Device | Writing constant memory
+Fra:1 Mem:109.44M (Peak 157.95M) | Time:00:00.14 | Mem:27.23M, Peak:27.23M | Scene, ViewLayer | Loading denoising kernels (may take a few minutes the first time)
+Fra:1 Mem:109.44M (Peak 157.95M) | Time:00:00.14 | Mem:27.23M, Peak:27.23M | Scene, ViewLayer | Sample 0/96
+Fra:1 Mem:188.00M (Peak 188.00M) | Time:00:00.35 | Remaining:00:19.31 | Mem:105.51M, Peak:105.51M | Scene, ViewLayer | Sample 1/96
+Fra:1 Mem:188.00M (Peak 188.00M) | Time:00:21.78 | Remaining:00:04.32 | Mem:105.51M, Peak:105.51M | Scene, ViewLayer | Sample 80/96
+Fra:1 Mem:220.96M (Peak 270.40M) | Time:00:27.97 | Mem:105.51M, Peak:105.51M | Scene, ViewLayer | Sample 96/96
+Fra:1 Mem:220.96M (Peak 270.40M) | Time:00:27.97 | Mem:105.51M, Peak:105.51M | Scene, ViewLayer | Finished
+Saved: 'C:\Users\36048\Documents\ChatGPT\New project\tank_model\tank_rear.png'
+Time: 00:28.13 (Saving: 00:00.15)
+
+Info: Saved as "Ironclad_07.blend"
+VERIFIED 1202 objects 176 track links
+
+Blender quit
