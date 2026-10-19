@@ -1,4 +1,4 @@
-# 爱美客工作室官方网站与资源站
+# imaker工作室官方网站与资源站
 
 一个由 GitHub Pages 托管、无需服务器的工作室官网，以及由历届成员共同维护的资源分享站。
 
@@ -87,9 +87,9 @@
 
 ### 官网首页 `index.html`
 
-- 浏览器标题：`<title>爱美客工作室 | IMaker Studio</title>`。
+- 浏览器标题：`<title>imaker工作室 | IMaker Studio</title>`。
 - 搜索引擎摘要：`<meta name="description">` 的 `content`。
-- 左上角站名：`class="brand"` 内的“IM”和“爱美客工作室”。
+- 左上角站名：`class="brand"` 内的“IM”和“imaker工作室”。
 - 导航名称和地址：`class="header-actions"` 内链接文字与 `href`。
 - 官网主标题：“把想法做成作品，把经验留给下一届”。
 - 工作室介绍、作品展示、资源站接入和投稿流程分别位于对应 section。

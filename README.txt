@@ -1,4 +1,4 @@
-爱美客工作室官方网站与资源站
+imaker工作室官方网站与资源站
 
 项目简介
 
@@ -130,10 +130,10 @@ README.txt
 
 官网首页内容在 index.html 中修改。
 
-浏览器标签标题：查找 title 标签中的“爱美客工作室”。
+浏览器标签标题：查找 title 标签中的“imaker工作室”。
 搜索引擎摘要：修改 meta name="description" 的 content。
 左上角圆形标记：修改 class="brand-mark" 内的“IM”。
-左上角站名：修改 class="brand" 内的“爱美客工作室”。
+左上角站名：修改 class="brand" 内的“imaker工作室”。
 导航名称和地址：修改 class="header-actions" 内的文字和 href。
 官网主标题：查找“把想法做成作品，把经验留给下一届”。
 工作室介绍、作品展示、资源站接入和投稿流程位于对应 section。
